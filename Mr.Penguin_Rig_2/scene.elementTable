@@ -11,4 +11,5 @@
  <element id="11" elementName="eyes" elementFolder="eyes" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="12" elementName="Nose" elementFolder="Nose" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="15" elementName="eyes" elementFolder="eyes.15" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="26" elementName="Mr" elementFolder="Mr.26" pixmapFormat="10" scanType="2" fieldChart="12" vectorType="0" rootFolder="elements"/>
 </elements>
