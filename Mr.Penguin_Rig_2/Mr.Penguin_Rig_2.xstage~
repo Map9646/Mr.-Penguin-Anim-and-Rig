@@ -182,7 +182,7 @@
   <scene name="Top" id="0ac5c9468aa00d4f" nbframes="60" startFrame="1" stopFrame="60">
    <columns>
     <column type="0" name="Drawing" displayOrder="0" width="100" anonymous="true" id="1"/>
-    <column type="0" name="ATV-0AC5C9468AA01270" display="false" displayOrder="0" width="100" anonymous="true" id="2">
+    <column type="0" name="ATV-0AC5C9468AA01270" displayOrder="0" width="100" anonymous="true" id="2">
      <elementSeq exposures="1-60" val="1" id="2"/>
     </column>
     <column type="0" name="ATV-0AC5C9468AA0B098" displayOrder="0" width="100" anonymous="true" id="5">
@@ -1011,7 +1011,7 @@
       <pt constSeg="false" x="2" yLocal="1.9817228897619478e-014" y="1.9817228897619478e-014"/>
      </points>
     </column>
-    <column type="0" name="ATV-0AC7FECAE8328FD7" displayOrder="0" width="100" anonymous="true" id="26">
+    <column type="0" name="ATV-0AC7FECAE8328FD7" display="false" displayOrder="0" width="100" anonymous="true" id="26">
      <elementSeq exposures="1-60" val="1" id="26"/>
     </column>
     <column type="3" name="ATV-0AC7FECAE832CFB0" displayOrder="0" width="100" anonymous="true">
@@ -1072,7 +1072,7 @@
      <collapsed val="false"/>
     </options>
     <nodeslist>
-     <module type="COMPOSITE" name="Composite" pos="-28,65,8" publishUnderTab="Composite">
+     <module type="COMPOSITE" name="Composite" pos="-28,65,14" publishUnderTab="Composite">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -1091,13 +1091,13 @@
        <mergeVector val="false"/>
       </attrs>
      </module>
-     <module type="DISPLAY" name="Display" pos="102,141,13" publishUnderTab="Display">
+     <module type="DISPLAY" name="Display" pos="102,141,16" publishUnderTab="Display">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
      </module>
-     <module type="WRITE" name="Write" pos="-86,141,12" publishUnderTab="Write">
+     <module type="WRITE" name="Write" pos="-86,141,15" publishUnderTab="Write">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -1130,7 +1130,7 @@
        <cleanUpPartitionFolders val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="RightFoot" pos="282,-77,3" publishUnderTab="RightFoot">
+     <module type="READ" name="RightFoot" pos="266,-213,6" publishUnderTab="RightFoot">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -1242,7 +1242,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="LeftFoot" pos="-100,-144,7" publishUnderTab="LeftFoot">
+     <module type="READ" name="LeftFoot" pos="370,-155,7" publishUnderTab="LeftFoot">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -1354,7 +1354,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Drawing" pos="194,-137,14" publishUnderTab="Drawing">
+     <module type="READ" name="Drawing" pos="407,-78,8" publishUnderTab="Drawing">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -1466,7 +1466,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Mr" pos="252,65,15" publishUnderTab="Mr">
+     <module type="READ" name="Mr" pos="404,87,10" publishUnderTab="Mr">
       <options>
        <disabled val="true"/>
        <showTimelineThumb val="true"/>
@@ -1580,7 +1580,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Hat" pos="-251,-125,11" publishUnderTab="Hat">
+     <module type="READ" name="Hat" pos="-376,20,2" publishUnderTab="Hat">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -1692,7 +1692,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Nose" pos="-292,-1,9" publishUnderTab="Nose">
+     <module type="READ" name="Nose" pos="-330,-51,1" publishUnderTab="Nose">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -1804,7 +1804,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="eye_right" pos="-392,46,10" publishUnderTab="eyes">
+     <module type="READ" name="eye_right" pos="-337,-140,13" publishUnderTab="eyes">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -1916,7 +1916,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="eyes_left" pos="-364,-52,6" publishUnderTab="eyes">
+     <module type="READ" name="eyes_left" pos="-283,-234,12" publishUnderTab="eyes">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -2028,7 +2028,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Right_Arm" pos="-146,-52,4" publishUnderTab="LeftArm_1">
+     <module type="READ" name="Right_Arm" pos="-165,-272,11" publishUnderTab="LeftArm_1">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -2140,10 +2140,9 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="LeftArm" pos="36,-144,1" publishUnderTab="LeftArm">
+     <module type="READ" name="LeftArm" pos="-17,-298,4" publishUnderTab="LeftArm">
       <options>
        <collapsed val="false"/>
-       <nodeShowThumbnail val="true"/>
        <version val="1"/>
       </options>
       <attrs>
@@ -2253,7 +2252,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Body" pos="-54,-95,5" publishUnderTab="Body">
+     <module type="READ" name="Body" pos="138,-242,5" publishUnderTab="Body">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -2365,8 +2364,9 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Mr_1" pos="228,15,16" publishUnderTab="Mr_1">
+     <module type="READ" name="Mr_1" pos="388,20,9" publishUnderTab="Mr_1">
       <options>
+       <disabled val="true"/>
        <showTimelineThumb val="true"/>
        <collapsed val="false"/>
        <version val="1"/>
