@@ -9,3 +9,4 @@ Solid    "Dark Red"                 0x0ac5c9468aa1add6 115   1   2 255
 Solid    Red                        0x0ac5c9468aa1af4b 202   0   0 255
 Solid    "Hat Highlight"            0x0ac5c9468aa1c89d  21  25  54 255
 Solid    "Eye Color"                0x0ac5c9468aa1d99e   0 255 255 255
+Solid    White                      0x0aca7c624f807e06 255 255 255 255
