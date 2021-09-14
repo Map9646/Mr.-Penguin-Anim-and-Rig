@@ -1590,7 +1590,7 @@
      <collapsed val="false"/>
     </options>
     <nodeslist>
-     <module type="COMPOSITE" name="Mr._Penguin_Rig" pos="-9,-52,17" publishUnderTab="Composite">
+     <module type="COMPOSITE" name="Mr._Penguin_Rig" pos="-9,-52,1" publishUnderTab="Composite">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -2546,7 +2546,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="LeftArm" pos="-155,-383,13" publishUnderTab="LeftArm">
+     <module type="READ" name="LeftArm" pos="-155,-383,15" publishUnderTab="LeftArm">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -2884,7 +2884,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Body" pos="134,-375,15" publishUnderTab="Body">
+     <module type="READ" name="Body" pos="134,-375,2" publishUnderTab="Body">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -3015,7 +3015,7 @@
        <mergeVector val="false"/>
       </attrs>
      </module>
-     <module type="COMPOSITE" name="Composite" pos="12,-202,16" publishUnderTab="Composite">
+     <module type="COMPOSITE" name="Composite" pos="12,-202,17" publishUnderTab="Composite">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -3034,7 +3034,7 @@
        <mergeVector val="false"/>
       </attrs>
      </module>
-     <group name="Deformation-LeftArm" pos="-263,-562,5">
+     <group name="Deformation-LeftArm" pos="-263,-562,7">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
@@ -5665,7 +5665,7 @@
        <link out="10" in="Transformation-Switch" inport="10"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Right_Arm" pos="-42,-600,4">
+     <group name="Deformation-Right_Arm" pos="-42,-600,3">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
@@ -8667,7 +8667,7 @@
        <link out="11" in="Transformation-Switch" inport="11"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Body" pos="189,-675,7">
+     <group name="Deformation-Body" pos="189,-675,9">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
@@ -10684,7 +10684,7 @@
        <link out="8" in="Transformation-Switch" inport="8"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Right_Foot" pos="257,-295,8">
+     <group name="Deformation-Right_Foot" pos="257,-295,10">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
@@ -12610,7 +12610,7 @@
        <link out="12" in="Transformation-Switch" inport="12"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Left_Foot" pos="469,-245,12">
+     <group name="Deformation-Left_Foot" pos="469,-245,14">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
@@ -14756,7 +14756,7 @@
        <link out="11" in="Transformation-Switch" inport="11"/>
       </linkedlist>
      </group>
-     <group name="Deformation-eye_right" pos="-389,-226,14">
+     <group name="Deformation-eye_right" pos="-389,-226,16">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
@@ -15973,7 +15973,7 @@
        <link out="11" in="Transformation-Switch" inport="11"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Nose" pos="-404,-122,11">
+     <group name="Deformation-Nose" pos="-404,-122,13">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
@@ -17175,7 +17175,7 @@
        <link out="10" in="Transformation-Switch" inport="10"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Hat" pos="-426,-27,10">
+     <group name="Deformation-Hat" pos="-426,-27,12">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
@@ -20594,7 +20594,7 @@
        <link out="11" in="Transformation-Switch" inport="11"/>
       </linkedlist>
      </group>
-     <group name="Deformation-eyes_left" pos="-275,-321,9">
+     <group name="Deformation-eyes_left" pos="-275,-321,11">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
@@ -21308,7 +21308,7 @@
        <link out="11" in="Transformation-Switch" inport="11"/>
       </linkedlist>
      </group>
-     <module type="PEG" name="Peg_1" pos="16,-457,2" publishUnderTab="Peg_1">
+     <module type="PEG" name="Peg_1" pos="16,-457,6" publishUnderTab="Peg_1">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -21370,7 +21370,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="PEG" name="Peg_2" pos="-93,-457,1" publishUnderTab="Peg_2">
+     <module type="PEG" name="Peg_2" pos="-93,-457,5" publishUnderTab="Peg_2">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -21432,7 +21432,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="DeformTransformOut" name="Point-Kinematic-Output" pos="251,-521,6" publishUnderTab="Point-Kinematic-Output">
+     <module type="DeformTransformOut" name="Point-Kinematic-Output" pos="251,-521,8" publishUnderTab="Point-Kinematic-Output">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -21457,7 +21457,7 @@
        <volume val="1" defaultValue="1"/>
       </attrs>
      </module>
-     <module type="DeformTransformOut" name="Point-Kinematic-Output_1" pos="82,-529,3" publishUnderTab="Point-Kinematic-Output_1">
+     <module type="DeformTransformOut" name="Point-Kinematic-Output_1" pos="82,-529,4" publishUnderTab="Point-Kinematic-Output_1">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -21489,21 +21489,22 @@
      <link out="Right_Foot" in="Mr._Penguin_Rig" inport="2"/>
      <link out="Drawing" in="Mr._Penguin_Rig" inport="0"/>
      <link out="Mr" in="Composite_1" inport="0"/>
-     <link out="Hat" in="Mr._Penguin_Rig" inport="8"/>
-     <link out="Nose" in="Mr._Penguin_Rig" inport="7"/>
-     <link out="eye_right" in="Mr._Penguin_Rig" inport="6"/>
-     <link out="eyes_left" in="Mr._Penguin_Rig" inport="5"/>
-     <link out="LeftArm" in="Composite" inport="1"/>
+     <link out="Hat" in="Mr._Penguin_Rig" inport="7"/>
+     <link out="Nose" in="Mr._Penguin_Rig" inport="6"/>
+     <link out="eye_right" in="Mr._Penguin_Rig" inport="5"/>
+     <link out="eyes_left" in="Mr._Penguin_Rig" inport="4"/>
+     <link out="LeftArm" in="Composite" inport="2"/>
      <link out="Mr_1" in="Composite_1" inport="1"/>
-     <link out="Right_Arm" in="Composite" inport="0"/>
-     <link out="Body" in="Mr._Penguin_Rig" inport="3"/>
+     <link out="Right_Arm" in="Composite" inport="1"/>
+     <link out="Body" in="Composite" inport="0"/>
      <link out="Composite_1" in="Write"/>
      <link out="Composite_1" in="Display"/>
-     <link out="Composite" in="Mr._Penguin_Rig" inport="4"/>
+     <link out="Composite" in="Mr._Penguin_Rig" inport="3"/>
      <link out="Deformation-LeftArm" in="LeftArm" inport="0"/>
      <link out="Deformation-Right_Arm" in="Right_Arm" inport="0"/>
      <link out="Deformation-Body" in="Body" inport="0"/>
      <link out="Deformation-Body" in="Point-Kinematic-Output" inport="1"/>
+     <link out="Deformation-Body" in="Point-Kinematic-Output_1" inport="1"/>
      <link out="Deformation-Right_Foot" in="Right_Foot" inport="0"/>
      <link out="Deformation-Left_Foot" in="Left_Foot" inport="0"/>
      <link out="Deformation-eye_right" in="eye_right" inport="0"/>
