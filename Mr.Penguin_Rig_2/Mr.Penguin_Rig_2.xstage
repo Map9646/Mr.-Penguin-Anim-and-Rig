@@ -2489,7 +2489,7 @@
      </module>
      <module type="READ" name="Left_Foot" pos="442,-245,1" publishUnderTab="RightFoot">
       <options>
-       <collapsed val="true"/>
+       <collapsed val="false"/>
        <version val="1"/>
       </options>
       <attrs>
@@ -17543,8 +17543,6 @@
      <link out="Deformation-Body" in="KinematicOutput_2"/>
      <link out="Deformation-Body" in="KinematicOutput_3"/>
      <link out="Deformation-Body" in="KinematicOutput_4"/>
-     <link out="Deformation-Body" in="Left_Foot" inport="0"/>
-     <link out="Deformation-Body" in="Right_Foot" inport="0"/>
      <link out="Deformation-eye_right" in="eye_right" inport="0"/>
      <link out="Deformation-Nose" in="Nose" inport="0"/>
      <link out="Deformation-Hat" in="Hat" inport="0"/>
