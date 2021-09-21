@@ -1540,6 +1540,42 @@
       <pt constSeg="false" x="2" yLocal="0.45000000000000001" y="0.45000000000000001"/>
      </points>
     </column>
+    <column type="3" name="ATV-0ACD7E8719316A04" displayOrder="0" width="100" anonymous="true">
+     <step val="1" start="1" stop="1"/>
+     <points version="2">
+      <pt constSeg="false" x="1" yLocal="0.5" y="0.5"/>
+     </points>
+    </column>
+    <column type="3" name="ATV-0ACD7E8719316A05" displayOrder="0" width="100" anonymous="true">
+     <step val="1" start="1" stop="1"/>
+     <points version="2">
+      <pt constSeg="false" x="1" yLocal="-100.98966492461466" y="-100.98966492461466"/>
+     </points>
+    </column>
+    <column type="3" name="ATV-0ACD7E8719316A06" displayOrder="0" width="100" anonymous="true">
+     <step val="1" start="1" stop="1"/>
+     <points version="2">
+      <pt constSeg="false" x="1" yLocal="0.45000000000000001" y="0.45000000000000001"/>
+     </points>
+    </column>
+    <column type="3" name="ATV-0ACD7E8719316A07" displayOrder="0" width="100" anonymous="true">
+     <step val="1" start="1" stop="1"/>
+     <points version="2">
+      <pt constSeg="false" x="1" yLocal="0.30937717071991455" y="0.30937717071991455"/>
+     </points>
+    </column>
+    <column type="3" name="ATV-0ACD7E8719316A08" displayOrder="0" width="100" anonymous="true">
+     <step val="1" start="1" stop="1"/>
+     <points version="2">
+      <pt constSeg="false" x="1" yLocal="0" y="0"/>
+     </points>
+    </column>
+    <column type="3" name="ATV-0ACD7E8719316A09" displayOrder="0" width="100" anonymous="true">
+     <step val="1" start="1" stop="1"/>
+     <points version="2">
+      <pt constSeg="false" x="1" yLocal="0" y="0"/>
+     </points>
+    </column>
    </columns>
    <options>
     <defaultDisplay val="Display"/>
@@ -1549,7 +1585,7 @@
      <collapsed val="false"/>
     </options>
     <nodeslist>
-     <module type="COMPOSITE" name="Mr._Penguin_Rig" pos="159,-60,7" publishUnderTab="Composite">
+     <module type="COMPOSITE" name="Mr._Penguin_Rig" pos="159,-60,8" publishUnderTab="Composite">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -1568,13 +1604,13 @@
        <mergeVector val="false"/>
       </attrs>
      </module>
-     <module type="DISPLAY" name="Display" pos="171,141,5" publishUnderTab="Display">
+     <module type="DISPLAY" name="Display" pos="335,159,3" publishUnderTab="Display">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
      </module>
-     <module type="WRITE" name="Write" pos="-44,154,6" publishUnderTab="Write">
+     <module type="WRITE" name="Write" pos="53,159,1" publishUnderTab="Write">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -1607,7 +1643,7 @@
        <cleanUpPartitionFolders val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="Drawing" pos="587,-131,8" publishUnderTab="Drawing">
+     <module type="READ" name="Drawing" pos="587,-131,9" publishUnderTab="Drawing">
       <options>
        <disabled val="true"/>
        <collapsed val="false"/>
@@ -2844,7 +2880,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Body" pos="157,-422,10" publishUnderTab="Body">
+     <module type="READ" name="Body" pos="157,-422,11" publishUnderTab="Body">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -2956,7 +2992,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="COMPOSITE" name="Composite_1" pos="178,43,3" publishUnderTab="Composite_1">
+     <module type="COMPOSITE" name="Composite_1" pos="178,43,6" publishUnderTab="Composite_1">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -2975,7 +3011,7 @@
        <mergeVector val="false"/>
       </attrs>
      </module>
-     <module type="COMPOSITE" name="Composite" pos="160,-157,4" publishUnderTab="Composite">
+     <module type="COMPOSITE" name="Composite" pos="160,-157,7" publishUnderTab="Composite">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -8627,7 +8663,7 @@
        <link out="11" in="Transformation-Switch" inport="11"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Body" pos="214,-944,9">
+     <group name="Deformation-Body" pos="214,-944,10">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
@@ -17811,7 +17847,7 @@
        <version val="1"/>
       </options>
      </module>
-     <group name="Deformation-Right_Foot" pos="281,-435,2">
+     <group name="Deformation-Right_Foot" pos="281,-435,5">
       <options>
        <collapsed val="true"/>
        <subnodeCollapsed val="true"/>
@@ -20118,10 +20154,10 @@
             <x val="-1.0870814137190834" defaultValue="0"/>
             <y val="-9.3870895781239412" defaultValue="0"/>
            </offset>
-           <orientation val="-105.7597490722994" defaultValue="0"/>
-           <radius val="0.5" defaultValue="0.5"/>
-           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
-           <length val="0.30103814724754363" defaultValue="3"/>
+           <orientation val="-105.7597490722994" defaultValue="0" col="ATV-0ACD7E8719316A05"/>
+           <radius val="0.5" defaultValue="0.5" col="ATV-0ACD7E8719316A04"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001" col="ATV-0ACD7E8719316A06"/>
+           <length val="0.30103814724754363" defaultValue="3" col="ATV-0ACD7E8719316A07"/>
           </attrs>
          </module>
          <module type="BendyBoneModule" name="Bone_1" pos="0,-550,0" publishUnderTab="Bone">
@@ -20162,8 +20198,8 @@
            <restlength val="0.32887548225148161" defaultValue="3"/>
            <offset>
             <separate val="true"/>
-            <x val="0" defaultValue="0"/>
-            <y val="0" defaultValue="0"/>
+            <x val="0" defaultValue="0" col="ATV-0ACD7E8719316A08"/>
+            <y val="0" defaultValue="0" col="ATV-0ACD7E8719316A09"/>
            </offset>
            <orientation val="0.17961000574680677" defaultValue="0"/>
            <radius val="0.14881274112574081" defaultValue="0.5"/>
@@ -20654,7 +20690,7 @@
        <link out="12" in="Transformation-Switch" inport="12"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Left_Foot" pos="470,-422,1">
+     <group name="Deformation-Left_Foot" pos="470,-422,4">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
