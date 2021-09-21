@@ -183,7 +183,7 @@
  <scenes>
   <scene name="Top" id="0ac5c9468aa00d4f" nbframes="60" startFrame="1" stopFrame="60">
    <columns>
-    <column type="0" name="Drawing" displayOrder="0" width="100" anonymous="true" id="1"/>
+    <column type="0" name="Drawing" display="false" displayOrder="0" width="100" anonymous="true" id="1"/>
     <column type="0" name="ATV-0AC5C9468AA01270" displayOrder="0" width="100" anonymous="true" id="2">
      <elementSeq exposures="1-60" val="1" id="2"/>
     </column>
@@ -1498,7 +1498,7 @@
      <step val="1" start="1" stop="1"/>
      <noFrames/>
      <points version="2">
-      <pt constSeg="false" x="1" yLocal="5.245066224606493" y="5.245066224606493"/>
+      <pt constSeg="false" x="1" yLocal="6.1727322036160421" y="6.1727322036160421"/>
      </points>
     </column>
     <column type="3" name="ATV-0ACBB9B172D26416" displayOrder="0" width="100" anonymous="true">
@@ -1531,7 +1531,7 @@
      <collapsed val="false"/>
     </options>
     <nodeslist>
-     <module type="COMPOSITE" name="Mr._Penguin_Rig" pos="-9,-52,7" publishUnderTab="Composite">
+     <module type="COMPOSITE" name="Mr._Penguin_Rig" pos="159,-60,5" publishUnderTab="Composite">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -1550,13 +1550,13 @@
        <mergeVector val="false"/>
       </attrs>
      </module>
-     <module type="DISPLAY" name="Display" pos="102,141,36" publishUnderTab="Display">
+     <module type="DISPLAY" name="Display" pos="171,141,3" publishUnderTab="Display">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
      </module>
-     <module type="WRITE" name="Write" pos="-86,141,37" publishUnderTab="Write">
+     <module type="WRITE" name="Write" pos="-44,154,4" publishUnderTab="Write">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -1589,8 +1589,9 @@
        <cleanUpPartitionFolders val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="Drawing" pos="403,-90,32" publishUnderTab="Drawing">
+     <module type="READ" name="Drawing" pos="587,-131,6" publishUnderTab="Drawing">
       <options>
+       <disabled val="true"/>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
@@ -1701,7 +1702,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Mr" pos="548,77,33" publishUnderTab="Mr">
+     <module type="READ" name="Mr" pos="548,77,34" publishUnderTab="Mr">
       <options>
        <disabled val="true"/>
        <showTimelineThumb val="true"/>
@@ -1815,7 +1816,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Hat" pos="-426,23,38" publishUnderTab="Hat">
+     <module type="READ" name="Hat" pos="-426,23,36" publishUnderTab="Hat">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -1927,7 +1928,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Nose" pos="-731,-259,14" publishUnderTab="Nose">
+     <module type="READ" name="Nose" pos="-731,-259,17" publishUnderTab="Nose">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -2039,7 +2040,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="eye_right" pos="-518,-293,25" publishUnderTab="eyes">
+     <module type="READ" name="eye_right" pos="-518,-293,28" publishUnderTab="eyes">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -2151,7 +2152,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="eyes_left" pos="-288,-327,21" publishUnderTab="eyes">
+     <module type="READ" name="eyes_left" pos="-288,-327,24" publishUnderTab="eyes">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -2263,7 +2264,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="LeftArm" pos="-155,-383,31" publishUnderTab="LeftArm">
+     <module type="READ" name="LeftArm" pos="-155,-383,33" publishUnderTab="LeftArm">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -2375,7 +2376,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Right_Foot" pos="281,-348,5" publishUnderTab="LeftFoot">
+     <module type="READ" name="Right_Foot" pos="281,-348,12" publishUnderTab="LeftFoot">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -2487,7 +2488,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Left_Foot" pos="442,-245,6" publishUnderTab="RightFoot">
+     <module type="READ" name="Left_Foot" pos="442,-245,11" publishUnderTab="RightFoot">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -2599,7 +2600,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Mr_1" pos="584,-12,34" publishUnderTab="Mr_1">
+     <module type="READ" name="Mr_1" pos="584,-12,35" publishUnderTab="Mr_1">
       <options>
        <disabled val="true"/>
        <showTimelineThumb val="true"/>
@@ -2713,7 +2714,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Right_Arm" pos="-15,-392,30" publishUnderTab="Right_Arm">
+     <module type="READ" name="Right_Arm" pos="-15,-392,32" publishUnderTab="Right_Arm">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -2937,7 +2938,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="COMPOSITE" name="Composite_1" pos="0,20,35" publishUnderTab="Composite_1">
+     <module type="COMPOSITE" name="Composite_1" pos="178,43,1" publishUnderTab="Composite_1">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -2956,7 +2957,7 @@
        <mergeVector val="false"/>
       </attrs>
      </module>
-     <module type="COMPOSITE" name="Composite" pos="-1,-202,8" publishUnderTab="Composite">
+     <module type="COMPOSITE" name="Composite" pos="160,-157,2" publishUnderTab="Composite">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -2975,7 +2976,7 @@
        <mergeVector val="false"/>
       </attrs>
      </module>
-     <group name="Deformation-LeftArm" pos="-240,-531,23">
+     <group name="Deformation-LeftArm" pos="-240,-531,26">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
@@ -5606,7 +5607,7 @@
        <link out="10" in="Transformation-Switch" inport="10"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Right_Arm" pos="-19,-531,29">
+     <group name="Deformation-Right_Arm" pos="-19,-531,31">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
@@ -8608,7 +8609,7 @@
        <link out="11" in="Transformation-Switch" inport="11"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Body" pos="214,-944,28">
+     <group name="Deformation-Body" pos="214,-944,7">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
@@ -8616,7 +8617,7 @@
       </options>
       <attrs/>
       <nodeslist>
-       <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="0,0,1">
+       <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="0,0,9">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -8625,7 +8626,7 @@
          <port type="PEG" idx="0"/>
         </ports>
        </module>
-       <module type="MULTIPORT_IN" name="Multi-Port-In" pos="0,-650,2">
+       <module type="MULTIPORT_IN" name="Multi-Port-In" pos="0,-650,10">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -8634,15 +8635,15 @@
          <port type="PEG" idx="0"/>
         </ports>
        </module>
-       <group name="1" pos="0,-500,3">
+       <group name="1" pos="0,-500,1">
         <options>
          <collapsed val="false"/>
-         <subnodeCollapsed val="true"/>
+         <subnodeCollapsed val="false"/>
          <showsPublished val="true"/>
         </options>
         <attrs/>
         <nodeslist>
-         <module type="MULTIPORT_IN" name="Multi-Port-In" pos="0,-700,0">
+         <module type="MULTIPORT_IN" name="Multi-Port-In" pos="0,-700,1">
           <options>
            <collapsed val="false"/>
            <version val="1"/>
@@ -8651,7 +8652,7 @@
            <port type="PEG" idx="0"/>
           </ports>
          </module>
-         <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="0,-270,0">
+         <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="0,-270,2">
           <options>
            <collapsed val="false"/>
            <version val="1"/>
@@ -8660,7 +8661,7 @@
            <port type="PEG" idx="0"/>
           </ports>
          </module>
-         <module type="BendyBoneModule" name="Bone" pos="0,-600,0" publishUnderTab="Bone">
+         <module type="BendyBoneModule" name="Bone" pos="0,-600,3" publishUnderTab="Bone">
           <shapedROI>
            <pt pointOn="-5,-5"/>
            <pt pointOff="-2,-5"/>
@@ -8677,7 +8678,7 @@
            <pt pointOn="-5,-5"/>
           </shapedROI>
           <options>
-           <collapsed val="false"/>
+           <collapsed val="true"/>
            <version val="2"/>
           </options>
           <attrs>
@@ -8707,7 +8708,7 @@
            <length val="0.90754641204041142" defaultValue="3"/>
           </attrs>
          </module>
-         <module type="BendyBoneModule" name="Bone_2" pos="0,-500,0" publishUnderTab="Bone">
+         <module type="BendyBoneModule" name="Bone_2" pos="0,-500,4" publishUnderTab="Bone">
           <shapedROI>
            <pt pointOn="-5,-5"/>
            <pt pointOff="-2,-5"/>
@@ -8724,7 +8725,7 @@
            <pt pointOn="-5,-5"/>
           </shapedROI>
           <options>
-           <collapsed val="false"/>
+           <collapsed val="true"/>
            <version val="2"/>
           </options>
           <attrs>
@@ -8754,7 +8755,7 @@
            <length val="0.95999769544727953" defaultValue="3"/>
           </attrs>
          </module>
-         <module type="BendyBoneModule" name="Bone_3" pos="0,-450,0" publishUnderTab="Bone">
+         <module type="BendyBoneModule" name="Bone_3" pos="0,-450,5" publishUnderTab="Bone">
           <shapedROI>
            <pt pointOn="-5,-5"/>
            <pt pointOff="-2,-5"/>
@@ -8801,7 +8802,7 @@
            <length val="0.98666429809859046" defaultValue="3"/>
           </attrs>
          </module>
-         <module type="BendyBoneModule" name="Bone_1" pos="0,-550,0" publishUnderTab="Bone">
+         <module type="BendyBoneModule" name="Bone_1" pos="0,-550,6" publishUnderTab="Bone">
           <shapedROI>
            <pt pointOn="-5,-5"/>
            <pt pointOff="-2,-5"/>
@@ -8848,7 +8849,7 @@
            <length val="1.2000711909192612" defaultValue="3"/>
           </attrs>
          </module>
-         <module type="BendyBoneModule" name="Bone_4" pos="0,-400,0" publishUnderTab="Bone">
+         <module type="BendyBoneModule" name="Bone_4" pos="0,-400,7" publishUnderTab="Bone">
           <shapedROI>
            <pt pointOn="-5,-5"/>
            <pt pointOff="-2,-5"/>
@@ -8905,7 +8906,7 @@
          <link out="Bone_4" in="Multi-Port-Out"/>
         </linkedlist>
        </group>
-       <module type="TransformationSwitch" name="Transformation-Switch" pos="0,-166,4" publishUnderTab="Transformation-Switch">
+       <module type="TransformationSwitch" name="Transformation-Switch" pos="0,-166,6" publishUnderTab="Transformation-Switch">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -8946,7 +8947,7 @@
          <port idx="8"/>
         </inputPorts>
        </module>
-       <group name="2" pos="-75,-500,5">
+       <group name="2" pos="-75,-500,2">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -8954,7 +8955,7 @@
         </options>
         <attrs/>
         <nodeslist>
-         <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="0,0,0">
+         <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="0,0,1">
           <options>
            <collapsed val="false"/>
            <version val="1"/>
@@ -8963,7 +8964,7 @@
            <port type="PEG" idx="0"/>
           </ports>
          </module>
-         <module type="MULTIPORT_IN" name="Multi-Port-In" pos="0,-650,0">
+         <module type="MULTIPORT_IN" name="Multi-Port-In" pos="0,-650,2">
           <options>
            <collapsed val="false"/>
            <version val="1"/>
@@ -8972,7 +8973,7 @@
            <port type="PEG" idx="0"/>
           </ports>
          </module>
-         <module type="BendyBoneModule" name="Bone" pos="0,-600,0" publishUnderTab="Bone">
+         <module type="BendyBoneModule" name="Bone" pos="0,-600,3" publishUnderTab="Bone">
           <shapedROI>
            <pt pointOn="-5,-5"/>
            <pt pointOff="-2,-5"/>
@@ -9019,7 +9020,7 @@
            <length val="2.0682095092511439" defaultValue="3"/>
           </attrs>
          </module>
-         <module type="BendyBoneModule" name="Bone_1" pos="0,-550,0" publishUnderTab="Bone">
+         <module type="BendyBoneModule" name="Bone_1" pos="0,-550,4" publishUnderTab="Bone">
           <shapedROI>
            <pt pointOn="-5,-5"/>
            <pt pointOff="-2,-5"/>
@@ -9066,7 +9067,7 @@
            <length val="1.2723351257181934" defaultValue="3"/>
           </attrs>
          </module>
-         <module type="BendyBoneModule" name="Bone_2" pos="0,-500,0" publishUnderTab="Bone">
+         <module type="BendyBoneModule" name="Bone_2" pos="0,-500,5" publishUnderTab="Bone">
           <shapedROI>
            <pt pointOn="-5,-5"/>
            <pt pointOff="-2,-5"/>
@@ -9121,7 +9122,7 @@
          <link out="Bone_2" in="Multi-Port-Out"/>
         </linkedlist>
        </group>
-       <group name="3" pos="-150,-500,6">
+       <group name="3" pos="-150,-500,7">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -9129,7 +9130,7 @@
         </options>
         <attrs/>
         <nodeslist>
-         <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="0,0,0">
+         <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="0,0,1">
           <options>
            <collapsed val="false"/>
            <version val="1"/>
@@ -9138,7 +9139,7 @@
            <port type="PEG" idx="0"/>
           </ports>
          </module>
-         <module type="MULTIPORT_IN" name="Multi-Port-In" pos="0,-650,0">
+         <module type="MULTIPORT_IN" name="Multi-Port-In" pos="0,-650,2">
           <options>
            <collapsed val="false"/>
            <version val="1"/>
@@ -9147,7 +9148,7 @@
            <port type="PEG" idx="0"/>
           </ports>
          </module>
-         <module type="BendyBoneModule" name="Bone" pos="0,-600,0" publishUnderTab="Bone">
+         <module type="BendyBoneModule" name="Bone" pos="0,-600,3" publishUnderTab="Bone">
           <shapedROI>
            <pt pointOn="-5,-5"/>
            <pt pointOff="-2,-5"/>
@@ -9194,7 +9195,7 @@
            <length val="1.2976978239664605" defaultValue="3"/>
           </attrs>
          </module>
-         <module type="BendyBoneModule" name="Bone_1" pos="0,-550,0" publishUnderTab="Bone">
+         <module type="BendyBoneModule" name="Bone_1" pos="0,-550,4" publishUnderTab="Bone">
           <shapedROI>
            <pt pointOn="-5,-5"/>
            <pt pointOff="-2,-5"/>
@@ -9241,7 +9242,7 @@
            <length val="1.297697823966462" defaultValue="3"/>
           </attrs>
          </module>
-         <module type="BendyBoneModule" name="Bone_2" pos="0,-500,0" publishUnderTab="Bone">
+         <module type="BendyBoneModule" name="Bone_2" pos="0,-500,5" publishUnderTab="Bone">
           <shapedROI>
            <pt pointOn="-5,-5"/>
            <pt pointOff="-2,-5"/>
@@ -9288,7 +9289,7 @@
            <length val="1.0338221508037597" defaultValue="3"/>
           </attrs>
          </module>
-         <module type="BendyBoneModule" name="Bone_3" pos="0,-450,0" publishUnderTab="Bone">
+         <module type="BendyBoneModule" name="Bone_3" pos="0,-450,6" publishUnderTab="Bone">
           <shapedROI>
            <pt pointOn="-5,-5"/>
            <pt pointOff="-2,-5"/>
@@ -9344,7 +9345,7 @@
          <link out="Bone_3" in="Multi-Port-Out"/>
         </linkedlist>
        </group>
-       <group name="4" pos="-225,-500,7">
+       <group name="4" pos="-225,-500,5">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -9352,7 +9353,7 @@
         </options>
         <attrs/>
         <nodeslist>
-         <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="0,0,0">
+         <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="0,0,1">
           <options>
            <collapsed val="false"/>
            <version val="1"/>
@@ -9361,7 +9362,7 @@
            <port type="PEG" idx="0"/>
           </ports>
          </module>
-         <module type="MULTIPORT_IN" name="Multi-Port-In" pos="0,-650,0">
+         <module type="MULTIPORT_IN" name="Multi-Port-In" pos="0,-650,2">
           <options>
            <collapsed val="false"/>
            <version val="1"/>
@@ -9370,7 +9371,7 @@
            <port type="PEG" idx="0"/>
           </ports>
          </module>
-         <module type="BendyBoneModule" name="Bone" pos="0,-600,0" publishUnderTab="Bone">
+         <module type="BendyBoneModule" name="Bone" pos="0,-600,3" publishUnderTab="Bone">
           <shapedROI>
            <pt pointOn="-5,-5"/>
            <pt pointOff="-2,-5"/>
@@ -9417,7 +9418,7 @@
            <length val="1.7701966179460038" defaultValue="3"/>
           </attrs>
          </module>
-         <module type="BendyBoneModule" name="Bone_1" pos="0,-550,0" publishUnderTab="Bone">
+         <module type="BendyBoneModule" name="Bone_1" pos="0,-550,4" publishUnderTab="Bone">
           <shapedROI>
            <pt pointOn="-5,-5"/>
            <pt pointOff="-2,-5"/>
@@ -9464,7 +9465,7 @@
            <length val="1.270604853312538" defaultValue="3"/>
           </attrs>
          </module>
-         <module type="BendyBoneModule" name="Bone_2" pos="0,-500,0" publishUnderTab="Bone">
+         <module type="BendyBoneModule" name="Bone_2" pos="0,-500,5" publishUnderTab="Bone">
           <shapedROI>
            <pt pointOn="-5,-5"/>
            <pt pointOff="-2,-5"/>
@@ -9527,7 +9528,7 @@
         </options>
         <attrs/>
         <nodeslist>
-         <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="0,0,0">
+         <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="0,0,1">
           <options>
            <collapsed val="false"/>
            <version val="1"/>
@@ -9536,7 +9537,7 @@
            <port type="PEG" idx="0"/>
           </ports>
          </module>
-         <module type="MULTIPORT_IN" name="Multi-Port-In" pos="0,-650,0">
+         <module type="MULTIPORT_IN" name="Multi-Port-In" pos="0,-650,2">
           <options>
            <collapsed val="false"/>
            <version val="1"/>
@@ -9545,7 +9546,7 @@
            <port type="PEG" idx="0"/>
           </ports>
          </module>
-         <module type="BendyBoneModule" name="Bone" pos="0,-600,0" publishUnderTab="Bone">
+         <module type="BendyBoneModule" name="Bone" pos="0,-600,3" publishUnderTab="Bone">
           <shapedROI>
            <pt pointOn="-5,-5"/>
            <pt pointOff="-2,-5"/>
@@ -9592,7 +9593,7 @@
            <length val="1.0494682467613359" defaultValue="3"/>
           </attrs>
          </module>
-         <module type="BendyBoneModule" name="Bone_1" pos="0,-550,0" publishUnderTab="Bone">
+         <module type="BendyBoneModule" name="Bone_1" pos="0,-550,4" publishUnderTab="Bone">
           <shapedROI>
            <pt pointOn="-5,-5"/>
            <pt pointOff="-2,-5"/>
@@ -9639,7 +9640,7 @@
            <length val="1.3271700841279264" defaultValue="3"/>
           </attrs>
          </module>
-         <module type="BendyBoneModule" name="Bone_2" pos="0,-500,0" publishUnderTab="Bone">
+         <module type="BendyBoneModule" name="Bone_2" pos="0,-500,5" publishUnderTab="Bone">
           <shapedROI>
            <pt pointOn="-5,-5"/>
            <pt pointOff="-2,-5"/>
@@ -9686,7 +9687,7 @@
            <length val="0.98685572051156378" defaultValue="3"/>
           </attrs>
          </module>
-         <module type="BendyBoneModule" name="Bone_3" pos="0,-450,0" publishUnderTab="Bone">
+         <module type="BendyBoneModule" name="Bone_3" pos="0,-450,6" publishUnderTab="Bone">
           <shapedROI>
            <pt pointOn="-5,-5"/>
            <pt pointOff="-2,-5"/>
@@ -9733,7 +9734,7 @@
            <length val="0.85586008386928814" defaultValue="3"/>
           </attrs>
          </module>
-         <module type="BendyBoneModule" name="Bone_4" pos="0,-400,0" publishUnderTab="Bone">
+         <module type="BendyBoneModule" name="Bone_4" pos="0,-400,7" publishUnderTab="Bone">
           <shapedROI>
            <pt pointOn="-5,-5"/>
            <pt pointOff="-2,-5"/>
@@ -9780,7 +9781,7 @@
            <length val="0.96723888663400237" defaultValue="3"/>
           </attrs>
          </module>
-         <module type="BendyBoneModule" name="Bone_5" pos="0,-350,0" publishUnderTab="Bone">
+         <module type="BendyBoneModule" name="Bone_5" pos="0,-350,8" publishUnderTab="Bone">
           <shapedROI>
            <pt pointOn="-5,-5"/>
            <pt pointOff="-2,-5"/>
@@ -9838,7 +9839,7 @@
          <link out="Bone_5" in="Multi-Port-Out"/>
         </linkedlist>
        </group>
-       <group name="6" pos="-375,-500,9">
+       <group name="6" pos="-375,-500,11">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -10157,7 +10158,7 @@
          <link out="Bone_5" in="Multi-Port-Out"/>
         </linkedlist>
        </group>
-       <group name="7" pos="-450,-500,10">
+       <group name="7" pos="-450,-500,4">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -10165,7 +10166,7 @@
         </options>
         <attrs/>
         <nodeslist>
-         <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="0,0,0">
+         <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="0,0,1">
           <options>
            <collapsed val="false"/>
            <version val="1"/>
@@ -10174,7 +10175,7 @@
            <port type="PEG" idx="0"/>
           </ports>
          </module>
-         <module type="MULTIPORT_IN" name="Multi-Port-In" pos="0,-650,0">
+         <module type="MULTIPORT_IN" name="Multi-Port-In" pos="0,-650,2">
           <options>
            <collapsed val="false"/>
            <version val="1"/>
@@ -10183,7 +10184,7 @@
            <port type="PEG" idx="0"/>
           </ports>
          </module>
-         <module type="BendyBoneModule" name="Bone" pos="0,-600,0" publishUnderTab="Bone">
+         <module type="BendyBoneModule" name="Bone" pos="0,-600,3" publishUnderTab="Bone">
           <shapedROI>
            <pt pointOn="-5,-5"/>
            <pt pointOff="-2,-5"/>
@@ -10230,7 +10231,7 @@
            <length val="1.7282737351730029" defaultValue="3"/>
           </attrs>
          </module>
-         <module type="BendyBoneModule" name="Bone_1" pos="0,-550,0" publishUnderTab="Bone">
+         <module type="BendyBoneModule" name="Bone_1" pos="0,-550,4" publishUnderTab="Bone">
           <shapedROI>
            <pt pointOn="-5,-5"/>
            <pt pointOff="-2,-5"/>
@@ -10277,7 +10278,7 @@
            <length val="1.1020157048425734" defaultValue="3"/>
           </attrs>
          </module>
-         <module type="BendyBoneModule" name="Bone_2" pos="0,-500,0" publishUnderTab="Bone">
+         <module type="BendyBoneModule" name="Bone_2" pos="0,-500,5" publishUnderTab="Bone">
           <shapedROI>
            <pt pointOn="-5,-5"/>
            <pt pointOff="-2,-5"/>
@@ -10324,7 +10325,7 @@
            <length val="1.2388360883495273" defaultValue="3"/>
           </attrs>
          </module>
-         <module type="BendyBoneModule" name="Bone_3" pos="0,-450,0" publishUnderTab="Bone">
+         <module type="BendyBoneModule" name="Bone_3" pos="0,-450,6" publishUnderTab="Bone">
           <shapedROI>
            <pt pointOn="-5,-5"/>
            <pt pointOff="-2,-5"/>
@@ -10380,7 +10381,7 @@
          <link out="Bone_3" in="Multi-Port-Out"/>
         </linkedlist>
        </group>
-       <group name="8" pos="-525,-500,11">
+       <group name="8" pos="-525,-500,3">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -10388,7 +10389,7 @@
         </options>
         <attrs/>
         <nodeslist>
-         <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="0,0,0">
+         <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="0,0,2">
           <options>
            <collapsed val="false"/>
            <version val="1"/>
@@ -10397,7 +10398,7 @@
            <port type="PEG" idx="0"/>
           </ports>
          </module>
-         <module type="MULTIPORT_IN" name="Multi-Port-In" pos="0,-650,0">
+         <module type="MULTIPORT_IN" name="Multi-Port-In" pos="0,-650,3">
           <options>
            <collapsed val="false"/>
            <version val="1"/>
@@ -10406,7 +10407,7 @@
            <port type="PEG" idx="0"/>
           </ports>
          </module>
-         <module type="BendyBoneModule" name="Bone" pos="0,-600,0" publishUnderTab="Bone">
+         <module type="BendyBoneModule" name="Bone" pos="0,-600,4" publishUnderTab="Bone">
           <shapedROI>
            <pt pointOn="-5,-5"/>
            <pt pointOff="-2,-5"/>
@@ -10453,7 +10454,7 @@
            <length val="1.404849328403772" defaultValue="3"/>
           </attrs>
          </module>
-         <module type="BendyBoneModule" name="Bone_1" pos="0,-550,0" publishUnderTab="Bone">
+         <module type="BendyBoneModule" name="Bone_1" pos="0,-550,1" publishUnderTab="Bone">
           <shapedROI>
            <pt pointOn="-5,-5"/>
            <pt pointOff="-2,-5"/>
@@ -10500,7 +10501,7 @@
            <length val="1.3536953874119655" defaultValue="3"/>
           </attrs>
          </module>
-         <module type="BendyBoneModule" name="Bone_2" pos="0,-500,0" publishUnderTab="Bone">
+         <module type="BendyBoneModule" name="Bone_2" pos="0,-500,6" publishUnderTab="Bone">
           <shapedROI>
            <pt pointOn="-5,-5"/>
            <pt pointOff="-2,-5"/>
@@ -10547,7 +10548,7 @@
            <length val="1.2195142811183399" defaultValue="3"/>
           </attrs>
          </module>
-         <module type="BendyBoneModule" name="Bone_3" pos="0,-450,0" publishUnderTab="Bone">
+         <module type="BendyBoneModule" name="Bone_3" pos="0,-450,7" publishUnderTab="Bone">
           <shapedROI>
            <pt pointOn="-5,-5"/>
            <pt pointOff="-2,-5"/>
@@ -10625,7 +10626,7 @@
        <link out="8" in="Transformation-Switch" inport="8"/>
       </linkedlist>
      </group>
-     <group name="Deformation-eye_right" pos="-644,-504,19">
+     <group name="Deformation-eye_right" pos="-644,-504,22">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
@@ -11842,7 +11843,7 @@
        <link out="11" in="Transformation-Switch" inport="11"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Nose" pos="-902,-549,13">
+     <group name="Deformation-Nose" pos="-902,-549,16">
       <options>
        <collapsed val="true"/>
        <subnodeCollapsed val="true"/>
@@ -13044,7 +13045,7 @@
        <link out="10" in="Transformation-Switch" inport="10"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Hat" pos="-605,-94,12">
+     <group name="Deformation-Hat" pos="-605,-94,15">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
@@ -16463,7 +16464,7 @@
        <link out="11" in="Transformation-Switch" inport="11"/>
       </linkedlist>
      </group>
-     <group name="Deformation-eyes_left" pos="-436,-469,20">
+     <group name="Deformation-eyes_left" pos="-436,-469,23">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
@@ -17177,7 +17178,7 @@
        <link out="11" in="Transformation-Switch" inport="11"/>
       </linkedlist>
      </group>
-     <module type="PEG" name="Peg_1" pos="26,-606,27" publishUnderTab="Peg_1">
+     <module type="PEG" name="Peg_1" pos="26,-606,30" publishUnderTab="Peg_1">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -17239,7 +17240,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="PEG" name="Peg_2" pos="-130,-625,24" publishUnderTab="Peg_2">
+     <module type="PEG" name="Peg_2" pos="-130,-625,27" publishUnderTab="Peg_2">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -17301,81 +17302,19 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="KinematicOutputModule" name="KinematicOutput" pos="201,-792,26" publishUnderTab="KinematicOutput">
+     <module type="KinematicOutputModule" name="KinematicOutput" pos="201,-792,29" publishUnderTab="KinematicOutput">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
      </module>
-     <module type="KinematicOutputModule" name="KinematicOutput_1" pos="40,-750,22" publishUnderTab="KinematicOutput_1">
+     <module type="KinematicOutputModule" name="KinematicOutput_1" pos="40,-750,25" publishUnderTab="KinematicOutput_1">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
      </module>
-     <module type="PEG" name="Peg" pos="-350,-544,16" publishUnderTab="Peg">
-      <options>
-       <collapsed val="false"/>
-       <version val="1"/>
-      </options>
-      <attrs>
-       <enable3d val="false"/>
-       <faceCamera val="false"/>
-       <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
-       <position>
-        <separate val="false"/>
-        <x val="0" defaultValue="0"/>
-        <y val="0" defaultValue="0"/>
-        <z val="0" defaultValue="0"/>
-       </position>
-       <scale>
-        <separate val="true"/>
-        <inFields val="false"/>
-        <xy val="1" defaultValue="1"/>
-        <x val="1" defaultValue="1"/>
-        <y val="1" defaultValue="1"/>
-        <z val="1" defaultValue="1"/>
-       </scale>
-       <rotation>
-        <separate val="false"/>
-        <anglex val="0" defaultValue="0"/>
-        <angley val="0" defaultValue="0"/>
-        <anglez val="0" defaultValue="0"/>
-       </rotation>
-       <angle val="0" defaultValue="0"/>
-       <skew val="0" defaultValue="0"/>
-       <pivot>
-        <x val="0" defaultValue="0"/>
-        <y val="0" defaultValue="0"/>
-        <z val="0" defaultValue="0"/>
-       </pivot>
-       <splineOffset>
-        <x val="0" defaultValue="0"/>
-        <y val="0" defaultValue="0"/>
-        <z val="0" defaultValue="0"/>
-       </splineOffset>
-       <ignoreParentPegScaling val="false"/>
-       <disableFieldRendering val="false"/>
-       <depth val="0"/>
-       <enableMinMaxAngle val="false"/>
-       <minAngle val="-360" defaultValue="-360"/>
-       <maxAngle val="360" defaultValue="360"/>
-       <nailForChildren val="false"/>
-       <ikHoldOrientation val="false"/>
-       <ikHoldX val="false"/>
-       <ikHoldY val="false"/>
-       <ikExcluded val="false"/>
-       <ikCanRotate val="true"/>
-       <ikCanTranslateX val="false"/>
-       <ikCanTranslateY val="false"/>
-       <ikBoneX val="0.20000000000000001" defaultValue="0.20000000000000001"/>
-       <ikBoneY val="0" defaultValue="0"/>
-       <ikStiffness val="1" defaultValue="1"/>
-       <groupAtNetworkBuilding val="false"/>
-       <addCompositeToGroup val="true"/>
-      </attrs>
-     </module>
-     <module type="PEG" name="Peg_3" pos="-567,-624,17" publishUnderTab="Peg_3">
+     <module type="PEG" name="Peg" pos="-350,-544,19" publishUnderTab="Peg">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -17437,19 +17376,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="KinematicOutputModule" name="KinematicOutput_2" pos="-448,-720,18" publishUnderTab="KinematicOutput_2">
-      <options>
-       <collapsed val="false"/>
-       <version val="1"/>
-      </options>
-     </module>
-     <module type="KinematicOutputModule" name="KinematicOutput_3" pos="-264,-703,15" publishUnderTab="KinematicOutput_3">
-      <options>
-       <collapsed val="false"/>
-       <version val="1"/>
-      </options>
-     </module>
-     <module type="PEG" name="Peg_4" pos="-574,-193,10" publishUnderTab="Peg_4">
+     <module type="PEG" name="Peg_3" pos="-567,-624,20" publishUnderTab="Peg_3">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -17511,15 +17438,89 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="KinematicOutputModule" name="KinematicOutput_4" pos="-614,-349,11" publishUnderTab="KinematicOutput_4">
+     <module type="KinematicOutputModule" name="KinematicOutput_2" pos="-448,-720,21" publishUnderTab="KinematicOutput_2">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
      </module>
-     <group name="Deformation-Right_Foot" pos="281,-398,4">
+     <module type="KinematicOutputModule" name="KinematicOutput_3" pos="-264,-703,18" publishUnderTab="KinematicOutput_3">
       <options>
        <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+     </module>
+     <module type="PEG" name="Peg_4" pos="-574,-193,13" publishUnderTab="Peg_4">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <enable3d val="false"/>
+       <faceCamera val="false"/>
+       <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
+       <position>
+        <separate val="false"/>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </position>
+       <scale>
+        <separate val="true"/>
+        <inFields val="false"/>
+        <xy val="1" defaultValue="1"/>
+        <x val="1" defaultValue="1"/>
+        <y val="1" defaultValue="1"/>
+        <z val="1" defaultValue="1"/>
+       </scale>
+       <rotation>
+        <separate val="false"/>
+        <anglex val="0" defaultValue="0"/>
+        <angley val="0" defaultValue="0"/>
+        <anglez val="0" defaultValue="0"/>
+       </rotation>
+       <angle val="0" defaultValue="0"/>
+       <skew val="0" defaultValue="0"/>
+       <pivot>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </pivot>
+       <splineOffset>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </splineOffset>
+       <ignoreParentPegScaling val="false"/>
+       <disableFieldRendering val="false"/>
+       <depth val="0"/>
+       <enableMinMaxAngle val="false"/>
+       <minAngle val="-360" defaultValue="-360"/>
+       <maxAngle val="360" defaultValue="360"/>
+       <nailForChildren val="false"/>
+       <ikHoldOrientation val="false"/>
+       <ikHoldX val="false"/>
+       <ikHoldY val="false"/>
+       <ikExcluded val="false"/>
+       <ikCanRotate val="true"/>
+       <ikCanTranslateX val="false"/>
+       <ikCanTranslateY val="false"/>
+       <ikBoneX val="0.20000000000000001" defaultValue="0.20000000000000001"/>
+       <ikBoneY val="0" defaultValue="0"/>
+       <ikStiffness val="1" defaultValue="1"/>
+       <groupAtNetworkBuilding val="false"/>
+       <addCompositeToGroup val="true"/>
+      </attrs>
+     </module>
+     <module type="KinematicOutputModule" name="KinematicOutput_4" pos="-614,-349,14" publishUnderTab="KinematicOutput_4">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+     </module>
+     <group name="Deformation-Right_Foot" pos="281,-398,8">
+      <options>
+       <collapsed val="true"/>
        <subnodeCollapsed val="true"/>
        <showsPublished val="true"/>
       </options>
@@ -20360,7 +20361,7 @@
        <link out="12" in="Transformation-Switch" inport="12"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Left_Foot" pos="475,-398,2">
+     <group name="Deformation-Left_Foot" pos="475,-398,10">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
@@ -22522,23 +22523,10 @@
        <link out="11" in="Transformation-Switch" inport="11"/>
       </linkedlist>
      </group>
-     <module type="KinematicOutputModule" name="KinematicOutput_5" pos="304,-506,3" publishUnderTab="KinematicOutput_5">
-      <options>
-       <collapsed val="false"/>
-       <version val="1"/>
-      </options>
-     </module>
-     <module type="KinematicOutputModule" name="KinematicOutput_6" pos="491,-536,1" publishUnderTab="KinematicOutput_6">
-      <options>
-       <collapsed val="false"/>
-       <version val="1"/>
-      </options>
-     </module>
     </nodeslist>
     <linkedlist>
-     <link out="Mr._Penguin_Rig" in="Composite_1" inport="3"/>
-     <link out="Drawing" in="Composite_1" inport="0"/>
-     <link out="Mr" in="Composite_1" inport="1"/>
+     <link out="Mr._Penguin_Rig" in="Composite_1" inport="2"/>
+     <link out="Mr" in="Composite_1" inport="0"/>
      <link out="Hat" in="Composite" inport="8"/>
      <link out="Nose" in="Composite" inport="7"/>
      <link out="eye_right" in="Composite" inport="6"/>
@@ -22546,7 +22534,7 @@
      <link out="LeftArm" in="Composite" inport="4"/>
      <link out="Right_Foot" in="Composite" inport="1"/>
      <link out="Left_Foot" in="Composite" inport="0"/>
-     <link out="Mr_1" in="Composite_1" inport="2"/>
+     <link out="Mr_1" in="Composite_1" inport="1"/>
      <link out="Right_Arm" in="Composite" inport="3"/>
      <link out="Body" in="Composite" inport="2"/>
      <link out="Composite_1" in="Write"/>
@@ -22560,8 +22548,6 @@
      <link out="Deformation-Body" in="KinematicOutput_2"/>
      <link out="Deformation-Body" in="KinematicOutput_3"/>
      <link out="Deformation-Body" in="KinematicOutput_4"/>
-     <link out="Deformation-Body" in="KinematicOutput_5"/>
-     <link out="Deformation-Body" in="KinematicOutput_6"/>
      <link out="Deformation-eye_right" in="eye_right" inport="0"/>
      <link out="Deformation-Nose" in="Nose" inport="0"/>
      <link out="Deformation-Hat" in="Hat" inport="0"/>
@@ -22579,8 +22565,6 @@
      <link out="KinematicOutput_4" in="Peg_4"/>
      <link out="Deformation-Right_Foot" in="Right_Foot" inport="0"/>
      <link out="Deformation-Left_Foot" in="Left_Foot" inport="0"/>
-     <link out="KinematicOutput_5" in="Deformation-Right_Foot"/>
-     <link out="KinematicOutput_6" in="Deformation-Left_Foot"/>
     </linkedlist>
    </rootgroup>
    <unconnectedComposite>
