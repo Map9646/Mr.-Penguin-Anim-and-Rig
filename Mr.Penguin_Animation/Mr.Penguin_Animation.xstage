@@ -1484,7 +1484,7 @@
      <collapsed val="false"/>
     </options>
     <nodeslist>
-     <module type="COMPOSITE" name="Mr._Penguin_Rig" pos="159,-60,11" publishUnderTab="Composite">
+     <module type="COMPOSITE" name="Mr._Penguin_Rig" pos="159,-60,12" publishUnderTab="Composite">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -1503,13 +1503,13 @@
        <mergeVector val="false"/>
       </attrs>
      </module>
-     <module type="DISPLAY" name="Display" pos="335,159,7" publishUnderTab="Display">
+     <module type="DISPLAY" name="Display" pos="335,159,8" publishUnderTab="Display">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
      </module>
-     <module type="WRITE" name="Write" pos="53,159,6" publishUnderTab="Write">
+     <module type="WRITE" name="Write" pos="53,159,7" publishUnderTab="Write">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -1542,7 +1542,7 @@
        <cleanUpPartitionFolders val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="Drawing" pos="587,-131,12" publishUnderTab="Drawing">
+     <module type="READ" name="Drawing" pos="587,-131,2" publishUnderTab="Drawing">
       <options>
        <disabled val="true"/>
        <collapsed val="false"/>
@@ -2891,7 +2891,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="COMPOSITE" name="Composite_1" pos="178,43,9" publishUnderTab="Composite_1">
+     <module type="COMPOSITE" name="Composite_1" pos="178,43,10" publishUnderTab="Composite_1">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -2910,7 +2910,7 @@
        <mergeVector val="false"/>
       </attrs>
      </module>
-     <module type="COMPOSITE" name="Composite" pos="160,-157,10" publishUnderTab="Composite">
+     <module type="COMPOSITE" name="Composite" pos="160,-157,11" publishUnderTab="Composite">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -12071,7 +12071,7 @@
        <link out="11" in="Transformation-Switch" inport="11"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Nose" pos="-830,-533,1">
+     <group name="Deformation-Nose" pos="-830,-533,3">
       <options>
        <collapsed val="true"/>
        <subnodeCollapsed val="true"/>
@@ -16692,7 +16692,7 @@
        <link out="11" in="Transformation-Switch" inport="11"/>
       </linkedlist>
      </group>
-     <group name="Deformation-eyes_left" pos="-436,-469,4">
+     <group name="Deformation-eyes_left" pos="-436,-469,5">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
@@ -17746,7 +17746,7 @@
        <version val="1"/>
       </options>
      </module>
-     <group name="Deformation-Right_Foot" pos="281,-435,5">
+     <group name="Deformation-Right_Foot" pos="281,-435,6">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
@@ -20589,7 +20589,7 @@
        <link out="12" in="Transformation-Switch" inport="12"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Left_Foot" pos="470,-422,8">
+     <group name="Deformation-Left_Foot" pos="470,-422,9">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
@@ -22930,13 +22930,13 @@
        <link out="12" in="Transformation-Switch" inport="12"/>
       </linkedlist>
      </group>
-     <module type="KinematicOutputModule" name="KinematicOutput_5" pos="-597,-778,3" publishUnderTab="KinematicOutput_5">
+     <module type="KinematicOutputModule" name="KinematicOutput_5" pos="-597,-778,4" publishUnderTab="KinematicOutput_5">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
      </module>
-     <module type="PEG" name="Peg_5" pos="-750,-678,2" publishUnderTab="Peg_5">
+     <module type="PEG" name="Peg_5" pos="-750,-678,1" publishUnderTab="Peg_5">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
