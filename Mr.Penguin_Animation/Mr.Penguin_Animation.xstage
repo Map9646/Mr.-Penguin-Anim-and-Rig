@@ -22930,11 +22930,73 @@
        <link out="12" in="Transformation-Switch" inport="12"/>
       </linkedlist>
      </group>
-     <module type="KinematicOutputModule" name="KinematicOutput_5" pos="-597,-778,2" publishUnderTab="KinematicOutput_5">
+     <module type="KinematicOutputModule" name="KinematicOutput_5" pos="-597,-778,3" publishUnderTab="KinematicOutput_5">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
+     </module>
+     <module type="PEG" name="Peg_5" pos="-750,-678,2" publishUnderTab="Peg_5">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <enable3d val="false"/>
+       <faceCamera val="false"/>
+       <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
+       <position>
+        <separate val="false"/>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </position>
+       <scale>
+        <separate val="true"/>
+        <inFields val="false"/>
+        <xy val="1" defaultValue="1"/>
+        <x val="1" defaultValue="1"/>
+        <y val="1" defaultValue="1"/>
+        <z val="1" defaultValue="1"/>
+       </scale>
+       <rotation>
+        <separate val="false"/>
+        <anglex val="0" defaultValue="0"/>
+        <angley val="0" defaultValue="0"/>
+        <anglez val="0" defaultValue="0"/>
+       </rotation>
+       <angle val="0" defaultValue="0"/>
+       <skew val="0" defaultValue="0"/>
+       <pivot>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </pivot>
+       <splineOffset>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </splineOffset>
+       <ignoreParentPegScaling val="false"/>
+       <disableFieldRendering val="false"/>
+       <depth val="0"/>
+       <enableMinMaxAngle val="false"/>
+       <minAngle val="-360" defaultValue="-360"/>
+       <maxAngle val="360" defaultValue="360"/>
+       <nailForChildren val="false"/>
+       <ikHoldOrientation val="false"/>
+       <ikHoldX val="false"/>
+       <ikHoldY val="false"/>
+       <ikExcluded val="false"/>
+       <ikCanRotate val="true"/>
+       <ikCanTranslateX val="false"/>
+       <ikCanTranslateY val="false"/>
+       <ikBoneX val="0.20000000000000001" defaultValue="0.20000000000000001"/>
+       <ikBoneY val="0" defaultValue="0"/>
+       <ikStiffness val="1" defaultValue="1"/>
+       <groupAtNetworkBuilding val="false"/>
+       <addCompositeToGroup val="true"/>
+      </attrs>
      </module>
     </nodeslist>
     <linkedlist>
@@ -22978,7 +23040,8 @@
      <link out="KinematicOutput_4" in="Peg_4"/>
      <link out="Deformation-Right_Foot" in="Right_Foot" inport="0"/>
      <link out="Deformation-Left_Foot" in="Left_Foot" inport="0"/>
-     <link out="KinematicOutput_5" in="Deformation-Nose"/>
+     <link out="KinematicOutput_5" in="Peg_5"/>
+     <link out="Peg_5" in="Deformation-Nose"/>
     </linkedlist>
    </rootgroup>
    <unconnectedComposite>
