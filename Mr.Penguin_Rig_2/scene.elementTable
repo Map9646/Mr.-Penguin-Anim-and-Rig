@@ -14,4 +14,5 @@
  <element id="26" elementName="Mr" elementFolder="Mr.26" pixmapFormat="10" scanType="2" fieldChart="12" vectorType="0" rootFolder="elements"/>
  <element id="29" elementName="pupilright" elementFolder="pupilright" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="30" elementName="pupilleft" elementFolder="pupilleft" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="32" elementName="Background_Design" elementFolder="Background_Design" pixmapFormat="10" scanType="2" fieldChart="12" vectorType="0" rootFolder="elements"/>
 </elements>
