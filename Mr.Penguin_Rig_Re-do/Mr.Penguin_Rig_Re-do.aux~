@@ -1,40 +1,97 @@
 <!DOCTYPE SceneVersion>
-<SceneVersion VersionName="Mr.Penguin_Rig_Re-do" Modified="2021-09-29 12:32:53" ID="1">
+<SceneVersion VersionName="Mr.Penguin_Rig_Re-do" Modified="2021-09-30 08:55:28" ID="1">
  <Element Name="Body" ID="1" Folder="Body">
   <Drawing Key="" Name="1" Version="1"/>
   <Drawing Key="" Name="2" Version="1"/>
   <Drawing Key="" Name="3" Version="1"/>
   <Drawing Key="" Name="4" Version="1"/>
+  <Drawing Key="" Name="5" Version="1"/>
+  <Drawing Key="" Name="6" Version="1"/>
+  <Drawing Key="" Name="7" Version="1"/>
+  <Drawing Key="" Name="8" Version="1"/>
+  <Drawing Key="" Name="9" Version="1"/>
+  <Drawing Key="" Name="10" Version="1"/>
+  <Drawing Key="" Name="11" Version="1"/>
+  <Drawing Key="" Name="12" Version="1"/>
+  <Drawing Key="" Name="13" Version="1"/>
  </Element>
  <Element Name="Arm_Left" ID="2" Folder="Arm_Left">
   <Drawing Key="" Name="1" Version="1"/>
   <Drawing Key="" Name="2" Version="1"/>
   <Drawing Key="" Name="3" Version="1"/>
+  <Drawing Key="" Name="4" Version="1"/>
+  <Drawing Key="" Name="5" Version="1"/>
+  <Drawing Key="" Name="6" Version="1"/>
+  <Drawing Key="" Name="7" Version="1"/>
+  <Drawing Key="" Name="8" Version="1"/>
+  <Drawing Key="" Name="9" Version="1"/>
+  <Drawing Key="" Name="10" Version="1"/>
+  <Drawing Key="" Name="11" Version="1"/>
  </Element>
  <Element Name="Arm_Right" ID="3" Folder="Arm_Right">
   <Drawing Key="" Name="1" Version="1"/>
   <Drawing Key="" Name="2" Version="1"/>
   <Drawing Key="" Name="3" Version="1"/>
+  <Drawing Key="" Name="4" Version="1"/>
+  <Drawing Key="" Name="5" Version="1"/>
+  <Drawing Key="" Name="6" Version="1"/>
+  <Drawing Key="" Name="7" Version="1"/>
+  <Drawing Key="" Name="8" Version="1"/>
+  <Drawing Key="" Name="9" Version="1"/>
+  <Drawing Key="" Name="10" Version="1"/>
+  <Drawing Key="" Name="11" Version="1"/>
  </Element>
  <Element Name="Foot_Right" ID="4" Folder="Foot_Right">
   <Drawing Key="" Name="1" Version="1"/>
   <Drawing Key="" Name="2" Version="1"/>
   <Drawing Key="" Name="3" Version="1"/>
+  <Drawing Key="" Name="4" Version="1"/>
+  <Drawing Key="" Name="5" Version="1"/>
+  <Drawing Key="" Name="6" Version="1"/>
+  <Drawing Key="" Name="7" Version="1"/>
+  <Drawing Key="" Name="8" Version="1"/>
+  <Drawing Key="" Name="9" Version="1"/>
+  <Drawing Key="" Name="10" Version="1"/>
+  <Drawing Key="" Name="11" Version="1"/>
  </Element>
  <Element Name="Foot_Left" ID="5" Folder="Foot_Left">
   <Drawing Key="" Name="1" Version="1"/>
   <Drawing Key="" Name="2" Version="1"/>
   <Drawing Key="" Name="3" Version="1"/>
+  <Drawing Key="" Name="4" Version="1"/>
+  <Drawing Key="" Name="5" Version="1"/>
+  <Drawing Key="" Name="6" Version="1"/>
+  <Drawing Key="" Name="7" Version="1"/>
+  <Drawing Key="" Name="8" Version="1"/>
+  <Drawing Key="" Name="9" Version="1"/>
+  <Drawing Key="" Name="10" Version="1"/>
+  <Drawing Key="" Name="11" Version="1"/>
  </Element>
  <Element Name="Eye_right" ID="6" Folder="Eye_right">
   <Drawing Key="" Name="1" Version="1"/>
   <Drawing Key="" Name="2" Version="1"/>
   <Drawing Key="" Name="3" Version="1"/>
+  <Drawing Key="" Name="4" Version="1"/>
+  <Drawing Key="" Name="5" Version="1"/>
+  <Drawing Key="" Name="6" Version="1"/>
+  <Drawing Key="" Name="7" Version="1"/>
+  <Drawing Key="" Name="8" Version="1"/>
+  <Drawing Key="" Name="9" Version="1"/>
+  <Drawing Key="" Name="10" Version="1"/>
+  <Drawing Key="" Name="11" Version="1"/>
  </Element>
  <Element Name="Eye_Left" ID="7" Folder="Eye_Left">
   <Drawing Key="" Name="1" Version="1"/>
   <Drawing Key="" Name="2" Version="1"/>
   <Drawing Key="" Name="3" Version="1"/>
+  <Drawing Key="" Name="4" Version="1"/>
+  <Drawing Key="" Name="5" Version="1"/>
+  <Drawing Key="" Name="6" Version="1"/>
+  <Drawing Key="" Name="7" Version="1"/>
+  <Drawing Key="" Name="8" Version="1"/>
+  <Drawing Key="" Name="9" Version="1"/>
+  <Drawing Key="" Name="10" Version="1"/>
+  <Drawing Key="" Name="11" Version="1"/>
  </Element>
  <Element Name="Hat" ID="8" Folder="Hat">
   <Drawing Key="" Name="1" Version="1"/>
@@ -43,6 +100,14 @@
   <Drawing Key="" Name="1" Version="1"/>
   <Drawing Key="" Name="2" Version="1"/>
   <Drawing Key="" Name="3" Version="1"/>
+  <Drawing Key="" Name="4" Version="1"/>
+  <Drawing Key="" Name="5" Version="1"/>
+  <Drawing Key="" Name="6" Version="1"/>
+  <Drawing Key="" Name="7" Version="1"/>
+  <Drawing Key="" Name="8" Version="1"/>
+  <Drawing Key="" Name="9" Version="1"/>
+  <Drawing Key="" Name="10" Version="1"/>
+  <Drawing Key="" Name="11" Version="1"/>
  </Element>
  <Element Name="Background_Design" ID="10" Folder="Background_Design">
   <Drawing Key="" Name="1" Version="1"/>
