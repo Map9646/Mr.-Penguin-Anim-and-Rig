@@ -6,42 +6,49 @@
     <dwg name="1"/>
     <dwg name="2"/>
     <dwg name="3"/>
+    <dwg name="4"/>
    </drawings>
   </element>
   <element id="2" elementName="Arm_Left" elementFolder="Arm_Left" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
     <dwg name="1"/>
     <dwg name="2"/>
+    <dwg name="3"/>
    </drawings>
   </element>
   <element id="3" elementName="Arm_Right" elementFolder="Arm_Right" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
     <dwg name="1"/>
     <dwg name="2"/>
+    <dwg name="3"/>
    </drawings>
   </element>
   <element id="4" elementName="Foot_Right" elementFolder="Foot_Right" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
     <dwg name="1"/>
     <dwg name="2"/>
+    <dwg name="3"/>
    </drawings>
   </element>
   <element id="5" elementName="Foot_Left" elementFolder="Foot_Left" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
     <dwg name="1"/>
     <dwg name="2"/>
+    <dwg name="3"/>
    </drawings>
   </element>
   <element id="6" elementName="Eye_right" elementFolder="Eye_right" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
     <dwg name="1"/>
     <dwg name="2"/>
+    <dwg name="3"/>
    </drawings>
   </element>
   <element id="7" elementName="Eye_Left" elementFolder="Eye_Left" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
     <dwg name="1"/>
     <dwg name="2"/>
+    <dwg name="3"/>
    </drawings>
   </element>
   <element id="8" elementName="Hat" elementFolder="Hat" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -53,6 +60,7 @@
    <drawings>
     <dwg name="1"/>
     <dwg name="2"/>
+    <dwg name="3"/>
    </drawings>
   </element>
   <element id="10" elementName="Background_Design" elementFolder="Background_Design" pixmapFormat="10" scanType="2" fieldChart="12" vectorType="0" rootFolder="elements">
@@ -85,40 +93,48 @@
    <columns>
     <column type="0" name="Body" displayOrder="0" width="100" anonymous="true" id="1">
      <elementSeq exposures="1" val="1" id="1"/>
-     <elementSeq exposures="2" val="3" id="1"/>
+     <elementSeq exposures="2" val="4" id="1"/>
+     <elementSeq exposures="3" val="3" id="1"/>
     </column>
     <column type="0" name="ATV-0ACF4EBBB5B0F88E" displayOrder="0" width="100" anonymous="true" id="2">
      <elementSeq exposures="1" val="1" id="2"/>
-     <elementSeq exposures="2" val="2" id="2"/>
+     <elementSeq exposures="2" val="3" id="2"/>
+     <elementSeq exposures="3" val="2" id="2"/>
     </column>
     <column type="0" name="ATV-0ACF4EBBB5B0F8EA" displayOrder="0" width="100" anonymous="true" id="3">
      <elementSeq exposures="1" val="1" id="3"/>
-     <elementSeq exposures="2" val="2" id="3"/>
+     <elementSeq exposures="2" val="3" id="3"/>
+     <elementSeq exposures="3" val="2" id="3"/>
     </column>
     <column type="0" name="ATV-0ACF4EBBB5B0F950" displayOrder="0" width="100" anonymous="true" id="4">
      <elementSeq exposures="1" val="1" id="4"/>
-     <elementSeq exposures="2" val="2" id="4"/>
+     <elementSeq exposures="2" val="3" id="4"/>
+     <elementSeq exposures="3" val="2" id="4"/>
     </column>
     <column type="0" name="ATV-0ACF4EBBB5B0F9B6" displayOrder="0" width="100" anonymous="true" id="5">
      <elementSeq exposures="1" val="1" id="5"/>
-     <elementSeq exposures="2" val="2" id="5"/>
+     <elementSeq exposures="2" val="3" id="5"/>
+     <elementSeq exposures="3" val="2" id="5"/>
     </column>
     <column type="0" name="ATV-0ACF4EBBB5B0FA1C" displayOrder="0" width="100" anonymous="true" id="6">
      <elementSeq exposures="1" val="1" id="6"/>
-     <elementSeq exposures="2" val="2" id="6"/>
+     <elementSeq exposures="2" val="3" id="6"/>
+     <elementSeq exposures="3" val="2" id="6"/>
     </column>
     <column type="0" name="ATV-0ACF4EBBB5B0FA82" displayOrder="0" width="100" anonymous="true" id="7">
      <elementSeq exposures="1" val="1" id="7"/>
-     <elementSeq exposures="2" val="2" id="7"/>
+     <elementSeq exposures="2" val="3" id="7"/>
+     <elementSeq exposures="3" val="2" id="7"/>
     </column>
     <column type="0" name="ATV-0ACF4EBBB5B0FAE8" displayOrder="0" width="100" anonymous="true" id="8">
      <elementSeq exposures="1" val="1" id="8"/>
     </column>
     <column type="0" name="ATV-0ACF4EBBB5B0FB4E" displayOrder="0" width="100" anonymous="true" id="9">
      <elementSeq exposures="1" val="1" id="9"/>
-     <elementSeq exposures="2" val="2" id="9"/>
+     <elementSeq exposures="2" val="3" id="9"/>
+     <elementSeq exposures="3" val="2" id="9"/>
     </column>
-    <column type="0" name="ATV-0ACF4EBBB5B10292" display="false" displayOrder="0" width="100" anonymous="true" id="10">
+    <column type="0" name="ATV-0ACF4EBBB5B10292" displayOrder="0" width="100" anonymous="true" id="10">
      <elementSeq exposures="1-60" val="1" id="10"/>
     </column>
     <column type="3" name="ATV-0ACF4EBBB5B111CD" displayOrder="0" width="100" anonymous="true">
@@ -210,10 +226,14 @@
         <filterResY val="540"/>
        </enabling>
        <scriptMovie val="false"/>
-       <scriptEditor val="// Following code will be called at the end of Write Node rendering
+       <scriptEditor>
+        <val>
+         <![CDATA[// Following code will be called at the end of Write Node rendering
 // operations to create a movie file from rendered images.
 
-// ..."/>
+// ...]]>
+        </val>
+       </scriptEditor>
        <colorSpace/>
        <compositePartitioning val="NoCompositePartitioning"/>
        <zPartitionRange val="1" defaultValue="1"/>
@@ -1119,6 +1139,7 @@
      </module>
      <module type="READ" name="Body" pos="-353,-96,13" publishUnderTab="Drawing">
       <options>
+       <showTimelineThumb val="true"/>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
@@ -1206,7 +1227,7 @@
        <enableLineTexture val="true"/>
        <antialiasingQuality val="HIGH"/>
        <antialiasingExponent val="1" defaultValue="1"/>
-       <opacity val="100" defaultValue="100"/>
+       <opacity val="67" defaultValue="100"/>
        <textureFilter val="NEAREST_FILTERED"/>
        <adjustPencilThickness val="false"/>
        <normalLineArtThickness val="true"/>
