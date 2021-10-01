@@ -318,7 +318,7 @@
      <step val="1" start="1" stop="1"/>
      <noFrames/>
     </column>
-    <column type="0" name="ATV-0ACF50A641E015B6" displayOrder="0" width="100" anonymous="true" id="11">
+    <column type="0" name="ATV-0ACF50A641E015B6" display="false" displayOrder="0" width="100" anonymous="true" id="11">
      <elementSeq exposures="1-60" val="1" id="11"/>
     </column>
    </columns>
@@ -1405,6 +1405,7 @@
      </module>
      <module type="READ" name="Mr" pos="177,23,2" publishUnderTab="Mr">
       <options>
+       <disabled val="true"/>
        <showTimelineThumb val="true"/>
        <collapsed val="false"/>
        <version val="1"/>
@@ -1518,7 +1519,6 @@
      </module>
      <module type="READ" name="Background_Design" pos="-288,117,5" publishUnderTab="Background_Design">
       <options>
-       <disabled val="true"/>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
