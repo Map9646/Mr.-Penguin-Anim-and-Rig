@@ -379,10 +379,14 @@
         <filterResY val="540"/>
        </enabling>
        <scriptMovie val="false"/>
-       <scriptEditor val="// Following code will be called at the end of Write Node rendering
+       <scriptEditor>
+        <val>
+         <![CDATA[// Following code will be called at the end of Write Node rendering
 // operations to create a movie file from rendered images.
 
-// ..."/>
+// ...]]>
+        </val>
+       </scriptEditor>
        <colorSpace/>
        <compositePartitioning val="NoCompositePartitioning"/>
        <zPartitionRange val="1" defaultValue="1"/>
