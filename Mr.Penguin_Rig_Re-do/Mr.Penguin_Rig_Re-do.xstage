@@ -1329,7 +1329,6 @@
      </module>
      <module type="READ" name="Body" pos="114,-580,23" publishUnderTab="Drawing">
       <options>
-       <showTimelineThumb val="true"/>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
@@ -1669,7 +1668,7 @@
      </module>
      <group name="Deformation-Body" pos="-68,-1104,1">
       <options>
-       <collapsed val="true"/>
+       <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
        <showsPublished val="true"/>
       </options>
@@ -15447,7 +15446,7 @@
      </group>
      <group name="Deformation-Foot_Right" pos="419,-293,4">
       <options>
-       <collapsed val="true"/>
+       <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
        <showsPublished val="true"/>
       </options>
@@ -17534,7 +17533,7 @@
      </group>
      <group name="Deformation-Foot_Left" pos="320,-457,2">
       <options>
-       <collapsed val="true"/>
+       <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
        <showsPublished val="true"/>
       </options>
