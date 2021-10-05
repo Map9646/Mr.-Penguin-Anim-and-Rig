@@ -362,7 +362,7 @@
      <collapsed val="false"/>
     </options>
     <nodeslist>
-     <module type="COMPOSITE" name="Composite" pos="-27,0,11" publishUnderTab="Composite">
+     <module type="COMPOSITE" name="Composite" pos="-27,0,13" publishUnderTab="Composite">
       <options>
        <collapsed val="false"/>
        <nodeShowThumbnail val="true"/>
@@ -382,13 +382,13 @@
        <mergeVector val="false"/>
       </attrs>
      </module>
-     <module type="DISPLAY" name="Display" pos="90,138,13" publishUnderTab="Display">
+     <module type="DISPLAY" name="Display" pos="90,138,15" publishUnderTab="Display">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
      </module>
-     <module type="WRITE" name="Write" pos="-52,138,14" publishUnderTab="Write">
+     <module type="WRITE" name="Write" pos="-52,138,16" publishUnderTab="Write">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -425,7 +425,7 @@
        <cleanUpPartitionFolders val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="Foot_Right" pos="295,-199,18" publishUnderTab="Foot_Right">
+     <module type="READ" name="Foot_Right" pos="295,-199,19" publishUnderTab="Foot_Right">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -537,7 +537,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Foot_Left" pos="174,-256,19" publishUnderTab="Foot_Left">
+     <module type="READ" name="Foot_Left" pos="174,-256,20" publishUnderTab="Foot_Left">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -649,7 +649,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Hat" pos="-376,9,23" publishUnderTab="Hat">
+     <module type="READ" name="Hat" pos="-376,9,24" publishUnderTab="Hat">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -761,7 +761,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Nose" pos="-262,-152,22" publishUnderTab="Nose">
+     <module type="READ" name="Nose" pos="-262,-152,23" publishUnderTab="Nose">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -873,7 +873,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Eye_Left" pos="-183,-234,21" publishUnderTab="Eye_Left">
+     <module type="READ" name="Eye_Left" pos="-183,-234,22" publishUnderTab="Eye_Left">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -985,7 +985,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Eye_right" pos="-13,-273,20" publishUnderTab="Eye_right">
+     <module type="READ" name="Eye_right" pos="-13,-273,21" publishUnderTab="Eye_right">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -1097,7 +1097,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Arm_Right" pos="398,-120,17" publishUnderTab="Arm_Right">
+     <module type="READ" name="Arm_Right" pos="398,-120,18" publishUnderTab="Arm_Right">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -1209,10 +1209,9 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Arm_Left" pos="400,14,16" publishUnderTab="Arm_Left">
+     <module type="READ" name="Arm_Left" pos="-152,-323,4" publishUnderTab="Arm_Left">
       <options>
        <collapsed val="false"/>
-       <nodeShowThumbnail val="true"/>
        <version val="1"/>
       </options>
       <attrs>
@@ -1322,7 +1321,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Body" pos="-353,-96,4" publishUnderTab="Drawing">
+     <module type="READ" name="Body" pos="81,-273,6" publishUnderTab="Drawing">
       <options>
        <showTimelineThumb val="true"/>
        <collapsed val="false"/>
@@ -1435,7 +1434,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Mr" pos="177,23,12" publishUnderTab="Mr">
+     <module type="READ" name="Mr" pos="177,23,14" publishUnderTab="Mr">
       <options>
        <disabled val="true"/>
        <showTimelineThumb val="true"/>
@@ -1549,7 +1548,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Background_Design" pos="-288,117,15" publishUnderTab="Background_Design">
+     <module type="READ" name="Background_Design" pos="-288,117,17" publishUnderTab="Background_Design">
       <options>
        <showTimelineThumb val="true"/>
        <collapsed val="false"/>
@@ -1662,7 +1661,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <group name="Deformation-Body" pos="-581,-181,5">
+     <group name="Deformation-Body" pos="-416,-1014,5">
       <options>
        <collapsed val="true"/>
        <subnodeCollapsed val="true"/>
@@ -4229,7 +4228,7 @@
        <link out="10" in="Transformation-Switch" inport="10"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Arm_Left" pos="400,-36,10">
+     <group name="Deformation-Arm_Left" pos="-201,-438,3">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
@@ -7677,7 +7676,7 @@
        <link out="11" in="Transformation-Switch" inport="11"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Arm_Right" pos="398,-170,9">
+     <group name="Deformation-Arm_Right" pos="430,-174,1">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
@@ -10647,7 +10646,7 @@
        <link out="11" in="Transformation-Switch" inport="11"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Eye_right" pos="-13,-323,8">
+     <group name="Deformation-Eye_right" pos="-13,-323,12">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
@@ -11358,7 +11357,7 @@
        <link out="10" in="Transformation-Switch" inport="10"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Eye_Left" pos="-183,-284,7">
+     <group name="Deformation-Eye_Left" pos="-183,-284,11">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
@@ -12069,7 +12068,7 @@
        <link out="10" in="Transformation-Switch" inport="10"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Nose" pos="-262,-202,6">
+     <group name="Deformation-Nose" pos="-262,-202,10">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
@@ -12777,7 +12776,7 @@
        <link out="9" in="Transformation-Switch" inport="9"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Hat" pos="-376,-41,3">
+     <group name="Deformation-Hat" pos="-376,-41,9">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
@@ -15440,7 +15439,7 @@
        <link out="10" in="Transformation-Switch" inport="10"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Foot_Right" pos="295,-249,2">
+     <group name="Deformation-Foot_Right" pos="295,-249,8">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
@@ -17527,7 +17526,7 @@
        <link out="10" in="Transformation-Switch" inport="10"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Foot_Left" pos="174,-306,1">
+     <group name="Deformation-Foot_Left" pos="174,-306,7">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
