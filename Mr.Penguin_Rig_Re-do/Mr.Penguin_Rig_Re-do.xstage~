@@ -320,38 +320,48 @@
      <step val="1" start="1" stop="1"/>
      <noFrames/>
     </column>
-    <column type="0" name="ATV-0ACF50A641E015B6" display="false" displayOrder="0" width="100" anonymous="true" id="11">
+    <column type="0" name="ATV-0ACF50A641E015B6" displayOrder="0" width="100" anonymous="true" id="11">
      <elementSeq exposures="1-60" val="1" id="11"/>
     </column>
     <column type="3" name="ATV-0AD0515AECC39E3E" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
+     <noFrames/>
     </column>
     <column type="3" name="ATV-0AD0515AECC39E3F" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
+     <noFrames/>
     </column>
     <column type="3" name="ATV-0AD0515AECC39E40" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
+     <noFrames/>
     </column>
     <column type="3" name="ATV-0AD0515AECC39E41" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
+     <noFrames/>
     </column>
     <column type="3" name="ATV-0AD0515AECC4851F" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
+     <noFrames/>
     </column>
     <column type="3" name="ATV-0AD0515AECC48520" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
+     <noFrames/>
     </column>
     <column type="3" name="ATV-0AD0515AECC48521" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
+     <noFrames/>
     </column>
     <column type="3" name="ATV-0AD0515AECC4A5FB" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
+     <noFrames/>
     </column>
     <column type="3" name="ATV-0AD0515AECC4A5FC" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
+     <noFrames/>
     </column>
     <column type="3" name="ATV-0AD0515AECC4A5FD" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
+     <noFrames/>
     </column>
    </columns>
    <options>
@@ -362,7 +372,7 @@
      <collapsed val="false"/>
     </options>
     <nodeslist>
-     <module type="COMPOSITE" name="Composite" pos="-27,0,13" publishUnderTab="Composite">
+     <module type="COMPOSITE" name="Composite" pos="-27,0,31" publishUnderTab="Composite">
       <options>
        <collapsed val="false"/>
        <nodeShowThumbnail val="true"/>
@@ -382,13 +392,13 @@
        <mergeVector val="false"/>
       </attrs>
      </module>
-     <module type="DISPLAY" name="Display" pos="90,138,15" publishUnderTab="Display">
+     <module type="DISPLAY" name="Display" pos="90,138,33" publishUnderTab="Display">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
      </module>
-     <module type="WRITE" name="Write" pos="-52,138,16" publishUnderTab="Write">
+     <module type="WRITE" name="Write" pos="-52,138,34" publishUnderTab="Write">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -411,21 +421,17 @@
         <filterResY val="540"/>
        </enabling>
        <scriptMovie val="false"/>
-       <scriptEditor>
-        <val>
-         <![CDATA[// Following code will be called at the end of Write Node rendering
+       <scriptEditor val="// Following code will be called at the end of Write Node rendering
 // operations to create a movie file from rendered images.
 
-// ...]]>
-        </val>
-       </scriptEditor>
+// ..."/>
        <colorSpace/>
        <compositePartitioning val="NoCompositePartitioning"/>
        <zPartitionRange val="1" defaultValue="1"/>
        <cleanUpPartitionFolders val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="Foot_Right" pos="295,-199,19" publishUnderTab="Foot_Right">
+     <module type="READ" name="Foot_Right" pos="295,-199,3" publishUnderTab="Foot_Right">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -537,7 +543,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Foot_Left" pos="174,-256,20" publishUnderTab="Foot_Left">
+     <module type="READ" name="Foot_Left" pos="244,-346,5" publishUnderTab="Foot_Left">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -649,7 +655,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Hat" pos="-376,9,24" publishUnderTab="Hat">
+     <module type="READ" name="Hat" pos="-520,-16,29" publishUnderTab="Hat">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -761,7 +767,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Nose" pos="-262,-152,23" publishUnderTab="Nose">
+     <module type="READ" name="Nose" pos="-466,-174,26" publishUnderTab="Nose">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -873,7 +879,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Eye_Left" pos="-183,-234,22" publishUnderTab="Eye_Left">
+     <module type="READ" name="Eye_Left" pos="-349,-266,24" publishUnderTab="Eye_Left">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -985,7 +991,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Eye_right" pos="-13,-273,21" publishUnderTab="Eye_right">
+     <module type="READ" name="Eye_right" pos="-38,-403,22" publishUnderTab="Eye_right">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -1097,7 +1103,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Arm_Right" pos="398,-120,18" publishUnderTab="Arm_Right">
+     <module type="READ" name="Arm_Right" pos="484,-102,21" publishUnderTab="Arm_Right">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -1209,7 +1215,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Arm_Left" pos="-152,-323,4" publishUnderTab="Arm_Left">
+     <module type="READ" name="Arm_Left" pos="-152,-323,30" publishUnderTab="Arm_Left">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -1321,7 +1327,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Body" pos="81,-273,6" publishUnderTab="Drawing">
+     <module type="READ" name="Body" pos="114,-580,23" publishUnderTab="Drawing">
       <options>
        <showTimelineThumb val="true"/>
        <collapsed val="false"/>
@@ -1434,7 +1440,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Mr" pos="177,23,14" publishUnderTab="Mr">
+     <module type="READ" name="Mr" pos="177,23,32" publishUnderTab="Mr">
       <options>
        <disabled val="true"/>
        <showTimelineThumb val="true"/>
@@ -1548,7 +1554,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Background_Design" pos="-288,117,17" publishUnderTab="Background_Design">
+     <module type="READ" name="Background_Design" pos="-288,117,35" publishUnderTab="Background_Design">
       <options>
        <showTimelineThumb val="true"/>
        <collapsed val="false"/>
@@ -1661,7 +1667,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <group name="Deformation-Body" pos="-416,-1014,5">
+     <group name="Deformation-Body" pos="-68,-1104,1">
       <options>
        <collapsed val="true"/>
        <subnodeCollapsed val="true"/>
@@ -4228,9 +4234,9 @@
        <link out="10" in="Transformation-Switch" inport="10"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Arm_Left" pos="-201,-438,3">
+     <group name="Deformation-Arm_Left" pos="-325,-485,28">
       <options>
-       <collapsed val="false"/>
+       <collapsed val="true"/>
        <subnodeCollapsed val="true"/>
        <showsPublished val="true"/>
       </options>
@@ -7655,7 +7661,6 @@
        <link out="Multi-Port-In" in="Transformation-Switch" inport="0"/>
        <link out="Multi-Port-In" in="2"/>
        <link out="Multi-Port-In" in="3"/>
-       <link out="Multi-Port-In" in="Transformation-Switch" inport="4"/>
        <link out="Multi-Port-In" in="5"/>
        <link out="Multi-Port-In" in="6"/>
        <link out="Multi-Port-In" in="7"/>
@@ -7663,6 +7668,7 @@
        <link out="Multi-Port-In" in="9"/>
        <link out="Multi-Port-In" in="10"/>
        <link out="Multi-Port-In" in="11"/>
+       <link out="Multi-Port-In" in="Transformation-Switch" inport="4"/>
        <link out="1" in="Transformation-Switch" inport="1"/>
        <link out="Transformation-Switch" in="Multi-Port-Out"/>
        <link out="2" in="Transformation-Switch" inport="2"/>
@@ -7676,9 +7682,9 @@
        <link out="11" in="Transformation-Switch" inport="11"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Arm_Right" pos="430,-174,1">
+     <group name="Deformation-Arm_Right" pos="668,-367,8">
       <options>
-       <collapsed val="false"/>
+       <collapsed val="true"/>
        <subnodeCollapsed val="true"/>
        <showsPublished val="true"/>
       </options>
@@ -10623,7 +10629,6 @@
       </nodeslist>
       <linkedlist>
        <link out="Multi-Port-In" in="Transformation-Switch" inport="0"/>
-       <link out="Multi-Port-In" in="Transformation-Switch" inport="1"/>
        <link out="Multi-Port-In" in="2"/>
        <link out="Multi-Port-In" in="3"/>
        <link out="Multi-Port-In" in="4"/>
@@ -10631,9 +10636,10 @@
        <link out="Multi-Port-In" in="6"/>
        <link out="Multi-Port-In" in="7"/>
        <link out="Multi-Port-In" in="8"/>
-       <link out="Multi-Port-In" in="Transformation-Switch" inport="9"/>
        <link out="Multi-Port-In" in="10"/>
        <link out="Multi-Port-In" in="11"/>
+       <link out="Multi-Port-In" in="Transformation-Switch" inport="1"/>
+       <link out="Multi-Port-In" in="Transformation-Switch" inport="9"/>
        <link out="Transformation-Switch" in="Multi-Port-Out"/>
        <link out="2" in="Transformation-Switch" inport="2"/>
        <link out="3" in="Transformation-Switch" inport="3"/>
@@ -10646,9 +10652,9 @@
        <link out="11" in="Transformation-Switch" inport="11"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Eye_right" pos="-13,-323,12">
+     <group name="Deformation-Eye_right" pos="-160,-601,20">
       <options>
-       <collapsed val="false"/>
+       <collapsed val="true"/>
        <subnodeCollapsed val="true"/>
        <showsPublished val="true"/>
       </options>
@@ -11342,12 +11348,12 @@
        <link out="Multi-Port-In" in="2"/>
        <link out="Multi-Port-In" in="3"/>
        <link out="Multi-Port-In" in="4"/>
+       <link out="Multi-Port-In" in="9"/>
+       <link out="Multi-Port-In" in="10"/>
        <link out="Multi-Port-In" in="Transformation-Switch" inport="5"/>
        <link out="Multi-Port-In" in="Transformation-Switch" inport="6"/>
        <link out="Multi-Port-In" in="Transformation-Switch" inport="7"/>
        <link out="Multi-Port-In" in="Transformation-Switch" inport="8"/>
-       <link out="Multi-Port-In" in="9"/>
-       <link out="Multi-Port-In" in="10"/>
        <link out="1" in="Transformation-Switch" inport="1"/>
        <link out="Transformation-Switch" in="Multi-Port-Out"/>
        <link out="2" in="Transformation-Switch" inport="2"/>
@@ -11357,9 +11363,9 @@
        <link out="10" in="Transformation-Switch" inport="10"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Eye_Left" pos="-183,-284,11">
+     <group name="Deformation-Eye_Left" pos="-549,-405,25">
       <options>
-       <collapsed val="false"/>
+       <collapsed val="true"/>
        <subnodeCollapsed val="true"/>
        <showsPublished val="true"/>
       </options>
@@ -12052,13 +12058,13 @@
        <link out="Multi-Port-In" in="Transformation-Switch" inport="0"/>
        <link out="Multi-Port-In" in="2"/>
        <link out="Multi-Port-In" in="3"/>
+       <link out="Multi-Port-In" in="8"/>
+       <link out="Multi-Port-In" in="9"/>
+       <link out="Multi-Port-In" in="10"/>
        <link out="Multi-Port-In" in="Transformation-Switch" inport="4"/>
        <link out="Multi-Port-In" in="Transformation-Switch" inport="5"/>
        <link out="Multi-Port-In" in="Transformation-Switch" inport="6"/>
        <link out="Multi-Port-In" in="Transformation-Switch" inport="7"/>
-       <link out="Multi-Port-In" in="8"/>
-       <link out="Multi-Port-In" in="9"/>
-       <link out="Multi-Port-In" in="10"/>
        <link out="1" in="Transformation-Switch" inport="1"/>
        <link out="Transformation-Switch" in="Multi-Port-Out"/>
        <link out="2" in="Transformation-Switch" inport="2"/>
@@ -12068,9 +12074,9 @@
        <link out="10" in="Transformation-Switch" inport="10"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Nose" pos="-262,-202,10">
+     <group name="Deformation-Nose" pos="-671,-283,27">
       <options>
-       <collapsed val="false"/>
+       <collapsed val="true"/>
        <subnodeCollapsed val="true"/>
        <showsPublished val="true"/>
       </options>
@@ -12761,12 +12767,12 @@
        <link out="Multi-Port-In" in="Transformation-Switch" inport="0"/>
        <link out="Multi-Port-In" in="2"/>
        <link out="Multi-Port-In" in="3"/>
-       <link out="Multi-Port-In" in="Transformation-Switch" inport="4"/>
-       <link out="Multi-Port-In" in="Transformation-Switch" inport="5"/>
-       <link out="Multi-Port-In" in="Transformation-Switch" inport="6"/>
        <link out="Multi-Port-In" in="7"/>
        <link out="Multi-Port-In" in="8"/>
        <link out="Multi-Port-In" in="9"/>
+       <link out="Multi-Port-In" in="Transformation-Switch" inport="4"/>
+       <link out="Multi-Port-In" in="Transformation-Switch" inport="5"/>
+       <link out="Multi-Port-In" in="Transformation-Switch" inport="6"/>
        <link out="1" in="Transformation-Switch" inport="1"/>
        <link out="Transformation-Switch" in="Multi-Port-Out"/>
        <link out="2" in="Transformation-Switch" inport="2"/>
@@ -12776,9 +12782,9 @@
        <link out="9" in="Transformation-Switch" inport="9"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Hat" pos="-376,-41,9">
+     <group name="Deformation-Hat" pos="-853,-186,11">
       <options>
-       <collapsed val="false"/>
+       <collapsed val="true"/>
        <subnodeCollapsed val="true"/>
        <showsPublished val="true"/>
       </options>
@@ -15439,9 +15445,9 @@
        <link out="10" in="Transformation-Switch" inport="10"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Foot_Right" pos="295,-249,8">
+     <group name="Deformation-Foot_Right" pos="419,-293,4">
       <options>
-       <collapsed val="false"/>
+       <collapsed val="true"/>
        <subnodeCollapsed val="true"/>
        <showsPublished val="true"/>
       </options>
@@ -17526,9 +17532,9 @@
        <link out="10" in="Transformation-Switch" inport="10"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Foot_Left" pos="174,-306,7">
+     <group name="Deformation-Foot_Left" pos="320,-457,2">
       <options>
-       <collapsed val="false"/>
+       <collapsed val="true"/>
        <subnodeCollapsed val="true"/>
        <showsPublished val="true"/>
       </options>
@@ -19637,6 +19643,414 @@
        <link out="10" in="Transformation-Switch" inport="10"/>
       </linkedlist>
      </group>
+     <module type="PEG" name="Peg" pos="-982,-354,10" publishUnderTab="Peg">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <enable3d val="false"/>
+       <faceCamera val="false"/>
+       <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
+       <position>
+        <separate val="true"/>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </position>
+       <scale>
+        <separate val="true"/>
+        <inFields val="false"/>
+        <xy val="1" defaultValue="1"/>
+        <x val="1" defaultValue="1"/>
+        <y val="1" defaultValue="1"/>
+        <z val="1" defaultValue="1"/>
+       </scale>
+       <rotation>
+        <separate val="false"/>
+        <anglex val="0" defaultValue="0"/>
+        <angley val="0" defaultValue="0"/>
+        <anglez val="0" defaultValue="0"/>
+       </rotation>
+       <angle val="0" defaultValue="0"/>
+       <skew val="0" defaultValue="0"/>
+       <pivot>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </pivot>
+       <splineOffset>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </splineOffset>
+       <ignoreParentPegScaling val="false"/>
+       <disableFieldRendering val="false"/>
+       <depth val="0"/>
+       <enableMinMaxAngle val="false"/>
+       <minAngle val="-360" defaultValue="-360"/>
+       <maxAngle val="360" defaultValue="360"/>
+       <nailForChildren val="false"/>
+       <ikHoldOrientation val="false"/>
+       <ikHoldX val="false"/>
+       <ikHoldY val="false"/>
+       <ikExcluded val="false"/>
+       <ikCanRotate val="true"/>
+       <ikCanTranslateX val="false"/>
+       <ikCanTranslateY val="false"/>
+       <ikBoneX val="0.20000000000000001" defaultValue="0.20000000000000001"/>
+       <ikBoneY val="0" defaultValue="0"/>
+       <ikStiffness val="1" defaultValue="1"/>
+       <groupAtNetworkBuilding val="false"/>
+       <addCompositeToGroup val="true"/>
+      </attrs>
+     </module>
+     <module type="PEG" name="Peg_1" pos="-719,-397,19" publishUnderTab="Peg_1">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <enable3d val="false"/>
+       <faceCamera val="false"/>
+       <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
+       <position>
+        <separate val="true"/>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </position>
+       <scale>
+        <separate val="true"/>
+        <inFields val="false"/>
+        <xy val="1" defaultValue="1"/>
+        <x val="1" defaultValue="1"/>
+        <y val="1" defaultValue="1"/>
+        <z val="1" defaultValue="1"/>
+       </scale>
+       <rotation>
+        <separate val="false"/>
+        <anglex val="0" defaultValue="0"/>
+        <angley val="0" defaultValue="0"/>
+        <anglez val="0" defaultValue="0"/>
+       </rotation>
+       <angle val="0" defaultValue="0"/>
+       <skew val="0" defaultValue="0"/>
+       <pivot>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </pivot>
+       <splineOffset>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </splineOffset>
+       <ignoreParentPegScaling val="false"/>
+       <disableFieldRendering val="false"/>
+       <depth val="0"/>
+       <enableMinMaxAngle val="false"/>
+       <minAngle val="-360" defaultValue="-360"/>
+       <maxAngle val="360" defaultValue="360"/>
+       <nailForChildren val="false"/>
+       <ikHoldOrientation val="false"/>
+       <ikHoldX val="false"/>
+       <ikHoldY val="false"/>
+       <ikExcluded val="false"/>
+       <ikCanRotate val="true"/>
+       <ikCanTranslateX val="false"/>
+       <ikCanTranslateY val="false"/>
+       <ikBoneX val="0.20000000000000001" defaultValue="0.20000000000000001"/>
+       <ikBoneY val="0" defaultValue="0"/>
+       <ikStiffness val="1" defaultValue="1"/>
+       <groupAtNetworkBuilding val="false"/>
+       <addCompositeToGroup val="true"/>
+      </attrs>
+     </module>
+     <module type="PEG" name="Peg_2" pos="-519,-500,18" publishUnderTab="Peg_2">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <enable3d val="false"/>
+       <faceCamera val="false"/>
+       <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
+       <position>
+        <separate val="true"/>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </position>
+       <scale>
+        <separate val="true"/>
+        <inFields val="false"/>
+        <xy val="1" defaultValue="1"/>
+        <x val="1" defaultValue="1"/>
+        <y val="1" defaultValue="1"/>
+        <z val="1" defaultValue="1"/>
+       </scale>
+       <rotation>
+        <separate val="false"/>
+        <anglex val="0" defaultValue="0"/>
+        <angley val="0" defaultValue="0"/>
+        <anglez val="0" defaultValue="0"/>
+       </rotation>
+       <angle val="0" defaultValue="0"/>
+       <skew val="0" defaultValue="0"/>
+       <pivot>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </pivot>
+       <splineOffset>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </splineOffset>
+       <ignoreParentPegScaling val="false"/>
+       <disableFieldRendering val="false"/>
+       <depth val="0"/>
+       <enableMinMaxAngle val="false"/>
+       <minAngle val="-360" defaultValue="-360"/>
+       <maxAngle val="360" defaultValue="360"/>
+       <nailForChildren val="false"/>
+       <ikHoldOrientation val="false"/>
+       <ikHoldX val="false"/>
+       <ikHoldY val="false"/>
+       <ikExcluded val="false"/>
+       <ikCanRotate val="true"/>
+       <ikCanTranslateX val="false"/>
+       <ikCanTranslateY val="false"/>
+       <ikBoneX val="0.20000000000000001" defaultValue="0.20000000000000001"/>
+       <ikBoneY val="0" defaultValue="0"/>
+       <ikStiffness val="1" defaultValue="1"/>
+       <groupAtNetworkBuilding val="false"/>
+       <addCompositeToGroup val="true"/>
+      </attrs>
+     </module>
+     <module type="PEG" name="Peg_3" pos="-296,-601,17" publishUnderTab="Peg_3">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <enable3d val="false"/>
+       <faceCamera val="false"/>
+       <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
+       <position>
+        <separate val="true"/>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </position>
+       <scale>
+        <separate val="true"/>
+        <inFields val="false"/>
+        <xy val="1" defaultValue="1"/>
+        <x val="1" defaultValue="1"/>
+        <y val="1" defaultValue="1"/>
+        <z val="1" defaultValue="1"/>
+       </scale>
+       <rotation>
+        <separate val="false"/>
+        <anglex val="0" defaultValue="0"/>
+        <angley val="0" defaultValue="0"/>
+        <anglez val="0" defaultValue="0"/>
+       </rotation>
+       <angle val="0" defaultValue="0"/>
+       <skew val="0" defaultValue="0"/>
+       <pivot>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </pivot>
+       <splineOffset>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </splineOffset>
+       <ignoreParentPegScaling val="false"/>
+       <disableFieldRendering val="false"/>
+       <depth val="0"/>
+       <enableMinMaxAngle val="false"/>
+       <minAngle val="-360" defaultValue="-360"/>
+       <maxAngle val="360" defaultValue="360"/>
+       <nailForChildren val="false"/>
+       <ikHoldOrientation val="false"/>
+       <ikHoldX val="false"/>
+       <ikHoldY val="false"/>
+       <ikExcluded val="false"/>
+       <ikCanRotate val="true"/>
+       <ikCanTranslateX val="false"/>
+       <ikCanTranslateY val="false"/>
+       <ikBoneX val="0.20000000000000001" defaultValue="0.20000000000000001"/>
+       <ikBoneY val="0" defaultValue="0"/>
+       <ikStiffness val="1" defaultValue="1"/>
+       <groupAtNetworkBuilding val="false"/>
+       <addCompositeToGroup val="true"/>
+      </attrs>
+     </module>
+     <module type="PEG" name="Peg_4" pos="-116,-708,16" publishUnderTab="Peg_4">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <enable3d val="false"/>
+       <faceCamera val="false"/>
+       <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
+       <position>
+        <separate val="true"/>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </position>
+       <scale>
+        <separate val="true"/>
+        <inFields val="false"/>
+        <xy val="1" defaultValue="1"/>
+        <x val="1" defaultValue="1"/>
+        <y val="1" defaultValue="1"/>
+        <z val="1" defaultValue="1"/>
+       </scale>
+       <rotation>
+        <separate val="false"/>
+        <anglex val="0" defaultValue="0"/>
+        <angley val="0" defaultValue="0"/>
+        <anglez val="0" defaultValue="0"/>
+       </rotation>
+       <angle val="0" defaultValue="0"/>
+       <skew val="0" defaultValue="0"/>
+       <pivot>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </pivot>
+       <splineOffset>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </splineOffset>
+       <ignoreParentPegScaling val="false"/>
+       <disableFieldRendering val="false"/>
+       <depth val="0"/>
+       <enableMinMaxAngle val="false"/>
+       <minAngle val="-360" defaultValue="-360"/>
+       <maxAngle val="360" defaultValue="360"/>
+       <nailForChildren val="false"/>
+       <ikHoldOrientation val="false"/>
+       <ikHoldX val="false"/>
+       <ikHoldY val="false"/>
+       <ikExcluded val="false"/>
+       <ikCanRotate val="true"/>
+       <ikCanTranslateX val="false"/>
+       <ikCanTranslateY val="false"/>
+       <ikBoneX val="0.20000000000000001" defaultValue="0.20000000000000001"/>
+       <ikBoneY val="0" defaultValue="0"/>
+       <ikStiffness val="1" defaultValue="1"/>
+       <groupAtNetworkBuilding val="false"/>
+       <addCompositeToGroup val="true"/>
+      </attrs>
+     </module>
+     <module type="PEG" name="Peg_5" pos="685,-550,6" publishUnderTab="Peg_5">
+      <options>
+       <collapsed val="true"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <enable3d val="false"/>
+       <faceCamera val="false"/>
+       <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
+       <position>
+        <separate val="true"/>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </position>
+       <scale>
+        <separate val="true"/>
+        <inFields val="false"/>
+        <xy val="1" defaultValue="1"/>
+        <x val="1" defaultValue="1"/>
+        <y val="1" defaultValue="1"/>
+        <z val="1" defaultValue="1"/>
+       </scale>
+       <rotation>
+        <separate val="false"/>
+        <anglex val="0" defaultValue="0"/>
+        <angley val="0" defaultValue="0"/>
+        <anglez val="0" defaultValue="0"/>
+       </rotation>
+       <angle val="0" defaultValue="0"/>
+       <skew val="0" defaultValue="0"/>
+       <pivot>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </pivot>
+       <splineOffset>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </splineOffset>
+       <ignoreParentPegScaling val="false"/>
+       <disableFieldRendering val="false"/>
+       <depth val="0"/>
+       <enableMinMaxAngle val="false"/>
+       <minAngle val="-360" defaultValue="-360"/>
+       <maxAngle val="360" defaultValue="360"/>
+       <nailForChildren val="false"/>
+       <ikHoldOrientation val="false"/>
+       <ikHoldX val="false"/>
+       <ikHoldY val="false"/>
+       <ikExcluded val="false"/>
+       <ikCanRotate val="true"/>
+       <ikCanTranslateX val="false"/>
+       <ikCanTranslateY val="false"/>
+       <ikBoneX val="0.20000000000000001" defaultValue="0.20000000000000001"/>
+       <ikBoneY val="0" defaultValue="0"/>
+       <ikStiffness val="1" defaultValue="1"/>
+       <groupAtNetworkBuilding val="false"/>
+       <addCompositeToGroup val="true"/>
+      </attrs>
+     </module>
+     <module type="KinematicOutputModule" name="KinematicOutput" pos="-1077,-640,9" publishUnderTab="KinematicOutput">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+     </module>
+     <module type="KinematicOutputModule" name="KinematicOutput_1" pos="-860,-640,12" publishUnderTab="KinematicOutput_1">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+     </module>
+     <module type="KinematicOutputModule" name="KinematicOutput_2" pos="-673,-687,13" publishUnderTab="KinematicOutput_2">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+     </module>
+     <module type="KinematicOutputModule" name="KinematicOutput_3" pos="-409,-826,14" publishUnderTab="KinematicOutput_3">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+     </module>
+     <module type="KinematicOutputModule" name="KinematicOutput_4" pos="-161,-874,15" publishUnderTab="KinematicOutput_4">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+     </module>
+     <module type="KinematicOutputModule" name="KinematicOutput_5" pos="555,-740,7" publishUnderTab="KinematicOutput_5">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+     </module>
     </nodeslist>
     <linkedlist>
      <link out="Composite" in="Write"/>
@@ -19653,6 +20067,12 @@
      <link out="Mr" in="Composite" inport="1"/>
      <link out="Background_Design" in="Composite" inport="0"/>
      <link out="Deformation-Body" in="Body" inport="0"/>
+     <link out="Deformation-Body" in="KinematicOutput_4"/>
+     <link out="Deformation-Body" in="KinematicOutput_3"/>
+     <link out="Deformation-Body" in="KinematicOutput_2"/>
+     <link out="Deformation-Body" in="KinematicOutput_1"/>
+     <link out="Deformation-Body" in="KinematicOutput"/>
+     <link out="Deformation-Body" in="KinematicOutput_5"/>
      <link out="Deformation-Arm_Left" in="Arm_Left" inport="0"/>
      <link out="Deformation-Arm_Right" in="Arm_Right" inport="0"/>
      <link out="Deformation-Eye_right" in="Eye_right" inport="0"/>
@@ -19661,6 +20081,18 @@
      <link out="Deformation-Hat" in="Hat" inport="0"/>
      <link out="Deformation-Foot_Right" in="Foot_Right" inport="0"/>
      <link out="Deformation-Foot_Left" in="Foot_Left" inport="0"/>
+     <link out="Peg" in="Deformation-Hat"/>
+     <link out="Peg_1" in="Deformation-Nose"/>
+     <link out="Peg_2" in="Deformation-Eye_Left"/>
+     <link out="Peg_3" in="Deformation-Arm_Left"/>
+     <link out="Peg_4" in="Deformation-Eye_right"/>
+     <link out="Peg_5" in="Deformation-Arm_Right"/>
+     <link out="KinematicOutput" in="Peg"/>
+     <link out="KinematicOutput_1" in="Peg_1"/>
+     <link out="KinematicOutput_2" in="Peg_2"/>
+     <link out="KinematicOutput_3" in="Peg_3"/>
+     <link out="KinematicOutput_4" in="Peg_4"/>
+     <link out="KinematicOutput_5" in="Peg_5"/>
     </linkedlist>
    </rootgroup>
    <unconnectedComposite>
