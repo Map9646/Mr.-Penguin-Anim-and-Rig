@@ -1974,7 +1974,7 @@
      </module>
      <group name="Deformation-Body" pos="-68,-1104,4">
       <options>
-       <collapsed val="true"/>
+       <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
        <showsPublished val="true"/>
       </options>
