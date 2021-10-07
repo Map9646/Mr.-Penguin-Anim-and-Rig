@@ -9,3 +9,6 @@ Solid    "Dark Blue"                0x0000000000000003   1  16 106 255
 Solid    "Hat Color"                0x0acf50a641e034c8  15  18  36 255
 Solid    "Hat Lighter Color"        0x0acf50a641e0355e  21  25  54 255
 Solid    Black                      0x0acf50a641e03580   0   0   0 255
+Solid    White                      0x0ad1fcdc0cf09d52 255 255 255 255
+Solid    "Dark Pink"                0x0ad1fcdc0cf4eb0b 255  76 100 255
+Solid    "Light Pink"               0x0ad1fcdc0cf50acc 255 147 189 255

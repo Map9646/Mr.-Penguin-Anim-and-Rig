@@ -11,4 +11,7 @@
  <element id="9" elementName="Nose" elementFolder="Nose" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="10" elementName="Background_Design" elementFolder="Background_Design" pixmapFormat="10" scanType="2" fieldChart="12" vectorType="0" rootFolder="elements"/>
  <element id="11" elementName="Mr" elementFolder="Mr" pixmapFormat="10" scanType="2" fieldChart="12" vectorType="0" rootFolder="elements"/>
+ <element id="12" elementName="Right_Eye_Hightlight" elementFolder="Right_Eye_Hightlight" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="13" elementName="Left_Eye_Highlight" elementFolder="Left_Eye_Highlight" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="14" elementName="Mouth_Rig" elementFolder="Mouth_Rig" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
 </elements>
