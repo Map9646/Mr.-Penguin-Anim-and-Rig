@@ -409,7 +409,7 @@
      <step val="1" start="1" stop="1"/>
      <noFrames/>
     </column>
-    <column type="0" name="ATV-0AD1FCDC0CF11EE4" displayOrder="0" width="100" anonymous="true" id="12">
+    <column type="0" name="ATV-0AD1FCDC0CF11EE4" display="false" displayOrder="0" width="100" anonymous="true" id="12">
      <elementSeq exposures="1" val="1" id="12"/>
      <elementSeq exposures="2" val="3" id="12"/>
      <elementSeq exposures="3" val="4" id="12"/>
@@ -421,7 +421,7 @@
      <elementSeq exposures="9" val="10" id="12"/>
      <elementSeq exposures="10" val="12" id="12"/>
     </column>
-    <column type="0" name="ATV-0AD1FCDC0CF12192" displayOrder="0" width="100" anonymous="true" id="13">
+    <column type="0" name="ATV-0AD1FCDC0CF12192" display="false" displayOrder="0" width="100" anonymous="true" id="13">
      <elementSeq exposures="1" val="1" id="13"/>
      <elementSeq exposures="2" val="3" id="13"/>
      <elementSeq exposures="3" val="4" id="13"/>
@@ -503,10 +503,14 @@
         <filterResY val="540"/>
        </enabling>
        <scriptMovie val="false"/>
-       <scriptEditor val="// Following code will be called at the end of Write Node rendering
+       <scriptEditor>
+        <val>
+         <![CDATA[// Following code will be called at the end of Write Node rendering
 // operations to create a movie file from rendered images.
 
-// ..."/>
+// ...]]>
+        </val>
+       </scriptEditor>
        <colorSpace/>
        <compositePartitioning val="NoCompositePartitioning"/>
        <zPartitionRange val="1" defaultValue="1"/>
@@ -1750,6 +1754,7 @@
      </module>
      <module type="READ" name="Right_Eye_Hightlight" pos="0,0,3" publishUnderTab="Right_Eye_Hightlight">
       <options>
+       <disabled val="true"/>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
@@ -1862,6 +1867,7 @@
      </module>
      <module type="READ" name="Left_Eye_Highlight" pos="0,0,2" publishUnderTab="Left_Eye_Highlight">
       <options>
+       <disabled val="true"/>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
