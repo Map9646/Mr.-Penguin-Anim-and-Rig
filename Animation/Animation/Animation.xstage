@@ -503,10 +503,14 @@
         <filterResY val="540"/>
        </enabling>
        <scriptMovie val="false"/>
-       <scriptEditor val="// Following code will be called at the end of Write Node rendering
+       <scriptEditor>
+        <val>
+         <![CDATA[// Following code will be called at the end of Write Node rendering
 // operations to create a movie file from rendered images.
 
-// ..."/>
+// ...]]>
+        </val>
+       </scriptEditor>
        <colorSpace/>
        <compositePartitioning val="NoCompositePartitioning"/>
        <zPartitionRange val="1" defaultValue="1"/>
@@ -1750,6 +1754,7 @@
      </module>
      <module type="READ" name="Right_Eye_Hightlight" pos="0,0,3" publishUnderTab="Right_Eye_Hightlight">
       <options>
+       <disabled val="true"/>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
@@ -1862,6 +1867,7 @@
      </module>
      <module type="READ" name="Left_Eye_Highlight" pos="0,0,2" publishUnderTab="Left_Eye_Highlight">
       <options>
+       <disabled val="true"/>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
@@ -1974,7 +1980,7 @@
      </module>
      <group name="Deformation-Body" pos="-68,-1104,4">
       <options>
-       <collapsed val="true"/>
+       <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
        <showsPublished val="true"/>
       </options>
