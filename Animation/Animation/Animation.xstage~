@@ -209,6 +209,7 @@
     <dwg name="10"/>
    </drawings>
   </element>
+  <element id="15" elementName="Wizard_Staff_Hand-Drawn" elementFolder="Wizard_Staff_Hand-Drawn" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  </elements>
  <options>
   <metrics unitAspectRatioX="4" unitAspectRatioY="3" numberOfUnitsX="24" numberOfUnitsY="24" numberOfUnitsZ="12"/>
@@ -445,6 +446,7 @@
      <elementSeq exposures="9" val="9" id="14"/>
      <elementSeq exposures="10" val="10" id="14"/>
     </column>
+    <column type="0" name="ATV-0AD4C009E9401A6C" displayOrder="0" width="100" anonymous="true" id="15"/>
    </columns>
    <options>
     <defaultDisplay val="Display"/>
@@ -454,7 +456,7 @@
      <collapsed val="false"/>
     </options>
     <nodeslist>
-     <module type="COMPOSITE" name="Composite" pos="-48,0,40" publishUnderTab="Composite">
+     <module type="COMPOSITE" name="Composite" pos="-55,0,41" publishUnderTab="Composite">
       <options>
        <collapsed val="false"/>
        <nodeShowThumbnail val="true"/>
@@ -474,13 +476,13 @@
        <mergeVector val="false"/>
       </attrs>
      </module>
-     <module type="DISPLAY" name="Display" pos="90,138,42" publishUnderTab="Display">
+     <module type="DISPLAY" name="Display" pos="90,138,43" publishUnderTab="Display">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
      </module>
-     <module type="WRITE" name="Write" pos="-52,138,43" publishUnderTab="Write">
+     <module type="WRITE" name="Write" pos="-52,138,44" publishUnderTab="Write">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -513,7 +515,7 @@
        <cleanUpPartitionFolders val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="Foot_Right" pos="295,-199,12" publishUnderTab="Foot_Right">
+     <module type="READ" name="Foot_Right" pos="295,-199,13" publishUnderTab="Foot_Right">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -625,7 +627,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Foot_Left" pos="244,-346,14" publishUnderTab="Foot_Left">
+     <module type="READ" name="Foot_Left" pos="244,-346,15" publishUnderTab="Foot_Left">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -737,7 +739,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Hat" pos="-520,-16,38" publishUnderTab="Hat">
+     <module type="READ" name="Hat" pos="-520,-16,39" publishUnderTab="Hat">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -849,7 +851,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Nose" pos="-466,-174,35" publishUnderTab="Nose">
+     <module type="READ" name="Nose" pos="-466,-174,36" publishUnderTab="Nose">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -961,7 +963,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Eye_Left" pos="-349,-266,33" publishUnderTab="Eye_Left">
+     <module type="READ" name="Eye_Left" pos="-349,-266,34" publishUnderTab="Eye_Left">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -1073,7 +1075,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Eye_right" pos="-38,-403,31" publishUnderTab="Eye_right">
+     <module type="READ" name="Eye_right" pos="-38,-403,32" publishUnderTab="Eye_right">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -1185,7 +1187,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Arm_Right" pos="484,-102,30" publishUnderTab="Arm_Right">
+     <module type="READ" name="Arm_Right" pos="484,-102,31" publishUnderTab="Arm_Right">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -1297,7 +1299,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Arm_Left" pos="-152,-323,39" publishUnderTab="Arm_Left">
+     <module type="READ" name="Arm_Left" pos="-152,-323,40" publishUnderTab="Arm_Left">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -1409,7 +1411,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Body" pos="114,-580,32" publishUnderTab="Drawing">
+     <module type="READ" name="Body" pos="114,-580,33" publishUnderTab="Drawing">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -1521,7 +1523,119 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Mr" pos="177,23,41" publishUnderTab="Mr">
+     <module type="READ" name="Wizard_Staff_Hand-Drawn" pos="0,0,3" publishUnderTab="Wizard_Staff_Hand-Drawn">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <enable3d val="false"/>
+       <faceCamera val="false"/>
+       <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
+       <offset>
+        <separate val="true"/>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </offset>
+       <scale>
+        <separate val="true"/>
+        <inFields val="false"/>
+        <xy val="1" defaultValue="1"/>
+        <x val="1" defaultValue="1"/>
+        <y val="1" defaultValue="1"/>
+        <z val="1" defaultValue="1"/>
+       </scale>
+       <rotation>
+        <separate val="false"/>
+        <anglex val="0" defaultValue="0"/>
+        <angley val="0" defaultValue="0"/>
+        <anglez val="0" defaultValue="0"/>
+       </rotation>
+       <angle val="0" defaultValue="0"/>
+       <skew val="0" defaultValue="0"/>
+       <pivot>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </pivot>
+       <splineOffset>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </splineOffset>
+       <ignoreParentPegScaling val="false"/>
+       <disableFieldRendering val="false"/>
+       <depth val="0"/>
+       <enableMinMaxAngle val="false"/>
+       <minAngle val="-360" defaultValue="-360"/>
+       <maxAngle val="360" defaultValue="360"/>
+       <nailForChildren val="false"/>
+       <ikHoldOrientation val="false"/>
+       <ikHoldX val="false"/>
+       <ikHoldY val="false"/>
+       <ikExcluded val="false"/>
+       <ikCanRotate val="true"/>
+       <ikCanTranslateX val="false"/>
+       <ikCanTranslateY val="false"/>
+       <ikBoneX val="0.20000000000000001" defaultValue="0.20000000000000001"/>
+       <ikBoneY val="0" defaultValue="0"/>
+       <ikStiffness val="1" defaultValue="1"/>
+       <drawing>
+        <elementMode val="true"/>
+        <element col="ATV-0AD4C009E9401A6C">
+         <layer/>
+        </element>
+        <customName>
+         <name/>
+         <extension val="tga"/>
+         <fieldChart val="12" defaultValue="12"/>
+        </customName>
+       </drawing>
+       <readOverlay val="true"/>
+       <readLineArt val="true"/>
+       <readColorArt val="true"/>
+       <readUnderlay val="true"/>
+       <overlayArtDrawingMode val="VectorDrawingMode"/>
+       <lineArtDrawingMode val="VectorDrawingMode"/>
+       <colorArtDrawingMode val="VectorDrawingMode"/>
+       <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <pencilLineDeformationPreserveThickness val="false"/>
+       <pencilLineDeformationQuality val="Low"/>
+       <pencilLineDeformationSmooth val="1"/>
+       <pencilLineDeformationFitError val="3" defaultValue="3"/>
+       <readColor val="true"/>
+       <readTransparency val="true"/>
+       <colorTransformation val="Linear"/>
+       <colorSpace/>
+       <applyMatteToColor val="N"/>
+       <enableLineTexture val="true"/>
+       <antialiasingQuality val="HIGH"/>
+       <antialiasingExponent val="1" defaultValue="1"/>
+       <opacity val="100" defaultValue="100"/>
+       <textureFilter val="NEAREST_FILTERED"/>
+       <adjustPencilThickness val="false"/>
+       <normalLineArtThickness val="true"/>
+       <zoomIndependentLineArtThickness val="zoomIndependent"/>
+       <multLineArtThickness val="1" defaultValue="1"/>
+       <addLineArtThickness val="0" defaultValue="0"/>
+       <minLineArtThickness val="0" defaultValue="0"/>
+       <maxLineArtThickness val="0" defaultValue="0"/>
+       <useDrawingPivot val="APPLY_ON_READ_TRANSFORM"/>
+       <flipHor val="false"/>
+       <flipVert val="false"/>
+       <turnBeforeAlignment val="false"/>
+       <noClipping val="false"/>
+       <xClipFactor val="0"/>
+       <yClipFactor val="0"/>
+       <alignmentRule val="CENTER_FIRST_PAGE"/>
+       <morphingVelo val="0" defaultValue="0"/>
+       <canAnimate val="false"/>
+       <tileHorizontal val="false"/>
+       <tileVertical val="false"/>
+      </attrs>
+     </module>
+     <module type="READ" name="Mr" pos="177,23,42" publishUnderTab="Mr">
       <options>
        <disabled val="true"/>
        <showTimelineThumb val="true"/>
@@ -1635,7 +1749,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Background_Design" pos="-288,117,44" publishUnderTab="Background_Design">
+     <module type="READ" name="Background_Design" pos="-288,117,45" publishUnderTab="Background_Design">
       <options>
        <showTimelineThumb val="true"/>
        <collapsed val="false"/>
@@ -1748,7 +1862,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Right_Eye_Hightlight" pos="-957,-31,3" publishUnderTab="Right_Eye_Hightlight">
+     <module type="READ" name="Right_Eye_Hightlight" pos="-957,-31,6" publishUnderTab="Right_Eye_Hightlight">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -1860,7 +1974,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Left_Eye_Highlight" pos="-1275,-104,6" publishUnderTab="Left_Eye_Highlight">
+     <module type="READ" name="Left_Eye_Highlight" pos="-1275,-104,8" publishUnderTab="Left_Eye_Highlight">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -1972,7 +2086,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <group name="Deformation-Body" pos="-68,-1104,10">
+     <group name="Deformation-Body" pos="-68,-1104,11">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
@@ -4539,7 +4653,7 @@
        <link out="10" in="Transformation-Switch" inport="10"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Arm_Left" pos="-325,-485,37">
+     <group name="Deformation-Arm_Left" pos="-325,-485,38">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
@@ -7987,7 +8101,7 @@
        <link out="11" in="Transformation-Switch" inport="11"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Arm_Right" pos="668,-367,17">
+     <group name="Deformation-Arm_Right" pos="668,-367,18">
       <options>
        <collapsed val="true"/>
        <subnodeCollapsed val="true"/>
@@ -10957,7 +11071,7 @@
        <link out="11" in="Transformation-Switch" inport="11"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Eye_right" pos="-160,-601,29">
+     <group name="Deformation-Eye_right" pos="-160,-601,30">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
@@ -11668,7 +11782,7 @@
        <link out="10" in="Transformation-Switch" inport="10"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Eye_Left" pos="-549,-405,34">
+     <group name="Deformation-Eye_Left" pos="-549,-405,35">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
@@ -12379,9 +12493,9 @@
        <link out="10" in="Transformation-Switch" inport="10"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Nose" pos="-671,-283,36">
+     <group name="Deformation-Nose" pos="-671,-283,37">
       <options>
-       <collapsed val="true"/>
+       <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
        <showsPublished val="true"/>
       </options>
@@ -13087,9 +13201,9 @@
        <link out="9" in="Transformation-Switch" inport="9"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Hat" pos="-853,-186,20">
+     <group name="Deformation-Hat" pos="-853,-186,21">
       <options>
-       <collapsed val="true"/>
+       <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
        <showsPublished val="true"/>
       </options>
@@ -15750,9 +15864,9 @@
        <link out="10" in="Transformation-Switch" inport="10"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Foot_Right" pos="419,-293,13">
+     <group name="Deformation-Foot_Right" pos="419,-293,14">
       <options>
-       <collapsed val="true"/>
+       <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
        <showsPublished val="true"/>
       </options>
@@ -17837,7 +17951,7 @@
        <link out="10" in="Transformation-Switch" inport="10"/>
       </linkedlist>
      </group>
-     <module type="READ" name="Mouth_Rig" pos="210,-518,9" publishUnderTab="Mouth_Rig">
+     <module type="READ" name="Mouth_Rig" pos="210,-518,10" publishUnderTab="Mouth_Rig">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -17949,9 +18063,9 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <group name="Deformation-Foot_Left" pos="320,-457,11">
+     <group name="Deformation-Foot_Left" pos="320,-457,12">
       <options>
-       <collapsed val="true"/>
+       <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
        <showsPublished val="true"/>
       </options>
@@ -20060,7 +20174,7 @@
        <link out="10" in="Transformation-Switch" inport="10"/>
       </linkedlist>
      </group>
-     <module type="PEG" name="Peg" pos="-982,-354,19" publishUnderTab="Peg">
+     <module type="PEG" name="Peg" pos="-982,-354,20" publishUnderTab="Peg">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -20092,8 +20206,8 @@
        <angle val="0" defaultValue="0"/>
        <skew val="0" defaultValue="0"/>
        <pivot>
-        <x val="0" defaultValue="0"/>
-        <y val="0" defaultValue="0"/>
+        <x val="-0.64999843962576032" defaultValue="0"/>
+        <y val="1.1555527815569091" defaultValue="0"/>
         <z val="0" defaultValue="0"/>
        </pivot>
        <splineOffset>
@@ -20122,7 +20236,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="PEG" name="Peg_1" pos="-719,-397,28" publishUnderTab="Peg_1">
+     <module type="PEG" name="Peg_1" pos="-719,-397,29" publishUnderTab="Peg_1">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -20154,8 +20268,8 @@
        <angle val="0" defaultValue="0"/>
        <skew val="0" defaultValue="0"/>
        <pivot>
-        <x val="0" defaultValue="0"/>
-        <y val="0" defaultValue="0"/>
+        <x val="-0.25416605652032986" defaultValue="0"/>
+        <y val="0.049999879971212441" defaultValue="0"/>
         <z val="0" defaultValue="0"/>
        </pivot>
        <splineOffset>
@@ -20184,7 +20298,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="PEG" name="Peg_2" pos="-519,-500,27" publishUnderTab="Peg_2">
+     <module type="PEG" name="Peg_2" pos="-519,-500,28" publishUnderTab="Peg_2">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -20216,8 +20330,8 @@
        <angle val="0" defaultValue="0"/>
        <skew val="0" defaultValue="0"/>
        <pivot>
-        <x val="0" defaultValue="0"/>
-        <y val="0" defaultValue="0"/>
+        <x val="-0.51666542636919521" defaultValue="0"/>
+        <y val="0.30555482204629797" defaultValue="0"/>
         <z val="0" defaultValue="0"/>
        </pivot>
        <splineOffset>
@@ -20246,7 +20360,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="PEG" name="Peg_3" pos="-296,-601,26" publishUnderTab="Peg_3">
+     <module type="PEG" name="Peg_3" pos="-296,-601,27" publishUnderTab="Peg_3">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -20278,8 +20392,8 @@
        <angle val="0" defaultValue="0"/>
        <skew val="0" defaultValue="0"/>
        <pivot>
-        <x val="0" defaultValue="0"/>
-        <y val="0" defaultValue="0"/>
+        <x val="0.17916623656351074" defaultValue="0"/>
+        <y val="0.81666470619646958" defaultValue="0"/>
         <z val="0" defaultValue="0"/>
        </pivot>
        <splineOffset>
@@ -20308,7 +20422,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="PEG" name="Peg_4" pos="-116,-708,25" publishUnderTab="Peg_4">
+     <module type="PEG" name="Peg_4" pos="-116,-708,26" publishUnderTab="Peg_4">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -20340,8 +20454,8 @@
        <angle val="0" defaultValue="0"/>
        <skew val="0" defaultValue="0"/>
        <pivot>
-        <x val="0" defaultValue="0"/>
-        <y val="0" defaultValue="0"/>
+        <x val="0.016666626657070721" defaultValue="0"/>
+        <y val="0.31666590648434523" defaultValue="0"/>
         <z val="0" defaultValue="0"/>
        </pivot>
        <splineOffset>
@@ -20370,7 +20484,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="PEG" name="Peg_5" pos="685,-550,15" publishUnderTab="Peg_5">
+     <module type="PEG" name="Peg_5" pos="685,-550,16" publishUnderTab="Peg_5">
       <options>
        <collapsed val="true"/>
        <version val="1"/>
@@ -20432,105 +20546,43 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="KinematicOutputModule" name="KinematicOutput" pos="-1077,-640,18" publishUnderTab="KinematicOutput">
+     <module type="KinematicOutputModule" name="KinematicOutput" pos="-1077,-640,19" publishUnderTab="KinematicOutput">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
      </module>
-     <module type="KinematicOutputModule" name="KinematicOutput_1" pos="-860,-640,21" publishUnderTab="KinematicOutput_1">
+     <module type="KinematicOutputModule" name="KinematicOutput_1" pos="-860,-640,22" publishUnderTab="KinematicOutput_1">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
      </module>
-     <module type="KinematicOutputModule" name="KinematicOutput_2" pos="-673,-687,22" publishUnderTab="KinematicOutput_2">
+     <module type="KinematicOutputModule" name="KinematicOutput_2" pos="-673,-687,23" publishUnderTab="KinematicOutput_2">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
      </module>
-     <module type="KinematicOutputModule" name="KinematicOutput_3" pos="-409,-826,23" publishUnderTab="KinematicOutput_3">
+     <module type="KinematicOutputModule" name="KinematicOutput_3" pos="-409,-826,24" publishUnderTab="KinematicOutput_3">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
      </module>
-     <module type="KinematicOutputModule" name="KinematicOutput_4" pos="-161,-874,24" publishUnderTab="KinematicOutput_4">
+     <module type="KinematicOutputModule" name="KinematicOutput_4" pos="-161,-874,25" publishUnderTab="KinematicOutput_4">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
      </module>
-     <module type="KinematicOutputModule" name="KinematicOutput_5" pos="555,-740,16" publishUnderTab="KinematicOutput_5">
+     <module type="KinematicOutputModule" name="KinematicOutput_5" pos="555,-740,17" publishUnderTab="KinematicOutput_5">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
      </module>
-     <module type="PEG" name="Peg_6" pos="-1421,-456,8" publishUnderTab="Peg_6">
-      <options>
-       <collapsed val="false"/>
-       <version val="1"/>
-      </options>
-      <attrs>
-       <enable3d val="false"/>
-       <faceCamera val="false"/>
-       <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
-       <position>
-        <separate val="true"/>
-        <x val="0" defaultValue="0"/>
-        <y val="0" defaultValue="0"/>
-        <z val="0" defaultValue="0"/>
-       </position>
-       <scale>
-        <separate val="true"/>
-        <inFields val="false"/>
-        <xy val="1" defaultValue="1"/>
-        <x val="1" defaultValue="1"/>
-        <y val="1" defaultValue="1"/>
-        <z val="1" defaultValue="1"/>
-       </scale>
-       <rotation>
-        <separate val="false"/>
-        <anglex val="0" defaultValue="0"/>
-        <angley val="0" defaultValue="0"/>
-        <anglez val="0" defaultValue="0"/>
-       </rotation>
-       <angle val="0" defaultValue="0"/>
-       <skew val="0" defaultValue="0"/>
-       <pivot>
-        <x val="0" defaultValue="0"/>
-        <y val="0" defaultValue="0"/>
-        <z val="0" defaultValue="0"/>
-       </pivot>
-       <splineOffset>
-        <x val="0" defaultValue="0"/>
-        <y val="0" defaultValue="0"/>
-        <z val="0" defaultValue="0"/>
-       </splineOffset>
-       <ignoreParentPegScaling val="false"/>
-       <disableFieldRendering val="false"/>
-       <depth val="0"/>
-       <enableMinMaxAngle val="false"/>
-       <minAngle val="-360" defaultValue="-360"/>
-       <maxAngle val="360" defaultValue="360"/>
-       <nailForChildren val="false"/>
-       <ikHoldOrientation val="false"/>
-       <ikHoldX val="false"/>
-       <ikHoldY val="false"/>
-       <ikExcluded val="false"/>
-       <ikCanRotate val="true"/>
-       <ikCanTranslateX val="false"/>
-       <ikCanTranslateY val="false"/>
-       <ikBoneX val="0.20000000000000001" defaultValue="0.20000000000000001"/>
-       <ikBoneY val="0" defaultValue="0"/>
-       <ikStiffness val="1" defaultValue="1"/>
-       <groupAtNetworkBuilding val="false"/>
-       <addCompositeToGroup val="true"/>
-      </attrs>
-     </module>
-     <module type="PEG" name="Peg_7" pos="-1169,-408,5" publishUnderTab="Peg_7">
+     <module type="PEG" name="Peg_6" pos="-1421,-456,9" publishUnderTab="Peg_6">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -20562,8 +20614,8 @@
        <angle val="0" defaultValue="0"/>
        <skew val="0" defaultValue="0"/>
        <pivot>
-        <x val="0" defaultValue="0"/>
-        <y val="0" defaultValue="0"/>
+        <x val="0.018749954989204592" defaultValue="0"/>
+        <y val="0.32222144870336883" defaultValue="0"/>
         <z val="0" defaultValue="0"/>
        </pivot>
        <splineOffset>
@@ -20592,7 +20644,81 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <group name="Deformation-Right_Eye_Hightlight" pos="-1119,-236,4">
+     <module type="PEG" name="Peg_7" pos="-1169,-408,7" publishUnderTab="Peg_7">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <enable3d val="false"/>
+       <faceCamera val="false"/>
+       <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
+       <position>
+        <separate val="true"/>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </position>
+       <scale>
+        <separate val="true"/>
+        <inFields val="false"/>
+        <xy val="1" defaultValue="1"/>
+        <x val="1" defaultValue="1"/>
+        <y val="1" defaultValue="1"/>
+        <z val="1" defaultValue="1"/>
+       </scale>
+       <rotation>
+        <separate val="false"/>
+        <anglex val="0" defaultValue="0"/>
+        <angley val="0" defaultValue="0"/>
+        <anglez val="0" defaultValue="0"/>
+       </rotation>
+       <angle val="0" defaultValue="0"/>
+       <skew val="0" defaultValue="0"/>
+       <pivot>
+        <x val="-0.51458209803706101" defaultValue="0"/>
+        <y val="0.30833259315580996" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </pivot>
+       <splineOffset>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </splineOffset>
+       <ignoreParentPegScaling val="false"/>
+       <disableFieldRendering val="false"/>
+       <depth val="0"/>
+       <enableMinMaxAngle val="false"/>
+       <minAngle val="-360" defaultValue="-360"/>
+       <maxAngle val="360" defaultValue="360"/>
+       <nailForChildren val="false"/>
+       <ikHoldOrientation val="false"/>
+       <ikHoldX val="false"/>
+       <ikHoldY val="false"/>
+       <ikExcluded val="false"/>
+       <ikCanRotate val="true"/>
+       <ikCanTranslateX val="false"/>
+       <ikCanTranslateY val="false"/>
+       <ikBoneX val="0.20000000000000001" defaultValue="0.20000000000000001"/>
+       <ikBoneY val="0" defaultValue="0"/>
+       <ikStiffness val="1" defaultValue="1"/>
+       <groupAtNetworkBuilding val="false"/>
+       <addCompositeToGroup val="true"/>
+      </attrs>
+     </module>
+     <module type="KinematicOutputModule" name="KinematicOutput_6" pos="-1257,-560,4" publishUnderTab="KinematicOutput_6">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+     </module>
+     <module type="KinematicOutputModule" name="KinematicOutput_7" pos="-1325,-765,5" publishUnderTab="KinematicOutput_7">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+     </module>
+     <group name="Deformation-Right_Eye_Hightlight" pos="-957,-81,2">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
@@ -20628,22 +20754,18 @@
          <meta keyword="Point_1" displayName="Point_1" flags="15" type="FREE-FORM-DEFORMATION-ATTRIBUTE" linkable="false"/>
          <meta keyword="Point_2" displayName="Point_2" flags="15" type="FREE-FORM-DEFORMATION-ATTRIBUTE" linkable="false"/>
          <meta keyword="Point_3" displayName="Point_3" flags="15" type="FREE-FORM-DEFORMATION-ATTRIBUTE" linkable="false"/>
-         <meta keyword="Point_4" displayName="Point_4" flags="15" type="FREE-FORM-DEFORMATION-ATTRIBUTE" linkable="false"/>
-         <meta keyword="Point_5" displayName="Point_5" flags="15" type="FREE-FORM-DEFORMATION-ATTRIBUTE" linkable="false"/>
-         <meta keyword="Point_6" displayName="Point_6" flags="15" type="FREE-FORM-DEFORMATION-ATTRIBUTE" linkable="false"/>
-         <meta keyword="Point_7" displayName="Point_7" flags="15" type="FREE-FORM-DEFORMATION-ATTRIBUTE" linkable="false"/>
         </metas>
         <attrs>
          <deformationquality val="Very High"/>
          <point>
           <restingPosition>
-           <x val="-0.51087051625124857" defaultValue="0"/>
-           <y val="0.33885926845141434" defaultValue="0"/>
+           <x val="-0.51253717891695827" defaultValue="0"/>
+           <y val="0.39719246175116307" defaultValue="0"/>
           </restingPosition>
           <position>
            <separate val="false"/>
-           <x val="-0.51087052001953126" defaultValue="0"/>
-           <y val="0.33885927734374999" defaultValue="0"/>
+           <x val="-0.5125371826171875" defaultValue="0"/>
+           <y val="0.39719245605468756" defaultValue="0"/>
           </position>
           <rotation val="0" defaultValue="0"/>
           <scale val="1" defaultValue="1"/>
@@ -20651,13 +20773,13 @@
          </point>
          <point1>
           <restingPosition>
-           <x val="-0.53670378756970838" defaultValue="0"/>
-           <y val="0.41441464263013522" defaultValue="0"/>
+           <x val="-0.55628707389176912" defaultValue="0"/>
+           <y val="0.3249704129038562" defaultValue="0"/>
           </restingPosition>
           <position>
            <separate val="false"/>
-           <x val="-0.53670377197265628" defaultValue="0"/>
-           <y val="0.41441464843749998" defaultValue="0"/>
+           <x val="-0.55628708496093748" defaultValue="0"/>
+           <y val="0.32497041015625" defaultValue="0"/>
           </position>
           <rotation val="0" defaultValue="0"/>
           <scale val="1" defaultValue="1"/>
@@ -20665,13 +20787,13 @@
          </point1>
          <point2>
           <restingPosition>
-           <x val="-0.48087058826852114" defaultValue="0"/>
-           <y val="0.44774789594427683" defaultValue="0"/>
+           <x val="-0.47295394060641516" defaultValue="0"/>
+           <y val="0.31941487068483265" defaultValue="0"/>
           </restingPosition>
           <position>
            <separate val="false"/>
-           <x val="-0.48087059326171872" defaultValue="0"/>
-           <y val="0.44774790039062506" defaultValue="0"/>
+           <x val="-0.47295395507812499" defaultValue="0"/>
+           <y val="0.31941484375000001" defaultValue="0"/>
           </position>
           <rotation val="0" defaultValue="0"/>
           <scale val="1" defaultValue="1"/>
@@ -20679,74 +20801,18 @@
          </point2>
          <point3>
           <restingPosition>
-           <x val="-0.45253732295150079" defaultValue="0"/>
-           <y val="0.3777480639845795" defaultValue="0"/>
+           <x val="-0.51670383558122601" defaultValue="0"/>
+           <y val="0.22497065296143148" defaultValue="0"/>
           </restingPosition>
           <position>
            <separate val="false"/>
-           <x val="-0.45253736572265624" defaultValue="0"/>
-           <y val="0.37774807128906251" defaultValue="0"/>
+           <x val="-0.51670385742187497" defaultValue="0"/>
+           <y val="0.2249706298828125" defaultValue="0"/>
           </position>
           <rotation val="0" defaultValue="0"/>
           <scale val="1" defaultValue="1"/>
           <weight val="1" defaultValue="1"/>
          </point3>
-         <point4>
-          <restingPosition>
-           <x val="-0.52253715491119812" defaultValue="0"/>
-           <y val="0.22663731562713757" defaultValue="0"/>
-          </restingPosition>
-          <position>
-           <separate val="false"/>
-           <x val="-0.52253715820312496" defaultValue="0"/>
-           <y val="0.22663732910156248" defaultValue="0"/>
-          </position>
-          <rotation val="0" defaultValue="0"/>
-          <scale val="1" defaultValue="1"/>
-          <weight val="1" defaultValue="1"/>
-         </point4>
-         <point5>
-          <restingPosition>
-           <x val="-0.53170379957258707" defaultValue="0"/>
-           <y val="0.26997054493552169" defaultValue="0"/>
-          </restingPosition>
-          <position>
-           <separate val="false"/>
-           <x val="-0.53170378417968744" defaultValue="0"/>
-           <y val="0.26997055664062503" defaultValue="0"/>
-          </position>
-          <rotation val="0" defaultValue="0"/>
-          <scale val="1" defaultValue="1"/>
-          <weight val="1" defaultValue="1"/>
-         </point5>
-         <point6>
-          <restingPosition>
-           <x val="-0.56753704688528939" defaultValue="0"/>
-           <y val="0.25552613516606032" defaultValue="0"/>
-          </restingPosition>
-          <position>
-           <separate val="false"/>
-           <x val="-0.56753701171874993" defaultValue="0"/>
-           <y val="0.25552614746093749" defaultValue="0"/>
-          </position>
-          <rotation val="0" defaultValue="0"/>
-          <scale val="1" defaultValue="1"/>
-          <weight val="1" defaultValue="1"/>
-         </point6>
-         <point7>
-          <restingPosition>
-           <x val="-0.55503707689248627" defaultValue="0"/>
-           <y val="0.22219288185191877" defaultValue="0"/>
-          </restingPosition>
-          <position>
-           <separate val="false"/>
-           <x val="-0.55503702392578125" defaultValue="0"/>
-           <y val="0.22219289550781252" defaultValue="0"/>
-          </position>
-          <rotation val="0" defaultValue="0"/>
-          <scale val="1" defaultValue="1"/>
-          <weight val="1" defaultValue="1"/>
-         </point7>
         </attrs>
        </module>
       </nodeslist>
@@ -20755,7 +20821,7 @@
        <link out="Free-Form-Deformer" in="Multi-Port-Out"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Left_Eye_Highlight" pos="-1417,-252,7">
+     <group name="Deformation-Left_Eye_Highlight" pos="-1275,-154,1">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
@@ -20791,22 +20857,18 @@
          <meta keyword="Point_1" displayName="Point_1" flags="15" type="FREE-FORM-DEFORMATION-ATTRIBUTE" linkable="false"/>
          <meta keyword="Point_2" displayName="Point_2" flags="15" type="FREE-FORM-DEFORMATION-ATTRIBUTE" linkable="false"/>
          <meta keyword="Point_3" displayName="Point_3" flags="15" type="FREE-FORM-DEFORMATION-ATTRIBUTE" linkable="false"/>
-         <meta keyword="Point_4" displayName="Point_4" flags="15" type="FREE-FORM-DEFORMATION-ATTRIBUTE" linkable="false"/>
-         <meta keyword="Point_5" displayName="Point_5" flags="15" type="FREE-FORM-DEFORMATION-ATTRIBUTE" linkable="false"/>
-         <meta keyword="Point_6" displayName="Point_6" flags="15" type="FREE-FORM-DEFORMATION-ATTRIBUTE" linkable="false"/>
-         <meta keyword="Point_7" displayName="Point_7" flags="15" type="FREE-FORM-DEFORMATION-ATTRIBUTE" linkable="false"/>
         </metas>
         <attrs>
          <deformationquality val="Very High"/>
          <point>
           <restingPosition>
-           <x val="0.049961470759179838" defaultValue="0"/>
-           <y val="0.45219232971949563" defaultValue="0"/>
+           <x val="0.014544889112905867" defaultValue="0"/>
+           <y val="0.39163691953213942" defaultValue="0"/>
           </restingPosition>
           <position>
            <separate val="false"/>
-           <x val="0.049961471557617189" defaultValue="0"/>
-           <y val="0.45219233398437503" defaultValue="0"/>
+           <x val="0.014544889068603515" defaultValue="0"/>
+           <y val="0.39163691406250001" defaultValue="0"/>
           </position>
           <rotation val="0" defaultValue="0"/>
           <scale val="1" defaultValue="1"/>
@@ -20814,13 +20876,13 @@
          </point>
          <point1>
           <restingPosition>
-           <x val="-0.0033717345434466852" defaultValue="0"/>
-           <y val="0.43330348617481551" defaultValue="0"/>
+           <x val="-0.027121677529771303" defaultValue="0"/>
+           <y val="0.31941487068483265" defaultValue="0"/>
           </restingPosition>
           <position>
            <separate val="false"/>
-           <x val="-0.003371733570098877" defaultValue="0"/>
-           <y val="0.43330346679687498" defaultValue="0"/>
+           <x val="-0.027121678161621095" defaultValue="0"/>
+           <y val="0.3194148681640625" defaultValue="0"/>
           </position>
           <rotation val="0" defaultValue="0"/>
           <scale val="1" defaultValue="1"/>
@@ -20828,13 +20890,13 @@
          </point1>
          <point2>
           <restingPosition>
-           <x val="0.076628073410493144" defaultValue="0"/>
-           <y val="0.36663697954653229" defaultValue="0"/>
+           <x val="0.058294784087716718" defaultValue="0"/>
+           <y val="0.31385932846580905" defaultValue="0"/>
           </restingPosition>
           <position>
            <separate val="false"/>
-           <x val="0.076628096008300783" defaultValue="0"/>
-           <y val="0.36663698730468752" defaultValue="0"/>
+           <x val="0.058294779968261726" defaultValue="0"/>
+           <y val="0.31385932617187501" defaultValue="0"/>
           </position>
           <rotation val="0" defaultValue="0"/>
           <scale val="1" defaultValue="1"/>
@@ -20842,74 +20904,18 @@
          </point2>
          <point3>
           <restingPosition>
-           <x val="0.021628205442159511" defaultValue="0"/>
-           <y val="0.34441481067043789" defaultValue="0"/>
+           <x val="0.018711545777173481" defaultValue="0"/>
+           <y val="0.23052619518045503" defaultValue="0"/>
           </restingPosition>
           <position>
            <separate val="false"/>
-           <x val="0.021628227996826174" defaultValue="0"/>
-           <y val="0.34441479492187499" defaultValue="0"/>
+           <x val="0.018711540985107425" defaultValue="0"/>
+           <y val="0.23052619628906248" defaultValue="0"/>
           </position>
           <rotation val="0" defaultValue="0"/>
           <scale val="1" defaultValue="1"/>
           <weight val="1" defaultValue="1"/>
          </point3>
-         <point4>
-          <restingPosition>
-           <x val="0.0024615847865280265" defaultValue="0"/>
-           <y val="0.26774832804791227" defaultValue="0"/>
-          </restingPosition>
-          <position>
-           <separate val="false"/>
-           <x val="0.0024616227149963379" defaultValue="0"/>
-           <y val="0.26774831542968747" defaultValue="0"/>
-          </position>
-          <rotation val="0" defaultValue="0"/>
-          <scale val="1" defaultValue="1"/>
-          <weight val="1" defaultValue="1"/>
-         </point4>
-         <point5>
-          <restingPosition>
-           <x val="0.015794886112184717" defaultValue="0"/>
-           <y val="0.21663733963289511" defaultValue="0"/>
-          </restingPosition>
-          <position>
-           <separate val="false"/>
-           <x val="0.015794936370849607" defaultValue="0"/>
-           <y val="0.21663732910156253" defaultValue="0"/>
-          </position>
-          <rotation val="0" defaultValue="0"/>
-          <scale val="1" defaultValue="1"/>
-          <weight val="1" defaultValue="1"/>
-         </point5>
-         <point6>
-          <restingPosition>
-           <x val="-0.027538343196199327" defaultValue="0"/>
-           <y val="0.24663726761562255" defaultValue="0"/>
-          </restingPosition>
-          <position>
-           <separate val="false"/>
-           <x val="-0.027538304901123047" defaultValue="0"/>
-           <y val="0.24663723144531249" defaultValue="0"/>
-          </position>
-          <rotation val="0" defaultValue="0"/>
-          <scale val="1" defaultValue="1"/>
-          <weight val="1" defaultValue="1"/>
-         </point6>
-         <point7>
-          <restingPosition>
-           <x val="-0.01753836720195685" defaultValue="0"/>
-           <y val="0.20997068897006677" defaultValue="0"/>
-          </restingPosition>
-          <position>
-           <separate val="false"/>
-           <x val="-0.017538320159912107" defaultValue="0"/>
-           <y val="0.209970654296875" defaultValue="0"/>
-          </position>
-          <rotation val="0" defaultValue="0"/>
-          <scale val="1" defaultValue="1"/>
-          <weight val="1" defaultValue="1"/>
-         </point7>
         </attrs>
        </module>
       </nodeslist>
@@ -20918,35 +20924,24 @@
        <link out="Free-Form-Deformer" in="Multi-Port-Out"/>
       </linkedlist>
      </group>
-     <module type="KinematicOutputModule" name="KinematicOutput_6" pos="-1257,-560,1" publishUnderTab="KinematicOutput_6">
-      <options>
-       <collapsed val="false"/>
-       <version val="1"/>
-      </options>
-     </module>
-     <module type="KinematicOutputModule" name="KinematicOutput_7" pos="-1325,-765,2" publishUnderTab="KinematicOutput_7">
-      <options>
-       <collapsed val="false"/>
-       <version val="1"/>
-      </options>
-     </module>
     </nodeslist>
     <linkedlist>
      <link out="Composite" in="Write"/>
      <link out="Composite" in="Display"/>
-     <link out="Foot_Right" in="Composite" inport="2"/>
-     <link out="Foot_Left" in="Composite" inport="3"/>
-     <link out="Hat" in="Composite" inport="11"/>
-     <link out="Nose" in="Composite" inport="10"/>
-     <link out="Eye_Left" in="Composite" inport="9"/>
-     <link out="Eye_right" in="Composite" inport="8"/>
-     <link out="Arm_Right" in="Composite" inport="6"/>
-     <link out="Arm_Left" in="Composite" inport="5"/>
-     <link out="Body" in="Composite" inport="4"/>
+     <link out="Foot_Right" in="Composite" inport="3"/>
+     <link out="Foot_Left" in="Composite" inport="4"/>
+     <link out="Hat" in="Composite" inport="12"/>
+     <link out="Nose" in="Composite" inport="11"/>
+     <link out="Eye_Left" in="Composite" inport="10"/>
+     <link out="Eye_right" in="Composite" inport="9"/>
+     <link out="Arm_Right" in="Composite" inport="7"/>
+     <link out="Arm_Left" in="Composite" inport="6"/>
+     <link out="Body" in="Composite" inport="5"/>
+     <link out="Wizard_Staff_Hand-Drawn" in="Composite" inport="2"/>
      <link out="Mr" in="Composite" inport="1"/>
      <link out="Background_Design" in="Composite" inport="0"/>
-     <link out="Right_Eye_Hightlight" in="Composite" inport="13"/>
-     <link out="Left_Eye_Highlight" in="Composite" inport="12"/>
+     <link out="Right_Eye_Hightlight" in="Composite" inport="14"/>
+     <link out="Left_Eye_Highlight" in="Composite" inport="13"/>
      <link out="Deformation-Body" in="Body" inport="0"/>
      <link out="Deformation-Body" in="KinematicOutput_4"/>
      <link out="Deformation-Body" in="KinematicOutput_3"/>
@@ -20963,7 +20958,7 @@
      <link out="Deformation-Nose" in="Nose" inport="0"/>
      <link out="Deformation-Hat" in="Hat" inport="0"/>
      <link out="Deformation-Foot_Right" in="Foot_Right" inport="0"/>
-     <link out="Mouth_Rig" in="Composite" inport="7"/>
+     <link out="Mouth_Rig" in="Composite" inport="8"/>
      <link out="Deformation-Foot_Left" in="Foot_Left" inport="0"/>
      <link out="Peg" in="Deformation-Hat"/>
      <link out="Peg_1" in="Deformation-Nose"/>
@@ -20980,10 +20975,10 @@
      <link out="KinematicOutput_5" in="Peg_5"/>
      <link out="Peg_6" in="Deformation-Left_Eye_Highlight"/>
      <link out="Peg_7" in="Deformation-Right_Eye_Hightlight"/>
-     <link out="Deformation-Right_Eye_Hightlight" in="Right_Eye_Hightlight" inport="0"/>
-     <link out="Deformation-Left_Eye_Highlight" in="Left_Eye_Highlight" inport="0"/>
      <link out="KinematicOutput_6" in="Peg_7"/>
      <link out="KinematicOutput_7" in="Peg_6"/>
+     <link out="Deformation-Right_Eye_Hightlight" in="Right_Eye_Hightlight" inport="0"/>
+     <link out="Deformation-Left_Eye_Highlight" in="Left_Eye_Highlight" inport="0"/>
     </linkedlist>
    </rootgroup>
    <unconnectedComposite>
