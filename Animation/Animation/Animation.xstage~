@@ -226,7 +226,7 @@
  </options>
  <timelineMarkers/>
  <scenes>
-  <scene name="Top" id="0acf4ebbb5b0f103" nbframes="159" startFrame="1" stopFrame="30">
+  <scene name="Top" id="0acf4ebbb5b0f103" nbframes="159" startFrame="1" stopFrame="53">
    <columns>
     <column type="0" name="Body" displayOrder="0" width="100" anonymous="true" id="1">
      <elementSeq exposures="1-28,29-79" val="1" id="1"/>
@@ -458,11 +458,13 @@
      <step val="1" start="1" stop="1"/>
      <noFrames/>
      <points version="2">
-      <pt constSeg="false" x="1,29" yLocal="-22.525917850876244" y="-22.525917850876244"/>
+      <pt constSeg="false" x="29" yLocal="-31.498544465772611" y="-31.498544465772611"/>
+      <pt constSeg="false" x="1" yLocal="-26.771119735256399" y="-26.771119735256399"/>
       <pt constSeg="false" x="5,33" yLocal="-16.190304639359042" y="-16.190304639359042"/>
       <pt constSeg="false" x="9,25,37,53" yLocal="-3.6759003763343245" y="-3.6759003763343245"/>
       <pt constSeg="false" x="13,21,41,49" yLocal="9.5807107366390145" y="9.5807107366390145"/>
-      <pt constSeg="false" x="17,45" yLocal="14.322787492334657" y="14.322787492334657"/>
+      <pt constSeg="false" x="45" yLocal="23.770099017048086" y="23.770099017048086"/>
+      <pt constSeg="false" x="17" yLocal="26.394079943827297" y="26.394079943827297"/>
      </points>
     </column>
     <column type="3" name="ATV-0AD4C009E9413517" displayOrder="0" width="100" anonymous="true">
@@ -476,59 +478,66 @@
      <step val="1" start="1" stop="1"/>
      <noFrames/>
      <points version="2">
-      <pt constSeg="false" x="1,5,9,13,17,21,25,29,39,42,46,50,54,58,62" yLocal="0.5" y="0.5"/>
+      <pt constSeg="false" x="1,5,9,13,17,21,25,29,33,37,41,45,49,53" yLocal="0.5" y="0.5"/>
      </points>
     </column>
     <column type="3" name="ATV-0AD4C009E941366E" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
      <noFrames/>
      <points version="2">
-      <pt constSeg="false" x="9,25,39,54,58,62" yLocal="-84.990393097815698" y="-84.990393097815698"/>
+      <pt constSeg="false" x="9,25" yLocal="-84.990393097815698" y="-84.990393097815698"/>
       <pt constSeg="false" x="5" yLocal="-84.511596597628341" y="-84.511596597628341"/>
-      <pt constSeg="false" x="13,21,50" yLocal="-74.625062778721897" y="-74.625062778721897"/>
+      <pt constSeg="false" x="53" yLocal="-83.949715867498909" y="-83.949715867498909"/>
+      <pt constSeg="false" x="37" yLocal="-82.771681381521446" y="-82.771681381521446"/>
+      <pt constSeg="false" x="13,21" yLocal="-74.625062778721897" y="-74.625062778721897"/>
+      <pt constSeg="false" x="49" yLocal="-72.216052382548767" y="-72.216052382548767"/>
+      <pt constSeg="false" x="33" yLocal="-70.974139213150224" y="-70.974139213150224"/>
+      <pt constSeg="false" x="41" yLocal="-68.692780005954347" y="-68.692780005954347"/>
       <pt constSeg="false" x="1" yLocal="-66.256386060106038" y="-66.256386060106038"/>
-      <pt constSeg="false" x="17,46" yLocal="-65.309665911984268" y="-65.309665911984268"/>
-      <pt constSeg="false" x="42" yLocal="-58.604096680480339" y="-58.604096680480339"/>
+      <pt constSeg="false" x="17" yLocal="-65.309665911984268" y="-65.309665911984268"/>
       <pt constSeg="false" x="29" yLocal="-53.36558146338718" y="-53.36558146338718"/>
+      <pt constSeg="false" x="45" yLocal="-49.821748485491042" y="-49.821748485491042"/>
      </points>
     </column>
     <column type="3" name="ATV-0AD4C009E941366F" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
      <noFrames/>
      <points version="2">
-      <pt constSeg="false" x="1,5,9,13,17,21,25,29,39,42,46,50,54,58,62" yLocal="0.45000000000000001" y="0.45000000000000001"/>
+      <pt constSeg="false" x="1,5,9,13,17,21,25,29,33,37,41,45,49,53" yLocal="0.45000000000000001" y="0.45000000000000001"/>
      </points>
     </column>
     <column type="3" name="ATV-0AD4C009E941371D" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
      <noFrames/>
      <points version="2">
-      <pt constSeg="false" x="1,5,9,13,17,21,25,29,38,42,46,50,54,58" yLocal="0.5" y="0.5"/>
+      <pt constSeg="false" x="1,5,9,13,17,21,25,29,33,37,41,45,49,53" yLocal="0.5" y="0.5"/>
      </points>
     </column>
     <column type="3" name="ATV-0AD4C009E941371E" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
      <noFrames/>
      <points version="2">
+      <pt constSeg="false" x="45" yLocal="-116.65353155149545" y="-116.65353155149545"/>
       <pt constSeg="false" x="29" yLocal="-108.12659546014558" y="-108.12659546014558"/>
       <pt constSeg="false" x="17" yLocal="-104.98829334963565" y="-104.98829334963565"/>
       <pt constSeg="false" x="1" yLocal="-104.07066464480751" y="-104.07066464480751"/>
-      <pt constSeg="false" x="46" yLocal="-102.80316759764028" y="-102.80316759764028"/>
-      <pt constSeg="false" x="42" yLocal="-102.07560899915373" y="-102.07560899915373"/>
+      <pt constSeg="false" x="41" yLocal="-101.95123258140246" y="-101.95123258140246"/>
+      <pt constSeg="false" x="33" yLocal="-101.26826014090977" y="-101.26826014090977"/>
+      <pt constSeg="false" x="49" yLocal="-97.81420677519165" y="-97.81420677519165"/>
       <pt constSeg="false" x="13" yLocal="-96.694387214416949" y="-96.694387214416949"/>
       <pt constSeg="false" x="21" yLocal="-94.470108719186626" y="-94.470108719186626"/>
-      <pt constSeg="false" x="50" yLocal="-93.208074094221786" y="-93.208074094221786"/>
-      <pt constSeg="false" x="5,38" yLocal="-86.620080583005006" y="-86.620080583005006"/>
+      <pt constSeg="false" x="37" yLocal="-87.966597563531195" y="-87.966597563531195"/>
+      <pt constSeg="false" x="5" yLocal="-86.620080583005006" y="-86.620080583005006"/>
+      <pt constSeg="false" x="53" yLocal="-85.042104276841854" y="-85.042104276841854"/>
       <pt constSeg="false" x="25" yLocal="-83.038657459136488" y="-83.038657459136488"/>
-      <pt constSeg="false" x="9,58" yLocal="-82.171536479590017" y="-82.171536479590017"/>
-      <pt constSeg="false" x="54" yLocal="-81.774727360370818" y="-81.774727360370818"/>
+      <pt constSeg="false" x="9" yLocal="-82.171536479590017" y="-82.171536479590017"/>
      </points>
     </column>
     <column type="3" name="ATV-0AD4C009E941371F" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
      <noFrames/>
      <points version="2">
-      <pt constSeg="false" x="1,5,9,13,17,21,25,29,38,42,46,50,54,58" yLocal="0.45000000000000001" y="0.45000000000000001"/>
+      <pt constSeg="false" x="1,5,9,13,17,21,25,29,33,37,41,45,49,53" yLocal="0.45000000000000001" y="0.45000000000000001"/>
      </points>
     </column>
     <column type="3" name="ATV-0AD4C009E94141C0" displayOrder="0" width="100" anonymous="true">
@@ -2261,6 +2270,24 @@
       <pt constSeg="false" x="1,9,23,27,30,80,88" yLocal="0" y="0"/>
      </points>
     </column>
+    <column type="3" name="ATV-0AD57A191E428CC5" displayOrder="0" width="100" anonymous="true">
+     <step val="1" start="1" stop="1"/>
+     <points version="2">
+      <pt constSeg="false" x="5" yLocal="0.1157568931522856" y="0.1157568931522856"/>
+     </points>
+    </column>
+    <column type="3" name="ATV-0AD57A191E428CC6" displayOrder="0" width="100" anonymous="true">
+     <step val="1" start="1" stop="1"/>
+     <points version="2">
+      <pt constSeg="false" x="5" yLocal="31.274657187127957" y="31.274657187127957"/>
+     </points>
+    </column>
+    <column type="3" name="ATV-0AD57A191E428CC7" displayOrder="0" width="100" anonymous="true">
+     <step val="1" start="1" stop="1"/>
+     <points version="2">
+      <pt constSeg="false" x="5" yLocal="0.45000000000000001" y="0.45000000000000001"/>
+     </points>
+    </column>
    </columns>
    <options>
     <defaultDisplay val="Display"/>
@@ -3117,6 +3144,7 @@
      </module>
      <module type="READ" name="Arm_Left" pos="-152,-323,40" publishUnderTab="Arm_Left">
       <options>
+       <showTimelineThumb val="true"/>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
@@ -9414,9 +9442,9 @@
             <x val="0" defaultValue="0"/>
             <y val="0" defaultValue="0"/>
            </offset>
-           <orientation val="10.365005296323472" defaultValue="0"/>
-           <radius val="0.1157568931522856" defaultValue="0.5"/>
-           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <orientation val="10.365005296323472" defaultValue="0" col="ATV-0AD57A191E428CC6"/>
+           <radius val="0.1157568931522856" defaultValue="0.5" col="ATV-0AD57A191E428CC5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001" col="ATV-0AD57A191E428CC7"/>
            <length val="0.2627637863045712" defaultValue="3"/>
           </attrs>
          </module>
