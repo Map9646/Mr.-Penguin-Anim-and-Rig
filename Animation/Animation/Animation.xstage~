@@ -226,7 +226,7 @@
  </options>
  <timelineMarkers/>
  <scenes>
-  <scene name="Top" id="0acf4ebbb5b0f103" nbframes="159" startFrame="1" stopFrame="53">
+  <scene name="Top" id="0acf4ebbb5b0f103" nbframes="159" startFrame="1" stopFrame="58">
    <columns>
     <column type="0" name="Body" displayOrder="0" width="100" anonymous="true" id="1">
      <elementSeq exposures="1-28,29-79" val="1" id="1"/>
@@ -478,7 +478,7 @@
      <step val="1" start="1" stop="1"/>
      <noFrames/>
      <points version="2">
-      <pt constSeg="false" x="1,5,9,13,17,21,25,29,33,37,41,45,49,53" yLocal="0.5" y="0.5"/>
+      <pt constSeg="false" x="1,9,17,25,29,37,45,53" yLocal="0.5" y="0.5"/>
      </points>
     </column>
     <column type="3" name="ATV-0AD4C009E941366E" displayOrder="0" width="100" anonymous="true">
@@ -486,31 +486,26 @@
      <noFrames/>
      <points version="2">
       <pt constSeg="false" x="9,25" yLocal="-84.990393097815698" y="-84.990393097815698"/>
-      <pt constSeg="false" x="5" yLocal="-84.511596597628341" y="-84.511596597628341"/>
       <pt constSeg="false" x="53" yLocal="-83.949715867498909" y="-83.949715867498909"/>
       <pt constSeg="false" x="37" yLocal="-82.771681381521446" y="-82.771681381521446"/>
-      <pt constSeg="false" x="13,21" yLocal="-74.625062778721897" y="-74.625062778721897"/>
-      <pt constSeg="false" x="49" yLocal="-72.216052382548767" y="-72.216052382548767"/>
-      <pt constSeg="false" x="33" yLocal="-70.974139213150224" y="-70.974139213150224"/>
-      <pt constSeg="false" x="41" yLocal="-68.692780005954347" y="-68.692780005954347"/>
       <pt constSeg="false" x="1" yLocal="-66.256386060106038" y="-66.256386060106038"/>
       <pt constSeg="false" x="17" yLocal="-65.309665911984268" y="-65.309665911984268"/>
+      <pt constSeg="false" x="45" yLocal="-64.552773633984998" y="-64.552773633984998"/>
       <pt constSeg="false" x="29" yLocal="-53.36558146338718" y="-53.36558146338718"/>
-      <pt constSeg="false" x="45" yLocal="-49.821748485491042" y="-49.821748485491042"/>
      </points>
     </column>
     <column type="3" name="ATV-0AD4C009E941366F" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
      <noFrames/>
      <points version="2">
-      <pt constSeg="false" x="1,5,9,13,17,21,25,29,33,37,41,45,49,53" yLocal="0.45000000000000001" y="0.45000000000000001"/>
+      <pt constSeg="false" x="1,9,17,25,29,37,45,53" yLocal="0.45000000000000001" y="0.45000000000000001"/>
      </points>
     </column>
     <column type="3" name="ATV-0AD4C009E941371D" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
      <noFrames/>
      <points version="2">
-      <pt constSeg="false" x="1,5,9,13,17,21,25,29,33,37,41,45,49,53" yLocal="0.5" y="0.5"/>
+      <pt constSeg="false" x="1,9,17,25,29,37,45,53" yLocal="0.5" y="0.5"/>
      </points>
     </column>
     <column type="3" name="ATV-0AD4C009E941371E" displayOrder="0" width="100" anonymous="true">
@@ -521,13 +516,7 @@
       <pt constSeg="false" x="29" yLocal="-108.12659546014558" y="-108.12659546014558"/>
       <pt constSeg="false" x="17" yLocal="-104.98829334963565" y="-104.98829334963565"/>
       <pt constSeg="false" x="1" yLocal="-104.07066464480751" y="-104.07066464480751"/>
-      <pt constSeg="false" x="41" yLocal="-101.95123258140246" y="-101.95123258140246"/>
-      <pt constSeg="false" x="33" yLocal="-101.26826014090977" y="-101.26826014090977"/>
-      <pt constSeg="false" x="49" yLocal="-97.81420677519165" y="-97.81420677519165"/>
-      <pt constSeg="false" x="13" yLocal="-96.694387214416949" y="-96.694387214416949"/>
-      <pt constSeg="false" x="21" yLocal="-94.470108719186626" y="-94.470108719186626"/>
       <pt constSeg="false" x="37" yLocal="-87.966597563531195" y="-87.966597563531195"/>
-      <pt constSeg="false" x="5" yLocal="-86.620080583005006" y="-86.620080583005006"/>
       <pt constSeg="false" x="53" yLocal="-85.042104276841854" y="-85.042104276841854"/>
       <pt constSeg="false" x="25" yLocal="-83.038657459136488" y="-83.038657459136488"/>
       <pt constSeg="false" x="9" yLocal="-82.171536479590017" y="-82.171536479590017"/>
@@ -537,7 +526,7 @@
      <step val="1" start="1" stop="1"/>
      <noFrames/>
      <points version="2">
-      <pt constSeg="false" x="1,5,9,13,17,21,25,29,33,37,41,45,49,53" yLocal="0.45000000000000001" y="0.45000000000000001"/>
+      <pt constSeg="false" x="1,9,17,25,29,37,45,53" yLocal="0.45000000000000001" y="0.45000000000000001"/>
      </points>
     </column>
     <column type="3" name="ATV-0AD4C009E94141C0" displayOrder="0" width="100" anonymous="true">
@@ -2272,21 +2261,12 @@
     </column>
     <column type="3" name="ATV-0AD57A191E428CC5" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
-     <points version="2">
-      <pt constSeg="false" x="5" yLocal="0.1157568931522856" y="0.1157568931522856"/>
-     </points>
     </column>
     <column type="3" name="ATV-0AD57A191E428CC6" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
-     <points version="2">
-      <pt constSeg="false" x="5" yLocal="31.274657187127957" y="31.274657187127957"/>
-     </points>
     </column>
     <column type="3" name="ATV-0AD57A191E428CC7" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
-     <points version="2">
-      <pt constSeg="false" x="5" yLocal="0.45000000000000001" y="0.45000000000000001"/>
-     </points>
     </column>
    </columns>
    <options>
@@ -2297,7 +2277,7 @@
      <collapsed val="false"/>
     </options>
     <nodeslist>
-     <module type="COMPOSITE" name="Composite" pos="-55,0,41" publishUnderTab="Composite">
+     <module type="COMPOSITE" name="Composite" pos="-55,0,43" publishUnderTab="Composite">
       <options>
        <collapsed val="false"/>
        <nodeShowThumbnail val="true"/>
@@ -2317,13 +2297,13 @@
        <mergeVector val="false"/>
       </attrs>
      </module>
-     <module type="DISPLAY" name="Display" pos="90,138,43" publishUnderTab="Display">
+     <module type="DISPLAY" name="Display" pos="90,138,45" publishUnderTab="Display">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
      </module>
-     <module type="WRITE" name="Write" pos="-52,138,44" publishUnderTab="Write">
+     <module type="WRITE" name="Write" pos="-52,138,46" publishUnderTab="Write">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -2356,7 +2336,7 @@
        <cleanUpPartitionFolders val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="Foot_Right" pos="295,-199,13" publishUnderTab="Foot_Right">
+     <module type="READ" name="Foot_Right" pos="295,-199,15" publishUnderTab="Foot_Right">
       <options>
        <disabled val="true"/>
        <collapsed val="false"/>
@@ -2469,7 +2449,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Foot_Left" pos="244,-346,15" publishUnderTab="Foot_Left">
+     <module type="READ" name="Foot_Left" pos="244,-346,17" publishUnderTab="Foot_Left">
       <options>
        <disabled val="true"/>
        <collapsed val="false"/>
@@ -2582,7 +2562,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Hat" pos="-520,-16,39" publishUnderTab="Hat">
+     <module type="READ" name="Hat" pos="-520,-16,41" publishUnderTab="Hat">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -2694,7 +2674,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Nose" pos="-466,-174,36" publishUnderTab="Nose">
+     <module type="READ" name="Nose" pos="-466,-174,38" publishUnderTab="Nose">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -2806,7 +2786,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Eye_Left" pos="-349,-266,34" publishUnderTab="Eye_Left">
+     <module type="READ" name="Eye_Left" pos="-349,-266,36" publishUnderTab="Eye_Left">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -2918,7 +2898,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Eye_right" pos="-38,-403,32" publishUnderTab="Eye_right">
+     <module type="READ" name="Eye_right" pos="-38,-403,34" publishUnderTab="Eye_right">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -3030,7 +3010,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Arm_Right" pos="484,-102,31" publishUnderTab="Arm_Right">
+     <module type="READ" name="Arm_Right" pos="484,-102,33" publishUnderTab="Arm_Right">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -3142,9 +3122,8 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Arm_Left" pos="-152,-323,40" publishUnderTab="Arm_Left">
+     <module type="READ" name="Arm_Left" pos="-152,-323,42" publishUnderTab="Arm_Left">
       <options>
-       <showTimelineThumb val="true"/>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
@@ -3255,7 +3234,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Body" pos="114,-580,33" publishUnderTab="Drawing">
+     <module type="READ" name="Body" pos="114,-580,35" publishUnderTab="Drawing">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -3367,7 +3346,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Wizard_Staff_Hand-Drawn" pos="206,-44,1" publishUnderTab="Wizard_Staff_Hand-Drawn">
+     <module type="READ" name="Wizard_Staff_Hand-Drawn" pos="206,-44,4" publishUnderTab="Wizard_Staff_Hand-Drawn">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -3479,7 +3458,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Mr" pos="177,23,42" publishUnderTab="Mr">
+     <module type="READ" name="Mr" pos="177,23,44" publishUnderTab="Mr">
       <options>
        <disabled val="true"/>
        <showTimelineThumb val="true"/>
@@ -3593,7 +3572,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Background_Design" pos="-288,117,45" publishUnderTab="Background_Design">
+     <module type="READ" name="Background_Design" pos="-288,117,47" publishUnderTab="Background_Design">
       <options>
        <showTimelineThumb val="true"/>
        <collapsed val="false"/>
@@ -3706,7 +3685,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Right_Eye_Hightlight" pos="-957,-31,6" publishUnderTab="Right_Eye_Hightlight">
+     <module type="READ" name="Right_Eye_Hightlight" pos="-957,-31,9" publishUnderTab="Right_Eye_Hightlight">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -3818,7 +3797,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Left_Eye_Highlight" pos="-1275,-104,8" publishUnderTab="Left_Eye_Highlight">
+     <module type="READ" name="Left_Eye_Highlight" pos="-1275,-104,11" publishUnderTab="Left_Eye_Highlight">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -3930,7 +3909,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <group name="Deformation-Body" pos="-68,-1104,11">
+     <group name="Deformation-Body" pos="-68,-1104,13">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
@@ -6497,7 +6476,7 @@
        <link out="10" in="Transformation-Switch" inport="10"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Arm_Left" pos="-325,-485,38">
+     <group name="Deformation-Arm_Left" pos="-325,-485,40">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
@@ -9945,7 +9924,7 @@
        <link out="11" in="Transformation-Switch" inport="11"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Arm_Right" pos="668,-367,18">
+     <group name="Deformation-Arm_Right" pos="668,-367,20">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
@@ -12915,7 +12894,7 @@
        <link out="11" in="Transformation-Switch" inport="11"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Eye_right" pos="-160,-601,30">
+     <group name="Deformation-Eye_right" pos="-160,-601,32">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
@@ -13626,7 +13605,7 @@
        <link out="10" in="Transformation-Switch" inport="10"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Eye_Left" pos="-549,-405,35">
+     <group name="Deformation-Eye_Left" pos="-549,-405,37">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
@@ -14337,7 +14316,7 @@
        <link out="10" in="Transformation-Switch" inport="10"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Nose" pos="-671,-283,37">
+     <group name="Deformation-Nose" pos="-671,-283,39">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
@@ -15152,7 +15131,7 @@
        <link out="10" in="Transformation-Switch" inport="10"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Hat" pos="-853,-186,21">
+     <group name="Deformation-Hat" pos="-853,-186,23">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
@@ -17815,7 +17794,7 @@
        <link out="10" in="Transformation-Switch" inport="10"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Foot_Right" pos="419,-293,14">
+     <group name="Deformation-Foot_Right" pos="419,-293,16">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
@@ -19902,7 +19881,7 @@
        <link out="10" in="Transformation-Switch" inport="10"/>
       </linkedlist>
      </group>
-     <module type="READ" name="Mouth_Rig" pos="210,-518,10" publishUnderTab="Mouth_Rig">
+     <module type="READ" name="Mouth_Rig" pos="210,-518,1" publishUnderTab="Mouth_Rig">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -20014,7 +19993,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <group name="Deformation-Foot_Left" pos="320,-457,12">
+     <group name="Deformation-Foot_Left" pos="320,-457,14">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
@@ -22129,7 +22108,7 @@
        <link out="10" in="Transformation-Switch" inport="10"/>
       </linkedlist>
      </group>
-     <module type="PEG" name="Peg" pos="-982,-354,20" publishUnderTab="Peg">
+     <module type="PEG" name="Peg" pos="-982,-354,22" publishUnderTab="Peg">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -22191,7 +22170,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="PEG" name="Peg_1" pos="-719,-397,29" publishUnderTab="Peg_1">
+     <module type="PEG" name="Peg_1" pos="-719,-397,31" publishUnderTab="Peg_1">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -22253,7 +22232,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="PEG" name="Peg_2" pos="-519,-500,28" publishUnderTab="Peg_2">
+     <module type="PEG" name="Peg_2" pos="-519,-500,30" publishUnderTab="Peg_2">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -22315,7 +22294,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="PEG" name="Peg_3" pos="-296,-601,27" publishUnderTab="Peg_3">
+     <module type="PEG" name="Peg_3" pos="-296,-601,29" publishUnderTab="Peg_3">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -22377,7 +22356,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="PEG" name="Peg_4" pos="-116,-708,26" publishUnderTab="Peg_4">
+     <module type="PEG" name="Peg_4" pos="-116,-708,28" publishUnderTab="Peg_4">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -22439,7 +22418,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="PEG" name="Peg_5" pos="685,-550,16" publishUnderTab="Peg_5">
+     <module type="PEG" name="Peg_5" pos="685,-550,18" publishUnderTab="Peg_5">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -22501,43 +22480,43 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="KinematicOutputModule" name="KinematicOutput" pos="-1077,-640,19" publishUnderTab="KinematicOutput">
+     <module type="KinematicOutputModule" name="KinematicOutput" pos="-1077,-640,21" publishUnderTab="KinematicOutput">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
      </module>
-     <module type="KinematicOutputModule" name="KinematicOutput_1" pos="-860,-640,22" publishUnderTab="KinematicOutput_1">
+     <module type="KinematicOutputModule" name="KinematicOutput_1" pos="-860,-640,24" publishUnderTab="KinematicOutput_1">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
      </module>
-     <module type="KinematicOutputModule" name="KinematicOutput_2" pos="-673,-687,23" publishUnderTab="KinematicOutput_2">
+     <module type="KinematicOutputModule" name="KinematicOutput_2" pos="-673,-687,25" publishUnderTab="KinematicOutput_2">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
      </module>
-     <module type="KinematicOutputModule" name="KinematicOutput_3" pos="-409,-826,24" publishUnderTab="KinematicOutput_3">
+     <module type="KinematicOutputModule" name="KinematicOutput_3" pos="-409,-826,26" publishUnderTab="KinematicOutput_3">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
      </module>
-     <module type="KinematicOutputModule" name="KinematicOutput_4" pos="-161,-874,25" publishUnderTab="KinematicOutput_4">
+     <module type="KinematicOutputModule" name="KinematicOutput_4" pos="-161,-874,27" publishUnderTab="KinematicOutput_4">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
      </module>
-     <module type="KinematicOutputModule" name="KinematicOutput_5" pos="555,-740,17" publishUnderTab="KinematicOutput_5">
+     <module type="KinematicOutputModule" name="KinematicOutput_5" pos="555,-740,19" publishUnderTab="KinematicOutput_5">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
      </module>
-     <module type="PEG" name="Peg_6" pos="-1421,-456,9" publishUnderTab="Peg_6">
+     <module type="PEG" name="Peg_6" pos="-1421,-456,12" publishUnderTab="Peg_6">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -22599,7 +22578,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="PEG" name="Peg_7" pos="-1169,-408,7" publishUnderTab="Peg_7">
+     <module type="PEG" name="Peg_7" pos="-1169,-408,10" publishUnderTab="Peg_7">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -22661,19 +22640,19 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="KinematicOutputModule" name="KinematicOutput_6" pos="-1257,-560,4" publishUnderTab="KinematicOutput_6">
+     <module type="KinematicOutputModule" name="KinematicOutput_6" pos="-1257,-560,7" publishUnderTab="KinematicOutput_6">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
      </module>
-     <module type="KinematicOutputModule" name="KinematicOutput_7" pos="-1325,-765,5" publishUnderTab="KinematicOutput_7">
+     <module type="KinematicOutputModule" name="KinematicOutput_7" pos="-1325,-765,8" publishUnderTab="KinematicOutput_7">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
      </module>
-     <group name="Deformation-Right_Eye_Hightlight" pos="-1094,-240,3">
+     <group name="Deformation-Right_Eye_Hightlight" pos="-1094,-240,6">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
@@ -23384,7 +23363,7 @@
        <link out="10" in="Transformation-Switch" inport="10"/>
       </linkedlist>
      </group>
-     <group name="Deformation-Left_Eye_Highlight" pos="-1402,-276,2">
+     <group name="Deformation-Left_Eye_Highlight" pos="-1402,-276,5">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
@@ -23991,6 +23970,74 @@
        <link out="10" in="Transformation-Switch" inport="10"/>
       </linkedlist>
      </group>
+     <module type="KinematicOutputModule" name="KinematicOutput_8" pos="277,-771,3" publishUnderTab="KinematicOutput_8">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+     </module>
+     <module type="PEG" name="Peg_8" pos="283,-668,2" publishUnderTab="Peg_8">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <enable3d val="false"/>
+       <faceCamera val="false"/>
+       <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
+       <position>
+        <separate val="true"/>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </position>
+       <scale>
+        <separate val="true"/>
+        <inFields val="false"/>
+        <xy val="1" defaultValue="1"/>
+        <x val="1" defaultValue="1"/>
+        <y val="1" defaultValue="1"/>
+        <z val="1" defaultValue="1"/>
+       </scale>
+       <rotation>
+        <separate val="false"/>
+        <anglex val="0" defaultValue="0"/>
+        <angley val="0" defaultValue="0"/>
+        <anglez val="0" defaultValue="0"/>
+       </rotation>
+       <angle val="0" defaultValue="0"/>
+       <skew val="0" defaultValue="0"/>
+       <pivot>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </pivot>
+       <splineOffset>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </splineOffset>
+       <ignoreParentPegScaling val="false"/>
+       <disableFieldRendering val="false"/>
+       <depth val="0"/>
+       <enableMinMaxAngle val="false"/>
+       <minAngle val="-360" defaultValue="-360"/>
+       <maxAngle val="360" defaultValue="360"/>
+       <nailForChildren val="false"/>
+       <ikHoldOrientation val="false"/>
+       <ikHoldX val="false"/>
+       <ikHoldY val="false"/>
+       <ikExcluded val="false"/>
+       <ikCanRotate val="true"/>
+       <ikCanTranslateX val="false"/>
+       <ikCanTranslateY val="false"/>
+       <ikBoneX val="0.20000000000000001" defaultValue="0.20000000000000001"/>
+       <ikBoneY val="0" defaultValue="0"/>
+       <ikStiffness val="1" defaultValue="1"/>
+       <groupAtNetworkBuilding val="false"/>
+       <addCompositeToGroup val="true"/>
+      </attrs>
+     </module>
     </nodeslist>
     <linkedlist>
      <link out="Composite" in="Write"/>
@@ -24018,6 +24065,7 @@
      <link out="Deformation-Body" in="KinematicOutput_5"/>
      <link out="Deformation-Body" in="KinematicOutput_7"/>
      <link out="Deformation-Body" in="KinematicOutput_6"/>
+     <link out="Deformation-Body" in="KinematicOutput_8"/>
      <link out="Deformation-Arm_Left" in="Arm_Left" inport="0"/>
      <link out="Deformation-Arm_Right" in="Arm_Right" inport="0"/>
      <link out="Deformation-Eye_right" in="Eye_right" inport="0"/>
@@ -24038,7 +24086,6 @@
      <link out="KinematicOutput_2" in="Peg_2"/>
      <link out="KinematicOutput_3" in="Peg_3"/>
      <link out="KinematicOutput_4" in="Peg_4"/>
-     <link out="KinematicOutput_5" in="Mouth_Rig" inport="0"/>
      <link out="KinematicOutput_5" in="Peg_5"/>
      <link out="Peg_6" in="Deformation-Left_Eye_Highlight"/>
      <link out="Peg_7" in="Deformation-Right_Eye_Hightlight"/>
@@ -24046,6 +24093,8 @@
      <link out="KinematicOutput_7" in="Peg_6"/>
      <link out="Deformation-Right_Eye_Hightlight" in="Right_Eye_Hightlight" inport="0"/>
      <link out="Deformation-Left_Eye_Highlight" in="Left_Eye_Highlight" inport="0"/>
+     <link out="KinematicOutput_8" in="Peg_8"/>
+     <link out="Peg_8" in="Mouth_Rig" inport="0"/>
     </linkedlist>
    </rootgroup>
    <unconnectedComposite>
