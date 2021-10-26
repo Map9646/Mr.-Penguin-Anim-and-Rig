@@ -15,4 +15,7 @@
  <element id="13" elementName="Left_Eye_Highlight" elementFolder="Left_Eye_Highlight" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="14" elementName="Mouth_Rig" elementFolder="Mouth_Rig" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="15" elementName="Wizard_Staff_Hand-Drawn" elementFolder="Wizard_Staff_Hand-Drawn" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="16" elementName="Background_No_Trees" elementFolder="Background_No_Trees" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="17" elementName="Background_Grass" elementFolder="Background_Grass" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="19" elementName="Background_Sun" elementFolder="Background_Sun" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
 </elements>
