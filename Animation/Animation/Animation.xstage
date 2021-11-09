@@ -282,7 +282,7 @@
  </options>
  <timelineMarkers/>
  <scenes>
-  <scene name="Top" id="0acf4ebbb5b0f103" nbframes="509" startFrame="390" stopFrame="415">
+  <scene name="Top" id="0acf4ebbb5b0f103" nbframes="509" startFrame="390" stopFrame="424">
    <columns>
     <column type="0" name="Body" displayOrder="0" width="100" anonymous="true" id="1">
      <elementSeq exposures="1,2,3-36,37-79" val="1" id="1"/>
@@ -22158,7 +22158,7 @@
           </customName>
          </drawing>
          <transformationnames>
-          <size val="11"/>
+          <size val="13"/>
           <transformation1 val="1;11;13;14;2;5;6;" displayName="Transformation 1"/>
           <transformation2 val="4;" displayName="Transformation 2"/>
           <transformation3 val="3;" displayName="Transformation 3"/>
@@ -22170,6 +22170,8 @@
           <transformation9 displayName="Transformation 9"/>
           <transformation10 displayName="Transformation 10"/>
           <transformation11 val="15;" displayName="Transformation 11"/>
+          <transformation12 val="17;" displayName="Transformation 12"/>
+          <transformation13 val="18;" displayName="Transformation 13"/>
          </transformationnames>
         </attrs>
         <inputPorts>
@@ -22185,6 +22187,8 @@
          <port idx="9"/>
          <port idx="10"/>
          <port idx="11"/>
+         <port idx="12"/>
+         <port idx="13"/>
         </inputPorts>
        </module>
        <group name="2" pos="-75,-525,5">
@@ -24434,6 +24438,692 @@
          <link out="Bone_4" in="Multi-Port-Out"/>
         </linkedlist>
        </group>
+       <group name="12" pos="0,-225,0">
+        <options>
+         <collapsed val="false"/>
+         <subnodeCollapsed val="true"/>
+         <showsPublished val="true"/>
+        </options>
+        <attrs/>
+        <nodeslist>
+         <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="0,0,0">
+          <options>
+           <collapsed val="false"/>
+           <version val="1"/>
+          </options>
+          <ports>
+           <port type="PEG" idx="0"/>
+          </ports>
+         </module>
+         <module type="MULTIPORT_IN" name="Multi-Port-In" pos="0,-650,0">
+          <options>
+           <collapsed val="false"/>
+           <version val="1"/>
+          </options>
+          <ports>
+           <port type="PEG" idx="0"/>
+          </ports>
+         </module>
+         <module type="BendyBoneModule" name="Bone" pos="0,-600,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="-0.17346736450964437" defaultValue="0"/>
+            <y val="-1.301059645404232" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="88.657375973462209" defaultValue="0"/>
+           <restradius val="0.5" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.23997498967998693" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="-0.17346736450964437" defaultValue="0"/>
+            <y val="-1.301059645404232" defaultValue="0"/>
+           </offset>
+           <orientation val="88.657375973462209" defaultValue="0"/>
+           <radius val="0.5" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.23997498967998693" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_1" pos="0,-550,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="5.1563712716758587" defaultValue="0"/>
+           <restradius val="0.11201977670225929" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.25528955340451859" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="5.1563712716758587" defaultValue="0"/>
+           <radius val="0.11201977670225929" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.25528955340451859" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_2" pos="0,-500,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="-4.743051019065458" defaultValue="0"/>
+           <restradius val="0.11201977670225929" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.29209514512906132" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="-4.743051019065458" defaultValue="0"/>
+           <radius val="0.11201977670225929" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.29209514512906132" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_3" pos="0,-450,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="1.3063307361342913" defaultValue="0"/>
+           <restradius val="0.13042257256453066" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.3900853536468003" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="1.3063307361342913" defaultValue="0"/>
+           <radius val="0.13042257256453066" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.3900853536468003" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_4" pos="0,-400,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="-2.6560513744049059" defaultValue="0"/>
+           <restradius val="0.14196011161253699" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.31517022322507399" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="-2.6560513744049059" defaultValue="0"/>
+           <radius val="0.14196011161253699" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.31517022322507399" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_5" pos="0,-350,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="2.7263109939063219" defaultValue="0"/>
+           <restradius val="0.14196011161253699" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.34479573145702719" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="2.7263109939063219" defaultValue="0"/>
+           <radius val="0.14196011161253699" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.34479573145702719" defaultValue="3"/>
+          </attrs>
+         </module>
+        </nodeslist>
+        <linkedlist>
+         <link out="Multi-Port-In" in="Bone"/>
+         <link out="Bone" in="Bone_1"/>
+         <link out="Bone_1" in="Bone_2"/>
+         <link out="Bone_2" in="Bone_3"/>
+         <link out="Bone_3" in="Bone_4"/>
+         <link out="Bone_4" in="Bone_5"/>
+         <link out="Bone_5" in="Multi-Port-Out"/>
+        </linkedlist>
+       </group>
+       <group name="13" pos="-75,-225,0">
+        <options>
+         <collapsed val="false"/>
+         <subnodeCollapsed val="true"/>
+         <showsPublished val="true"/>
+        </options>
+        <attrs/>
+        <nodeslist>
+         <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="0,0,0">
+          <options>
+           <collapsed val="false"/>
+           <version val="1"/>
+          </options>
+          <ports>
+           <port type="PEG" idx="0"/>
+          </ports>
+         </module>
+         <module type="MULTIPORT_IN" name="Multi-Port-In" pos="0,-650,0">
+          <options>
+           <collapsed val="false"/>
+           <version val="1"/>
+          </options>
+          <ports>
+           <port type="PEG" idx="0"/>
+          </ports>
+         </module>
+         <module type="BendyBoneModule" name="Bone" pos="0,-600,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="-0.38924584338872792" defaultValue="0"/>
+            <y val="-1.218983298227942" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="88.898293884793645" defaultValue="0"/>
+           <restradius val="0.5" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.230283027897593" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="-0.38924584338872792" defaultValue="0"/>
+            <y val="-1.218983298227942" defaultValue="0"/>
+           </offset>
+           <orientation val="88.898293884793645" defaultValue="0"/>
+           <radius val="0.5" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.230283027897593" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_1" pos="0,-550,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="2.6379400422931774" defaultValue="0"/>
+           <restradius val="0.12906535460350421" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.28929511914896533" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="2.6379400422931774" defaultValue="0"/>
+           <radius val="0.12906535460350421" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.28929511914896533" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_2" pos="0,-500,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="-6.9703609037090475" defaultValue="0"/>
+           <restradius val="0.064489882272730559" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.16022976454546112" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="-6.9703609037090475" defaultValue="0"/>
+           <radius val="0.064489882272730559" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.16022976454546112" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_3" pos="0,-450,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="4.4926117245442674" defaultValue="0"/>
+           <restradius val="0.064489882272730559" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.32470126898157259" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="4.4926117245442674" defaultValue="0"/>
+           <radius val="0.064489882272730559" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.32470126898157259" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_4" pos="0,-400,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="1.3086098512573505" defaultValue="0"/>
+           <restradius val="0.12899244662327175" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.2892348932465435" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="1.3086098512573505" defaultValue="0"/>
+           <radius val="0.12899244662327175" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.2892348932465435" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_5" pos="0,-350,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="7.1315159575051239e-014" defaultValue="0"/>
+           <restradius val="0.084721799697780403" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.20069359939556081" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="7.1315159575051239e-014" defaultValue="0"/>
+           <radius val="0.084721799697780403" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.20069359939556081" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_6" pos="0,-300,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="-4.5139884580014806" defaultValue="0"/>
+           <restradius val="0.084721799697780403" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.22500253550689123" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="-4.5139884580014806" defaultValue="0"/>
+           <radius val="0.084721799697780403" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.22500253550689123" defaultValue="3"/>
+          </attrs>
+         </module>
+        </nodeslist>
+        <linkedlist>
+         <link out="Multi-Port-In" in="Bone"/>
+         <link out="Bone" in="Bone_1"/>
+         <link out="Bone_1" in="Bone_2"/>
+         <link out="Bone_2" in="Bone_3"/>
+         <link out="Bone_3" in="Bone_4"/>
+         <link out="Bone_4" in="Bone_5"/>
+         <link out="Bone_5" in="Bone_6"/>
+         <link out="Bone_6" in="Multi-Port-Out"/>
+        </linkedlist>
+       </group>
       </nodeslist>
       <linkedlist>
        <link out="Multi-Port-In" in="1"/>
@@ -24448,6 +25138,8 @@
        <link out="Multi-Port-In" in="9"/>
        <link out="Multi-Port-In" in="10"/>
        <link out="Multi-Port-In" in="Transformation-Switch" inport="11"/>
+       <link out="Multi-Port-In" in="12"/>
+       <link out="Multi-Port-In" in="13"/>
        <link out="1" in="Transformation-Switch" inport="1"/>
        <link out="Transformation-Switch" in="Multi-Port-Out"/>
        <link out="2" in="Transformation-Switch" inport="2"/>
@@ -24459,6 +25151,8 @@
        <link out="8" in="Transformation-Switch" inport="8"/>
        <link out="9" in="Transformation-Switch" inport="9"/>
        <link out="10" in="Transformation-Switch" inport="10"/>
+       <link out="12" in="Transformation-Switch" inport="12"/>
+       <link out="13" in="Transformation-Switch" inport="13"/>
       </linkedlist>
      </group>
      <group name="Deformation-Arm_Left" pos="-325,-485,27">
@@ -25078,7 +25772,7 @@
           </customName>
          </drawing>
          <transformationnames>
-          <size val="13"/>
+          <size val="15"/>
           <transformation1 val="11;12;9;" displayName="Transformation 1"/>
           <transformation2 val="3;" displayName="Transformation 2"/>
           <transformation3 displayName="Transformation 3"/>
@@ -25092,6 +25786,8 @@
           <transformation11 displayName="Transformation 11"/>
           <transformation12 val="2;" displayName="Transformation 12"/>
           <transformation13 val="5;" displayName="Transformation 13"/>
+          <transformation14 val="14;" displayName="Transformation 14"/>
+          <transformation15 val="16;" displayName="Transformation 15"/>
          </transformationnames>
         </attrs>
         <inputPorts>
@@ -25109,6 +25805,8 @@
          <port idx="11"/>
          <port idx="12"/>
          <port idx="13"/>
+         <port idx="14"/>
+         <port idx="15"/>
         </inputPorts>
        </module>
        <group name="2" pos="-75,-475,6">
@@ -28476,6 +29174,788 @@
          <link out="Bone_5" in="Multi-Port-Out"/>
         </linkedlist>
        </group>
+       <group name="14" pos="-675,-208,0">
+        <options>
+         <collapsed val="false"/>
+         <subnodeCollapsed val="true"/>
+         <showsPublished val="true"/>
+        </options>
+        <attrs/>
+        <nodeslist>
+         <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="0,0,0">
+          <options>
+           <collapsed val="false"/>
+           <version val="1"/>
+          </options>
+          <ports>
+           <port type="PEG" idx="0"/>
+          </ports>
+         </module>
+         <module type="MULTIPORT_IN" name="Multi-Port-In" pos="0,-650,0">
+          <options>
+           <collapsed val="false"/>
+           <version val="1"/>
+          </options>
+          <ports>
+           <port type="PEG" idx="0"/>
+          </ports>
+         </module>
+         <module type="BendyBoneModule" name="Bone" pos="0,-600,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0.17342318321086975" defaultValue="0"/>
+            <y val="1.0332009742924924" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="-104.87568200163882" defaultValue="0"/>
+           <restradius val="0.5" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.15470772074153152" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0.17342318321086975" defaultValue="0"/>
+            <y val="1.0332009742924924" defaultValue="0"/>
+           </offset>
+           <orientation val="-104.87568200163882" defaultValue="0"/>
+           <radius val="0.5" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.15470772074153152" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_1" pos="0,-550,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="6.6981824413754625" defaultValue="0"/>
+           <restradius val="0.087191041624634549" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.2056320832492691" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="6.6981824413754625" defaultValue="0"/>
+           <radius val="0.087191041624634549" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.2056320832492691" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_2" pos="0,-500,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="25.97377511386868" defaultValue="0"/>
+           <restradius val="0.087191041624634549" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.23464091438950246" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="25.97377511386868" defaultValue="0"/>
+           <radius val="0.087191041624634549" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.23464091438950246" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_3" pos="0,-450,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="-2.0936702130318849" defaultValue="0"/>
+           <restradius val="0.10169545719475123" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.2594298138727924" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="-2.0936702130318849" defaultValue="0"/>
+           <radius val="0.10169545719475123" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.2594298138727924" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_4" pos="0,-400,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="13.06970312487171" defaultValue="0"/>
+           <restradius val="0.080929254804979561" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.19310850960995912" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="13.06970312487171" defaultValue="0"/>
+           <radius val="0.080929254804979561" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.19310850960995912" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_5" pos="0,-350,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="2.793986103379086" defaultValue="0"/>
+           <restradius val="0.080929254804979561" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.20788657020964291" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="2.793986103379086" defaultValue="0"/>
+           <radius val="0.080929254804979561" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.20788657020964291" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_6" pos="0,-300,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="14.159978193817199" defaultValue="0"/>
+           <restradius val="0.088318285104821453" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.18948966593331817" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="14.159978193817199" defaultValue="0"/>
+           <radius val="0.088318285104821453" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.18948966593331817" defaultValue="3"/>
+          </attrs>
+         </module>
+        </nodeslist>
+        <linkedlist>
+         <link out="Multi-Port-In" in="Bone"/>
+         <link out="Bone" in="Bone_1"/>
+         <link out="Bone_1" in="Bone_2"/>
+         <link out="Bone_2" in="Bone_3"/>
+         <link out="Bone_3" in="Bone_4"/>
+         <link out="Bone_4" in="Bone_5"/>
+         <link out="Bone_5" in="Bone_6"/>
+         <link out="Bone_6" in="Multi-Port-Out"/>
+        </linkedlist>
+       </group>
+       <group name="15" pos="-750,-208,0">
+        <options>
+         <collapsed val="false"/>
+         <subnodeCollapsed val="true"/>
+         <showsPublished val="true"/>
+        </options>
+        <attrs/>
+        <nodeslist>
+         <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="0,0,0">
+          <options>
+           <collapsed val="false"/>
+           <version val="1"/>
+          </options>
+          <ports>
+           <port type="PEG" idx="0"/>
+          </ports>
+         </module>
+         <module type="MULTIPORT_IN" name="Multi-Port-In" pos="0,-650,0">
+          <options>
+           <collapsed val="false"/>
+           <version val="1"/>
+          </options>
+          <ports>
+           <port type="PEG" idx="0"/>
+          </ports>
+         </module>
+         <module type="BendyBoneModule" name="Bone" pos="0,-600,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="-0.12414290824350052" defaultValue="0"/>
+            <y val="0.92741623820440999" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="-112.41614747934366" defaultValue="0"/>
+           <restradius val="0.5" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.27540833684526106" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="-0.12414290824350052" defaultValue="0"/>
+            <y val="0.92741623820440999" defaultValue="0"/>
+           </offset>
+           <orientation val="-112.41614747934366" defaultValue="0"/>
+           <radius val="0.5" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.27540833684526106" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_1" pos="0,-550,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="5.8786933053832486" defaultValue="0"/>
+           <restradius val="0.069533379844616133" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.17031675968923227" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="5.8786933053832486" defaultValue="0"/>
+           <radius val="0.069533379844616133" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.17031675968923227" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_2" pos="0,-500,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="-4.2840111197177224" defaultValue="0"/>
+           <restradius val="0.069533379844616133" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.23744002763764943" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="-4.2840111197177224" defaultValue="0"/>
+           <radius val="0.069533379844616133" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.23744002763764943" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_3" pos="0,-450,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="4.5962466092672285" defaultValue="0"/>
+           <restradius val="0.062803078990948363" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.15685615798189673" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="4.5962466092672285" defaultValue="0"/>
+           <radius val="0.062803078990948363" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.15685615798189673" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_4" pos="0,-400,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="-11.070202577939407" defaultValue="0"/>
+           <restradius val="0.062803078990948363" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.21752035402923395" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="-11.070202577939407" defaultValue="0"/>
+           <radius val="0.062803078990948363" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.21752035402923395" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_5" pos="0,-350,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="-6.4108400202324427" defaultValue="0"/>
+           <restradius val="0.05930242568811675" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.1498548513762335" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="-6.4108400202324427" defaultValue="0"/>
+           <radius val="0.05930242568811675" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.1498548513762335" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_6" pos="0,-300,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="-8.4754268287850429" defaultValue="0"/>
+           <restradius val="0.052762982061543173" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.13677596412308635" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="-8.4754268287850429" defaultValue="0"/>
+           <radius val="0.052762982061543173" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.13677596412308635" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_7" pos="0,-250,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="3.5763343749979026" defaultValue="0"/>
+           <restradius val="0.052762982061543173" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.1109140529798676" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="3.5763343749979026" defaultValue="0"/>
+           <radius val="0.052762982061543173" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.1109140529798676" defaultValue="3"/>
+          </attrs>
+         </module>
+        </nodeslist>
+        <linkedlist>
+         <link out="Multi-Port-In" in="Bone"/>
+         <link out="Bone" in="Bone_1"/>
+         <link out="Bone_1" in="Bone_2"/>
+         <link out="Bone_2" in="Bone_3"/>
+         <link out="Bone_3" in="Bone_4"/>
+         <link out="Bone_4" in="Bone_5"/>
+         <link out="Bone_5" in="Bone_6"/>
+         <link out="Bone_6" in="Bone_7"/>
+         <link out="Bone_7" in="Multi-Port-Out"/>
+        </linkedlist>
+       </group>
       </nodeslist>
       <linkedlist>
        <link out="Multi-Port-In" in="1"/>
@@ -28492,6 +29972,8 @@
        <link out="Multi-Port-In" in="12"/>
        <link out="Multi-Port-In" in="13"/>
        <link out="Multi-Port-In" in="Transformation-Switch" inport="4"/>
+       <link out="Multi-Port-In" in="14"/>
+       <link out="Multi-Port-In" in="15"/>
        <link out="1" in="Transformation-Switch" inport="1"/>
        <link out="Transformation-Switch" in="Multi-Port-Out"/>
        <link out="2" in="Transformation-Switch" inport="2"/>
@@ -28505,6 +29987,8 @@
        <link out="11" in="Transformation-Switch" inport="11"/>
        <link out="12" in="Transformation-Switch" inport="12"/>
        <link out="13" in="Transformation-Switch" inport="13"/>
+       <link out="14" in="Transformation-Switch" inport="14"/>
+       <link out="15" in="Transformation-Switch" inport="15"/>
       </linkedlist>
      </group>
      <group name="Deformation-Arm_Right" pos="668,-367,44">
@@ -28551,7 +30035,7 @@
           </customName>
          </drawing>
          <transformationnames>
-          <size val="11"/>
+          <size val="13"/>
           <transformation1 displayName="Transformation 1"/>
           <transformation2 val="1;" displayName="Transformation 2"/>
           <transformation3 val="3;" displayName="Transformation 3"/>
@@ -28563,6 +30047,8 @@
           <transformation9 val="8;" displayName="Transformation 9"/>
           <transformation10 val="10;" displayName="Transformation 10"/>
           <transformation11 val="13;" displayName="Transformation 11"/>
+          <transformation12 val="14;" displayName="Transformation 12"/>
+          <transformation13 val="15;" displayName="Transformation 13"/>
          </transformationnames>
         </attrs>
         <inputPorts>
@@ -28578,6 +30064,8 @@
          <port idx="9"/>
          <port idx="10"/>
          <port idx="11"/>
+         <port idx="12"/>
+         <port idx="13"/>
         </inputPorts>
        </module>
        <group name="2" pos="398,-220,0">
@@ -31451,6 +32939,788 @@
          <link out="Bone_4" in="Multi-Port-Out"/>
         </linkedlist>
        </group>
+       <group name="12" pos="248,-220,0">
+        <options>
+         <collapsed val="false"/>
+         <subnodeCollapsed val="true"/>
+         <showsPublished val="true"/>
+        </options>
+        <attrs/>
+        <nodeslist>
+         <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="0,0,0">
+          <options>
+           <collapsed val="false"/>
+           <version val="1"/>
+          </options>
+          <ports>
+           <port type="PEG" idx="0"/>
+          </ports>
+         </module>
+         <module type="MULTIPORT_IN" name="Multi-Port-In" pos="0,-650,0">
+          <options>
+           <collapsed val="false"/>
+           <version val="1"/>
+          </options>
+          <ports>
+           <port type="PEG" idx="0"/>
+          </ports>
+         </module>
+         <module type="BendyBoneModule" name="Bone" pos="0,-600,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0.053460625866184823" defaultValue="0"/>
+            <y val="0.75647134680287198" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="-108.37353857900668" defaultValue="0"/>
+           <restradius val="0.5" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.22594902414581214" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0.053460625866184823" defaultValue="0"/>
+            <y val="0.75647134680287198" defaultValue="0"/>
+           </offset>
+           <orientation val="-108.37353857900668" defaultValue="0"/>
+           <radius val="0.5" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.22594902414581214" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_1" pos="0,-550,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="6.0361816194179028" defaultValue="0"/>
+           <restradius val="0.075843865792879564" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.18293773158575913" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="6.0361816194179028" defaultValue="0"/>
+           <radius val="0.075843865792879564" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.18293773158575913" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_2" pos="0,-500,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="-1.1463358532717889" defaultValue="0"/>
+           <restradius val="0.075843865792879564" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.19040381562279335" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="-1.1463358532717889" defaultValue="0"/>
+           <radius val="0.075843865792879564" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.19040381562279335" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_3" pos="0,-450,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="1.5786833632858919" defaultValue="0"/>
+           <restradius val="0.063251881854492042" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.15775376370898408" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="1.5786833632858919" defaultValue="0"/>
+           <radius val="0.063251881854492042" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.15775376370898408" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_4" pos="0,-400,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="-2.4857787451051245" defaultValue="0"/>
+           <restradius val="0.063251881854492042" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.18205471865912273" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="-2.4857787451051245" defaultValue="0"/>
+           <radius val="0.063251881854492042" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.18205471865912273" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_5" pos="0,-350,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="-4.2753576093813939" defaultValue="0"/>
+           <restradius val="0.063637455502073559" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.15852491100414712" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="-4.2753576093813939" defaultValue="0"/>
+           <radius val="0.063637455502073559" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.15852491100414712" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_6" pos="0,-300,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="-13.978119440679931" defaultValue="0"/>
+           <restradius val="0.036922763957369965" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.10509552791473993" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="-13.978119440679931" defaultValue="0"/>
+           <radius val="0.036922763957369965" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.10509552791473993" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_7" pos="0,-250,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="-2.8518482818691995" defaultValue="0"/>
+           <restradius val="0.036922763957369965" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.14393031302062873" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="-2.8518482818691995" defaultValue="0"/>
+           <radius val="0.036922763957369965" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.14393031302062873" defaultValue="3"/>
+          </attrs>
+         </module>
+        </nodeslist>
+        <linkedlist>
+         <link out="Multi-Port-In" in="Bone"/>
+         <link out="Bone" in="Bone_1"/>
+         <link out="Bone_1" in="Bone_2"/>
+         <link out="Bone_2" in="Bone_3"/>
+         <link out="Bone_3" in="Bone_4"/>
+         <link out="Bone_4" in="Bone_5"/>
+         <link out="Bone_5" in="Bone_6"/>
+         <link out="Bone_6" in="Bone_7"/>
+         <link out="Bone_7" in="Multi-Port-Out"/>
+        </linkedlist>
+       </group>
+       <group name="13" pos="173,-220,0">
+        <options>
+         <collapsed val="false"/>
+         <subnodeCollapsed val="true"/>
+         <showsPublished val="true"/>
+        </options>
+        <attrs/>
+        <nodeslist>
+         <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="0,0,0">
+          <options>
+           <collapsed val="false"/>
+           <version val="1"/>
+          </options>
+          <ports>
+           <port type="PEG" idx="0"/>
+          </ports>
+         </module>
+         <module type="MULTIPORT_IN" name="Multi-Port-In" pos="0,-650,0">
+          <options>
+           <collapsed val="false"/>
+           <version val="1"/>
+          </options>
+          <ports>
+           <port type="PEG" idx="0"/>
+          </ports>
+         </module>
+         <module type="BendyBoneModule" name="Bone" pos="0,-600,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="-0.02327516213799926" defaultValue="0"/>
+            <y val="0.92961876588923786" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="-99.317086069126276" defaultValue="0"/>
+           <restradius val="0.5" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.1933545810063631" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="-0.02327516213799926" defaultValue="0"/>
+            <y val="0.92961876588923786" defaultValue="0"/>
+           </offset>
+           <orientation val="-99.317086069126276" defaultValue="0"/>
+           <radius val="0.5" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.1933545810063631" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_1" pos="0,-550,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="7.1446583705914595" defaultValue="0"/>
+           <restradius val="0.11477107406839562" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.26079214813679125" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="7.1446583705914595" defaultValue="0"/>
+           <radius val="0.11477107406839562" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.26079214813679125" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_2" pos="0,-500,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="7.4351466906093311" defaultValue="0"/>
+           <restradius val="0.093184387371314403" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.21761877474262881" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="7.4351466906093311" defaultValue="0"/>
+           <radius val="0.093184387371314403" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.21761877474262881" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_3" pos="0,-450,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="7.034231407529064" defaultValue="0"/>
+           <restradius val="0.093184387371314403" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.24019990193754881" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="7.034231407529064" defaultValue="0"/>
+           <radius val="0.093184387371314403" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.24019990193754881" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_4" pos="0,-400,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="17.290101986674465" defaultValue="0"/>
+           <restradius val="0.089966654328843515" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.21118330865768703" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="17.290101986674465" defaultValue="0"/>
+           <radius val="0.089966654328843515" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.21118330865768703" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_5" pos="0,-350,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="7.9434718105903483" defaultValue="0"/>
+           <restradius val="0.089966654328843515" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.2292214607069723" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="7.9434718105903483" defaultValue="0"/>
+           <radius val="0.089966654328843515" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.2292214607069723" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_6" pos="0,-300,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="19.022242622279823" defaultValue="0"/>
+           <restradius val="0.098985730353486151" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.16882286135799068" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="19.022242622279823" defaultValue="0"/>
+           <radius val="0.098985730353486151" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.16882286135799068" defaultValue="3"/>
+          </attrs>
+         </module>
+        </nodeslist>
+        <linkedlist>
+         <link out="Multi-Port-In" in="Bone"/>
+         <link out="Bone" in="Bone_1"/>
+         <link out="Bone_1" in="Bone_2"/>
+         <link out="Bone_2" in="Bone_3"/>
+         <link out="Bone_3" in="Bone_4"/>
+         <link out="Bone_4" in="Bone_5"/>
+         <link out="Bone_5" in="Bone_6"/>
+         <link out="Bone_6" in="Multi-Port-Out"/>
+        </linkedlist>
+       </group>
       </nodeslist>
       <linkedlist>
        <link out="Multi-Port-In" in="Transformation-Switch" inport="0"/>
@@ -31465,6 +33735,8 @@
        <link out="Multi-Port-In" in="11"/>
        <link out="Multi-Port-In" in="Transformation-Switch" inport="1"/>
        <link out="Multi-Port-In" in="Transformation-Switch" inport="9"/>
+       <link out="Multi-Port-In" in="12"/>
+       <link out="Multi-Port-In" in="13"/>
        <link out="Transformation-Switch" in="Multi-Port-Out"/>
        <link out="2" in="Transformation-Switch" inport="2"/>
        <link out="3" in="Transformation-Switch" inport="3"/>
@@ -31475,6 +33747,8 @@
        <link out="8" in="Transformation-Switch" inport="8"/>
        <link out="10" in="Transformation-Switch" inport="10"/>
        <link out="11" in="Transformation-Switch" inport="11"/>
+       <link out="12" in="Transformation-Switch" inport="12"/>
+       <link out="13" in="Transformation-Switch" inport="13"/>
       </linkedlist>
      </group>
      <group name="Deformation-Eye_right" pos="-160,-601,56">
@@ -31628,7 +33902,7 @@
           </customName>
          </drawing>
          <transformationnames>
-          <size val="10"/>
+          <size val="11"/>
           <transformation1 val="1;11;12;9;" displayName="Transformation 1"/>
           <transformation2 val="3;" displayName="Transformation 2"/>
           <transformation3 val="2;" displayName="Transformation 3"/>
@@ -31639,6 +33913,7 @@
           <transformation8 val="8;" displayName="Transformation 8"/>
           <transformation9 val="10;" displayName="Transformation 9"/>
           <transformation10 val="13;" displayName="Transformation 10"/>
+          <transformation11 val="14;" displayName="Transformation 11"/>
          </transformationnames>
         </attrs>
         <inputPorts>
@@ -31653,6 +33928,7 @@
          <port idx="8"/>
          <port idx="9"/>
          <port idx="10"/>
+         <port idx="11"/>
         </inputPorts>
        </module>
        <group name="2" pos="-75,-600,0">
@@ -32190,6 +34466,109 @@
          <link out="Free-Form-Deformer" in="Multi-Port-Out"/>
         </linkedlist>
        </group>
+       <group name="11" pos="-150,-250,0">
+        <options>
+         <collapsed val="false"/>
+         <subnodeCollapsed val="true"/>
+         <showsPublished val="true"/>
+        </options>
+        <attrs/>
+        <nodeslist>
+         <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="0,0,0">
+          <options>
+           <collapsed val="false"/>
+           <version val="1"/>
+          </options>
+          <ports>
+           <port type="PEG" idx="0"/>
+          </ports>
+         </module>
+         <module type="MULTIPORT_IN" name="Multi-Port-In" pos="0,-650,0">
+          <options>
+           <collapsed val="false"/>
+           <version val="1"/>
+          </options>
+          <ports>
+           <port type="PEG" idx="0"/>
+          </ports>
+         </module>
+         <module type="FreeFormDeformation" name="Free-Form-Deformer" pos="0,-600,0" publishUnderTab="Free-Form-Deformer">
+          <options>
+           <collapsed val="false"/>
+           <version val="1"/>
+          </options>
+          <metas>
+           <meta keyword="Point" displayName="Point" flags="15" type="FREE-FORM-DEFORMATION-ATTRIBUTE" linkable="false"/>
+           <meta keyword="Point_1" displayName="Point_1" flags="15" type="FREE-FORM-DEFORMATION-ATTRIBUTE" linkable="false"/>
+           <meta keyword="Point_2" displayName="Point_2" flags="15" type="FREE-FORM-DEFORMATION-ATTRIBUTE" linkable="false"/>
+           <meta keyword="Point_3" displayName="Point_3" flags="15" type="FREE-FORM-DEFORMATION-ATTRIBUTE" linkable="false"/>
+          </metas>
+          <attrs>
+           <deformationquality val="Very High"/>
+           <point>
+            <restingPosition>
+             <x val="0.14790474388644353" defaultValue="0"/>
+             <y val="0.47313925972355864" defaultValue="0"/>
+            </restingPosition>
+            <position>
+             <separate val="false"/>
+             <x val="0.14790474243164062" defaultValue="0"/>
+             <y val="0.47313925781249999" defaultValue="0"/>
+            </position>
+            <rotation val="0" defaultValue="0"/>
+            <scale val="1" defaultValue="1"/>
+            <weight val="1" defaultValue="1"/>
+           </point>
+           <point1>
+            <restingPosition>
+             <x val="0.069988404136534663" defaultValue="0"/>
+             <y val="0.32832505251160699" defaultValue="0"/>
+            </restingPosition>
+            <position>
+             <separate val="false"/>
+             <x val="0.069988403320312503" defaultValue="0"/>
+             <y val="0.32832504882812497" defaultValue="0"/>
+            </position>
+            <rotation val="0" defaultValue="0"/>
+            <scale val="1" defaultValue="1"/>
+            <weight val="1" defaultValue="1"/>
+           </point1>
+           <point2>
+            <restingPosition>
+             <x val="0.21873778002272407" defaultValue="0"/>
+             <y val="0.3314731874509973" defaultValue="0"/>
+            </restingPosition>
+            <position>
+             <separate val="false"/>
+             <x val="0.21873777465820313" defaultValue="0"/>
+             <y val="0.33147319335937497" defaultValue="0"/>
+            </position>
+            <rotation val="0" defaultValue="0"/>
+            <scale val="1" defaultValue="1"/>
+            <weight val="1" defaultValue="1"/>
+           </point2>
+           <point3>
+            <restingPosition>
+             <x val="0.15262694629552881" defaultValue="0"/>
+             <y val="0.17721457542087499" defaultValue="0"/>
+            </restingPosition>
+            <position>
+             <separate val="false"/>
+             <x val="0.15262694091796875" defaultValue="0"/>
+             <y val="0.1772145751953125" defaultValue="0"/>
+            </position>
+            <rotation val="0" defaultValue="0"/>
+            <scale val="1" defaultValue="1"/>
+            <weight val="1" defaultValue="1"/>
+           </point3>
+          </attrs>
+         </module>
+        </nodeslist>
+        <linkedlist>
+         <link out="Multi-Port-In" in="Free-Form-Deformer"/>
+         <link out="Free-Form-Deformer" in="Multi-Port-Out"/>
+        </linkedlist>
+       </group>
       </nodeslist>
       <linkedlist>
        <link out="Multi-Port-In" in="1"/>
@@ -32203,6 +34582,7 @@
        <link out="Multi-Port-In" in="Transformation-Switch" inport="6"/>
        <link out="Multi-Port-In" in="Transformation-Switch" inport="7"/>
        <link out="Multi-Port-In" in="Transformation-Switch" inport="8"/>
+       <link out="Multi-Port-In" in="11"/>
        <link out="1" in="Transformation-Switch" inport="1"/>
        <link out="Transformation-Switch" in="Multi-Port-Out"/>
        <link out="2" in="Transformation-Switch" inport="2"/>
@@ -32210,6 +34590,7 @@
        <link out="4" in="Transformation-Switch" inport="4"/>
        <link out="9" in="Transformation-Switch" inport="9"/>
        <link out="10" in="Transformation-Switch" inport="10"/>
+       <link out="11" in="Transformation-Switch" inport="11"/>
       </linkedlist>
      </group>
      <group name="Deformation-Eye_Left" pos="-549,-405,61">
@@ -32363,7 +34744,7 @@
           </customName>
          </drawing>
          <transformationnames>
-          <size val="10"/>
+          <size val="11"/>
           <transformation1 val="1;11;12;9;" displayName="Transformation 1"/>
           <transformation2 val="3;" displayName="Transformation 2"/>
           <transformation3 val="2;" displayName="Transformation 3"/>
@@ -32374,6 +34755,7 @@
           <transformation8 val="8;" displayName="Transformation 8"/>
           <transformation9 val="10;" displayName="Transformation 9"/>
           <transformation10 val="13;" displayName="Transformation 10"/>
+          <transformation11 val="14;" displayName="Transformation 11"/>
          </transformationnames>
         </attrs>
         <inputPorts>
@@ -32388,6 +34770,7 @@
          <port idx="8"/>
          <port idx="9"/>
          <port idx="10"/>
+         <port idx="11"/>
         </inputPorts>
        </module>
        <group name="2" pos="-75,-600,0">
@@ -32925,6 +35308,109 @@
          <link out="Free-Form-Deformer" in="Multi-Port-Out"/>
         </linkedlist>
        </group>
+       <group name="11" pos="-225,-250,0">
+        <options>
+         <collapsed val="false"/>
+         <subnodeCollapsed val="true"/>
+         <showsPublished val="true"/>
+        </options>
+        <attrs/>
+        <nodeslist>
+         <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="0,0,0">
+          <options>
+           <collapsed val="false"/>
+           <version val="1"/>
+          </options>
+          <ports>
+           <port type="PEG" idx="0"/>
+          </ports>
+         </module>
+         <module type="MULTIPORT_IN" name="Multi-Port-In" pos="0,-650,0">
+          <options>
+           <collapsed val="false"/>
+           <version val="1"/>
+          </options>
+          <ports>
+           <port type="PEG" idx="0"/>
+          </ports>
+         </module>
+         <module type="FreeFormDeformation" name="Free-Form-Deformer" pos="0,-600,0" publishUnderTab="Free-Form-Deformer">
+          <options>
+           <collapsed val="false"/>
+           <version val="1"/>
+          </options>
+          <metas>
+           <meta keyword="Point" displayName="Point" flags="15" type="FREE-FORM-DEFORMATION-ATTRIBUTE" linkable="false"/>
+           <meta keyword="Point_1" displayName="Point_1" flags="15" type="FREE-FORM-DEFORMATION-ATTRIBUTE" linkable="false"/>
+           <meta keyword="Point_2" displayName="Point_2" flags="15" type="FREE-FORM-DEFORMATION-ATTRIBUTE" linkable="false"/>
+           <meta keyword="Point_3" displayName="Point_3" flags="15" type="FREE-FORM-DEFORMATION-ATTRIBUTE" linkable="false"/>
+          </metas>
+          <attrs>
+           <deformationquality val="Very High"/>
+           <point>
+            <restingPosition>
+             <x val="0.33384138972763011" defaultValue="0"/>
+             <y val="0.4416578575549337" defaultValue="0"/>
+            </restingPosition>
+            <position>
+             <separate val="false"/>
+             <x val="0.33384140625000003" defaultValue="0"/>
+             <y val="0.44165786132812501" defaultValue="0"/>
+            </position>
+            <rotation val="0" defaultValue="0"/>
+            <scale val="1" defaultValue="1"/>
+            <weight val="1" defaultValue="1"/>
+           </point>
+           <point1>
+            <restingPosition>
+             <x val="0.31613313095743362" defaultValue="0"/>
+             <y val="0.34327864216495285" defaultValue="0"/>
+            </restingPosition>
+            <position>
+             <separate val="false"/>
+             <x val="0.3161331298828125" defaultValue="0"/>
+             <y val="0.34327863769531253" defaultValue="0"/>
+            </position>
+            <rotation val="0" defaultValue="0"/>
+            <scale val="1" defaultValue="1"/>
+            <weight val="1" defaultValue="1"/>
+           </point1>
+           <point2>
+            <restingPosition>
+             <x val="0.36630653080632386" defaultValue="0"/>
+             <y val="0.33934347354935357" defaultValue="0"/>
+            </restingPosition>
+            <position>
+             <separate val="false"/>
+             <x val="0.36630651855468754" defaultValue="0"/>
+             <y val="0.33934345703125002" defaultValue="0"/>
+            </position>
+            <rotation val="0" defaultValue="0"/>
+            <scale val="1" defaultValue="1"/>
+            <weight val="1" defaultValue="1"/>
+           </point2>
+           <point3>
+            <restingPosition>
+             <x val="0.34859827203612714" defaultValue="0"/>
+             <y val="0.24883459539057126" defaultValue="0"/>
+            </restingPosition>
+            <position>
+             <separate val="false"/>
+             <x val="0.34859824218750002" defaultValue="0"/>
+             <y val="0.2488345703125" defaultValue="0"/>
+            </position>
+            <rotation val="0" defaultValue="0"/>
+            <scale val="1" defaultValue="1"/>
+            <weight val="1" defaultValue="1"/>
+           </point3>
+          </attrs>
+         </module>
+        </nodeslist>
+        <linkedlist>
+         <link out="Multi-Port-In" in="Free-Form-Deformer"/>
+         <link out="Free-Form-Deformer" in="Multi-Port-Out"/>
+        </linkedlist>
+       </group>
       </nodeslist>
       <linkedlist>
        <link out="Multi-Port-In" in="1"/>
@@ -32938,6 +35424,7 @@
        <link out="Multi-Port-In" in="Transformation-Switch" inport="5"/>
        <link out="Multi-Port-In" in="Transformation-Switch" inport="6"/>
        <link out="Multi-Port-In" in="Transformation-Switch" inport="7"/>
+       <link out="Multi-Port-In" in="11"/>
        <link out="1" in="Transformation-Switch" inport="1"/>
        <link out="Transformation-Switch" in="Multi-Port-Out"/>
        <link out="2" in="Transformation-Switch" inport="2"/>
@@ -32945,6 +35432,7 @@
        <link out="8" in="Transformation-Switch" inport="8"/>
        <link out="9" in="Transformation-Switch" inport="9"/>
        <link out="10" in="Transformation-Switch" inport="10"/>
+       <link out="11" in="Transformation-Switch" inport="11"/>
       </linkedlist>
      </group>
      <group name="Deformation-Nose" pos="-671,-283,63">
@@ -33098,7 +35586,7 @@
           </customName>
          </drawing>
          <transformationnames>
-          <size val="10"/>
+          <size val="11"/>
           <transformation1 val="1;11;12;9;" displayName="Transformation 1"/>
           <transformation2 val="3;" displayName="Transformation 2"/>
           <transformation3 val="4;" displayName="Transformation 3"/>
@@ -33109,6 +35597,7 @@
           <transformation8 val="10;" displayName="Transformation 8"/>
           <transformation9 val="13;" displayName="Transformation 9"/>
           <transformation10 val="2;" displayName="Transformation 10"/>
+          <transformation11 val="14;" displayName="Transformation 11"/>
          </transformationnames>
         </attrs>
         <inputPorts>
@@ -33123,6 +35612,7 @@
          <port idx="8"/>
          <port idx="9"/>
          <port idx="10"/>
+         <port idx="11"/>
         </inputPorts>
        </module>
        <group name="2" pos="-75,-600,0">
@@ -33767,6 +36257,109 @@
          <link out="Free-Form-Deformer" in="Multi-Port-Out"/>
         </linkedlist>
        </group>
+       <group name="11" pos="-300,-250,0">
+        <options>
+         <collapsed val="false"/>
+         <subnodeCollapsed val="true"/>
+         <showsPublished val="true"/>
+        </options>
+        <attrs/>
+        <nodeslist>
+         <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="0,0,0">
+          <options>
+           <collapsed val="false"/>
+           <version val="1"/>
+          </options>
+          <ports>
+           <port type="PEG" idx="0"/>
+          </ports>
+         </module>
+         <module type="MULTIPORT_IN" name="Multi-Port-In" pos="0,-650,0">
+          <options>
+           <collapsed val="false"/>
+           <version val="1"/>
+          </options>
+          <ports>
+           <port type="PEG" idx="0"/>
+          </ports>
+         </module>
+         <module type="FreeFormDeformation" name="Free-Form-Deformer" pos="0,-600,0" publishUnderTab="Free-Form-Deformer">
+          <options>
+           <collapsed val="false"/>
+           <version val="1"/>
+          </options>
+          <metas>
+           <meta keyword="Point" displayName="Point" flags="15" type="FREE-FORM-DEFORMATION-ATTRIBUTE" linkable="false"/>
+           <meta keyword="Point_1" displayName="Point_1" flags="15" type="FREE-FORM-DEFORMATION-ATTRIBUTE" linkable="false"/>
+           <meta keyword="Point_2" displayName="Point_2" flags="15" type="FREE-FORM-DEFORMATION-ATTRIBUTE" linkable="false"/>
+           <meta keyword="Point_3" displayName="Point_3" flags="15" type="FREE-FORM-DEFORMATION-ATTRIBUTE" linkable="false"/>
+          </metas>
+          <attrs>
+           <deformationquality val="Very High"/>
+           <point>
+            <restingPosition>
+             <x val="0.30727900157233523" defaultValue="0"/>
+             <y val="0.016659647070216617" defaultValue="0"/>
+            </restingPosition>
+            <position>
+             <separate val="false"/>
+             <x val="0.30727899169921874" defaultValue="0"/>
+             <y val="0.016659646606445314" defaultValue="0"/>
+            </position>
+            <rotation val="0" defaultValue="0"/>
+            <scale val="1" defaultValue="1"/>
+            <weight val="1" defaultValue="1"/>
+           </point>
+           <point1>
+            <restingPosition>
+             <x val="0.35154964849782672" defaultValue="0"/>
+             <y val="0.19374223477218205" defaultValue="0"/>
+            </restingPosition>
+            <position>
+             <separate val="false"/>
+             <x val="0.35154964599609373" defaultValue="0"/>
+             <y val="0.19374223632812501" defaultValue="0"/>
+            </position>
+            <rotation val="0" defaultValue="0"/>
+            <scale val="1" defaultValue="1"/>
+            <weight val="1" defaultValue="1"/>
+           </point1>
+           <point2>
+            <restingPosition>
+             <x val="0.29547349572553749" defaultValue="0"/>
+             <y val="0.22915875231257515" defaultValue="0"/>
+            </restingPosition>
+            <position>
+             <separate val="false"/>
+             <x val="0.29547350463867189" defaultValue="0"/>
+             <y val="0.22915874023437499" defaultValue="0"/>
+            </position>
+            <rotation val="0" defaultValue="0"/>
+            <scale val="1" defaultValue="1"/>
+            <weight val="1" defaultValue="1"/>
+           </point2>
+           <point3>
+            <restingPosition>
+             <x val="0.23644596649154914" defaultValue="0"/>
+             <y val="0.18193672892538443" defaultValue="0"/>
+            </restingPosition>
+            <position>
+             <separate val="false"/>
+             <x val="0.23644597778320312" defaultValue="0"/>
+             <y val="0.18193670654296873" defaultValue="0"/>
+            </position>
+            <rotation val="0" defaultValue="0"/>
+            <scale val="1" defaultValue="1"/>
+            <weight val="1" defaultValue="1"/>
+           </point3>
+          </attrs>
+         </module>
+        </nodeslist>
+        <linkedlist>
+         <link out="Multi-Port-In" in="Free-Form-Deformer"/>
+         <link out="Free-Form-Deformer" in="Multi-Port-Out"/>
+        </linkedlist>
+       </group>
       </nodeslist>
       <linkedlist>
        <link out="Multi-Port-In" in="1"/>
@@ -33780,6 +36373,7 @@
        <link out="Multi-Port-In" in="Transformation-Switch" inport="4"/>
        <link out="Multi-Port-In" in="Transformation-Switch" inport="5"/>
        <link out="Multi-Port-In" in="Transformation-Switch" inport="6"/>
+       <link out="Multi-Port-In" in="11"/>
        <link out="1" in="Transformation-Switch" inport="1"/>
        <link out="Transformation-Switch" in="Multi-Port-Out"/>
        <link out="2" in="Transformation-Switch" inport="2"/>
@@ -33788,6 +36382,7 @@
        <link out="8" in="Transformation-Switch" inport="8"/>
        <link out="9" in="Transformation-Switch" inport="9"/>
        <link out="10" in="Transformation-Switch" inport="10"/>
+       <link out="11" in="Transformation-Switch" inport="11"/>
       </linkedlist>
      </group>
      <group name="Deformation-Hat" pos="-853,-186,47">
@@ -36702,7 +39297,7 @@
           </customName>
          </drawing>
          <transformationnames>
-          <size val="10"/>
+          <size val="12"/>
           <transformation1 val="1;11;12;9;" displayName="Transformation 1"/>
           <transformation2 val="3;" displayName="Transformation 2"/>
           <transformation3 val="2;" displayName="Transformation 3"/>
@@ -36713,6 +39308,8 @@
           <transformation8 val="8;" displayName="Transformation 8"/>
           <transformation9 val="10;" displayName="Transformation 9"/>
           <transformation10 val="13;" displayName="Transformation 10"/>
+          <transformation11 val="14;" displayName="Transformation 11"/>
+          <transformation12 val="15;" displayName="Transformation 12"/>
          </transformationnames>
         </attrs>
         <inputPorts>
@@ -36727,6 +39324,8 @@
          <port idx="8"/>
          <port idx="9"/>
          <port idx="10"/>
+         <port idx="11"/>
+         <port idx="12"/>
         </inputPorts>
        </module>
        <group name="2" pos="-75,-550,5">
@@ -38552,6 +41151,596 @@
          <link out="Bone_3" in="Multi-Port-Out"/>
         </linkedlist>
        </group>
+       <group name="11" pos="-750,-550,0">
+        <options>
+         <collapsed val="false"/>
+         <subnodeCollapsed val="true"/>
+         <showsPublished val="true"/>
+        </options>
+        <attrs/>
+        <nodeslist>
+         <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="0,0,0">
+          <options>
+           <collapsed val="false"/>
+           <version val="1"/>
+          </options>
+          <ports>
+           <port type="PEG" idx="0"/>
+          </ports>
+         </module>
+         <module type="MULTIPORT_IN" name="Multi-Port-In" pos="0,-650,0">
+          <options>
+           <collapsed val="false"/>
+           <version val="1"/>
+          </options>
+          <ports>
+           <port type="PEG" idx="0"/>
+          </ports>
+         </module>
+         <module type="BendyBoneModule" name="Bone" pos="0,-600,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="-0.38924584338872875" defaultValue="0"/>
+            <y val="-1.1599557689939535" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="-16.044266863203596" defaultValue="0"/>
+           <restradius val="0.5" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.15398154388376875" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="-0.38924584338872875" defaultValue="0"/>
+            <y val="-1.1599557689939535" defaultValue="0"/>
+           </offset>
+           <orientation val="-16.044266863203596" defaultValue="0"/>
+           <radius val="0.5" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.15398154388376875" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_1" pos="0,-550,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="-3.7739376923353576" defaultValue="0"/>
+           <restradius val="0.059577207380327041" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.15040441476065408" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="-3.7739376923353576" defaultValue="0"/>
+           <radius val="0.059577207380327041" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.15040441476065408" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_2" pos="0,-500,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="-1.092371894702906" defaultValue="0"/>
+           <restradius val="0.059577207380327041" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.19138487347102878" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="-1.092371894702906" defaultValue="0"/>
+           <radius val="0.059577207380327041" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.19138487347102878" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_3" pos="0,-450,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="-1.3971810272976428" defaultValue="0"/>
+           <restradius val="0.035706895183683911" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.10266379036736782" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="-1.3971810272976428" defaultValue="0"/>
+           <radius val="0.035706895183683911" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.10266379036736782" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_4" pos="0,-400,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="-4.7636416907254819" defaultValue="0"/>
+           <restradius val="0.035706895183683911" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.11238506741145132" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="-4.7636416907254819" defaultValue="0"/>
+           <radius val="0.035706895183683911" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.11238506741145132" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_5" pos="0,-350,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="-4.0567378612953471" defaultValue="0"/>
+           <restradius val="0.040567533705725661" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.10955929225643972" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="-4.0567378612953471" defaultValue="0"/>
+           <radius val="0.040567533705725661" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.10955929225643972" defaultValue="3"/>
+          </attrs>
+         </module>
+        </nodeslist>
+        <linkedlist>
+         <link out="Multi-Port-In" in="Bone"/>
+         <link out="Bone" in="Bone_1"/>
+         <link out="Bone_1" in="Bone_2"/>
+         <link out="Bone_2" in="Bone_3"/>
+         <link out="Bone_3" in="Bone_4"/>
+         <link out="Bone_4" in="Bone_5"/>
+         <link out="Bone_5" in="Multi-Port-Out"/>
+        </linkedlist>
+       </group>
+       <group name="12" pos="-825,-550,0">
+        <options>
+         <collapsed val="false"/>
+         <subnodeCollapsed val="true"/>
+         <showsPublished val="true"/>
+        </options>
+        <attrs/>
+        <nodeslist>
+         <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="0,0,0">
+          <options>
+           <collapsed val="false"/>
+           <version val="1"/>
+          </options>
+          <ports>
+           <port type="PEG" idx="0"/>
+          </ports>
+         </module>
+         <module type="MULTIPORT_IN" name="Multi-Port-In" pos="0,-650,0">
+          <options>
+           <collapsed val="false"/>
+           <version val="1"/>
+          </options>
+          <ports>
+           <port type="PEG" idx="0"/>
+          </ports>
+         </module>
+         <module type="BendyBoneModule" name="Bone" pos="0,-600,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="-0.37153758461853126" defaultValue="0"/>
+            <y val="-1.3212976822335221" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="38.233825177446896" defaultValue="0"/>
+           <restradius val="0.5" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.15083814943433549" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="-0.37153758461853126" defaultValue="0"/>
+            <y val="-1.3212976822335221" defaultValue="0"/>
+           </offset>
+           <orientation val="38.233825177446896" defaultValue="0"/>
+           <radius val="0.5" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.15083814943433549" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_1" pos="0,-550,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="6.6054795807441353" defaultValue="0"/>
+           <restradius val="0.098669532386520681" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.21486344965807683" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="6.6054795807441353" defaultValue="0"/>
+           <radius val="0.098669532386520681" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.21486344965807683" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_2" pos="0,-500,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="-5.0106239598648292" defaultValue="0"/>
+           <restradius val="0.042471958635778073" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.11619391727155615" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="-5.0106239598648292" defaultValue="0"/>
+           <radius val="0.042471958635778073" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.11619391727155615" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_3" pos="0,-450,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="11.009076397830178" defaultValue="0"/>
+           <restradius val="0.03836248714057898" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.10797497428115796" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="11.009076397830178" defaultValue="0"/>
+           <radius val="0.03836248714057898" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.10797497428115796" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_4" pos="0,-400,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="-4.7651035463766309" defaultValue="0"/>
+           <restradius val="0.03836248714057898" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.21848161053583073" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="-4.7651035463766309" defaultValue="0"/>
+           <radius val="0.03836248714057898" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.21848161053583073" defaultValue="3"/>
+          </attrs>
+         </module>
+        </nodeslist>
+        <linkedlist>
+         <link out="Multi-Port-In" in="Bone"/>
+         <link out="Bone" in="Bone_1"/>
+         <link out="Bone_1" in="Bone_2"/>
+         <link out="Bone_2" in="Bone_3"/>
+         <link out="Bone_3" in="Bone_4"/>
+         <link out="Bone_4" in="Multi-Port-Out"/>
+        </linkedlist>
+       </group>
       </nodeslist>
       <linkedlist>
        <link out="Multi-Port-In" in="1"/>
@@ -38565,6 +41754,8 @@
        <link out="Multi-Port-In" in="8"/>
        <link out="Multi-Port-In" in="9"/>
        <link out="Multi-Port-In" in="10"/>
+       <link out="Multi-Port-In" in="11"/>
+       <link out="Multi-Port-In" in="12"/>
        <link out="1" in="Transformation-Switch" inport="1"/>
        <link out="Transformation-Switch" in="Multi-Port-Out"/>
        <link out="2" in="Transformation-Switch" inport="2"/>
@@ -38576,6 +41767,8 @@
        <link out="8" in="Transformation-Switch" inport="8"/>
        <link out="9" in="Transformation-Switch" inport="9"/>
        <link out="10" in="Transformation-Switch" inport="10"/>
+       <link out="11" in="Transformation-Switch" inport="11"/>
+       <link out="12" in="Transformation-Switch" inport="12"/>
       </linkedlist>
      </group>
      <module type="READ" name="Mouth_Rig" pos="210,-518,29" publishUnderTab="Mouth_Rig">
@@ -38957,7 +42150,7 @@
           </customName>
          </drawing>
          <transformationnames>
-          <size val="11"/>
+          <size val="12"/>
           <transformation1 val="11;12;9;" displayName="Transformation 1"/>
           <transformation2 val="3;" displayName="Transformation 2"/>
           <transformation3 val="2;" displayName="Transformation 3"/>
@@ -38969,6 +42162,7 @@
           <transformation9 val="10;" displayName="Transformation 9"/>
           <transformation10 val="13;" displayName="Transformation 10"/>
           <transformation11 val="1;" displayName="Transformation 11"/>
+          <transformation12 val="14;" displayName="Transformation 12"/>
          </transformationnames>
         </attrs>
         <inputPorts>
@@ -38984,6 +42178,7 @@
          <port idx="9"/>
          <port idx="10"/>
          <port idx="11"/>
+         <port idx="12"/>
         </inputPorts>
        </module>
        <group name="2" pos="-75,-525,0">
@@ -40956,6 +44151,229 @@
          <link out="Bone_2" in="Multi-Port-Out"/>
         </linkedlist>
        </group>
+       <group name="12" pos="-825,-525,0">
+        <options>
+         <collapsed val="false"/>
+         <subnodeCollapsed val="true"/>
+         <showsPublished val="true"/>
+        </options>
+        <attrs/>
+        <nodeslist>
+         <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="0,0,0">
+          <options>
+           <collapsed val="false"/>
+           <version val="1"/>
+          </options>
+          <ports>
+           <port type="PEG" idx="0"/>
+          </ports>
+         </module>
+         <module type="MULTIPORT_IN" name="Multi-Port-In" pos="0,-650,0">
+          <options>
+           <collapsed val="false"/>
+           <version val="1"/>
+          </options>
+          <ports>
+           <port type="PEG" idx="0"/>
+          </ports>
+         </module>
+         <module type="BendyBoneModule" name="Bone" pos="0,-600,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0.30432762511063594" defaultValue="0"/>
+            <y val="-0.90810497759560271" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="-54.4007800410238" defaultValue="0"/>
+           <restradius val="0.5" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.089762610770146981" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0.30432762511063594" defaultValue="0"/>
+            <y val="-0.90810497759560271" defaultValue="0"/>
+           </offset>
+           <orientation val="-54.4007800410238" defaultValue="0"/>
+           <radius val="0.5" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.089762610770146981" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_1" pos="0,-550,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="21.55707928503762" defaultValue="0"/>
+           <restradius val="0.03125" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.084514560137956149" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="21.55707928503762" defaultValue="0"/>
+           <radius val="0.03125" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.084514560137956149" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_2" pos="0,-500,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="10.738897100905428" defaultValue="0"/>
+           <restradius val="0.03125" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.073013021355290683" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="10.738897100905428" defaultValue="0"/>
+           <radius val="0.03125" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.073013021355290683" defaultValue="3"/>
+          </attrs>
+         </module>
+         <module type="BendyBoneModule" name="Bone_3" pos="0,-450,0" publishUnderTab="Bone">
+          <shapedROI>
+           <pt pointOn="-5,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOff="-2,-5"/>
+           <pt pointOn="5,-5"/>
+           <pt pointOff="5,-2"/>
+           <pt pointOff="5,2"/>
+           <pt pointOn="5,5"/>
+           <pt pointOff="2,5"/>
+           <pt pointOff="-2,5"/>
+           <pt pointOn="-5,5"/>
+           <pt pointOff="-5,2"/>
+           <pt pointOff="-5,-2"/>
+           <pt pointOn="-5,-5"/>
+          </shapedROI>
+          <options>
+           <collapsed val="false"/>
+           <version val="2"/>
+          </options>
+          <attrs>
+           <influencetype val="INFINITE_INFLUENCE"/>
+           <influencefade val="0.5" defaultValue="0.5"/>
+           <symmetric val="true"/>
+           <transversalradius val="2" defaultValue="1"/>
+           <transversalradiusright val="2" defaultValue="1"/>
+           <longitudinalradiusbegin val="0.25" defaultValue="1"/>
+           <longitudinalradius val="0.25" defaultValue="1"/>
+           <restoffset>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </restoffset>
+           <restorientation val="-0.44155898671696897" defaultValue="0"/>
+           <restradius val="0.03125" defaultValue="0.5"/>
+           <restbias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <restlength val="0.055351202643745795" defaultValue="3"/>
+           <offset>
+            <separate val="true"/>
+            <x val="0" defaultValue="0"/>
+            <y val="0" defaultValue="0"/>
+           </offset>
+           <orientation val="-0.44155898671696897" defaultValue="0"/>
+           <radius val="0.03125" defaultValue="0.5"/>
+           <bias val="0.45000000000000001" defaultValue="0.45000000000000001"/>
+           <length val="0.055351202643745795" defaultValue="3"/>
+          </attrs>
+         </module>
+        </nodeslist>
+        <linkedlist>
+         <link out="Multi-Port-In" in="Bone"/>
+         <link out="Bone" in="Bone_1"/>
+         <link out="Bone_1" in="Bone_2"/>
+         <link out="Bone_2" in="Bone_3"/>
+         <link out="Bone_3" in="Multi-Port-Out"/>
+        </linkedlist>
+       </group>
       </nodeslist>
       <linkedlist>
        <link out="Multi-Port-In" in="1"/>
@@ -40970,6 +44388,7 @@
        <link out="Multi-Port-In" in="9"/>
        <link out="Multi-Port-In" in="10"/>
        <link out="Multi-Port-In" in="11"/>
+       <link out="Multi-Port-In" in="12"/>
        <link out="1" in="Transformation-Switch" inport="1"/>
        <link out="Transformation-Switch" in="Multi-Port-Out"/>
        <link out="2" in="Transformation-Switch" inport="2"/>
@@ -40982,6 +44401,7 @@
        <link out="9" in="Transformation-Switch" inport="9"/>
        <link out="10" in="Transformation-Switch" inport="10"/>
        <link out="11" in="Transformation-Switch" inport="11"/>
+       <link out="12" in="Transformation-Switch" inport="12"/>
       </linkedlist>
      </group>
      <module type="PEG" name="Peg" pos="-982,-354,46" publishUnderTab="Peg">
@@ -41679,7 +45099,7 @@
           </customName>
          </drawing>
          <transformationnames>
-          <size val="11"/>
+          <size val="12"/>
           <transformation1 val="1;11;2;" displayName="Transformation 1"/>
           <transformation2 val="3;" displayName="Transformation 2"/>
           <transformation3 val="4;" displayName="Transformation 3"/>
@@ -41691,6 +45111,7 @@
           <transformation9 displayName="Transformation 9"/>
           <transformation10 val="12;" displayName="Transformation 10"/>
           <transformation11 val="10;" displayName="Transformation 11"/>
+          <transformation12 val="13;" displayName="Transformation 12"/>
          </transformationnames>
         </attrs>
         <inputPorts>
@@ -41706,6 +45127,7 @@
          <port idx="9"/>
          <port idx="10"/>
          <port idx="11"/>
+         <port idx="12"/>
         </inputPorts>
        </module>
        <group name="2" pos="-75,-600,0">
@@ -42334,6 +45756,109 @@
          <link out="Free-Form-Deformer" in="Multi-Port-Out"/>
         </linkedlist>
        </group>
+       <group name="12" pos="-225,-250,0">
+        <options>
+         <collapsed val="false"/>
+         <subnodeCollapsed val="true"/>
+         <showsPublished val="true"/>
+        </options>
+        <attrs/>
+        <nodeslist>
+         <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="0,0,0">
+          <options>
+           <collapsed val="false"/>
+           <version val="1"/>
+          </options>
+          <ports>
+           <port type="PEG" idx="0"/>
+          </ports>
+         </module>
+         <module type="MULTIPORT_IN" name="Multi-Port-In" pos="0,-650,0">
+          <options>
+           <collapsed val="false"/>
+           <version val="1"/>
+          </options>
+          <ports>
+           <port type="PEG" idx="0"/>
+          </ports>
+         </module>
+         <module type="FreeFormDeformation" name="Free-Form-Deformer" pos="0,-600,0" publishUnderTab="Free-Form-Deformer">
+          <options>
+           <collapsed val="false"/>
+           <version val="1"/>
+          </options>
+          <metas>
+           <meta keyword="Point" displayName="Point" flags="15" type="FREE-FORM-DEFORMATION-ATTRIBUTE" linkable="false"/>
+           <meta keyword="Point_1" displayName="Point_1" flags="15" type="FREE-FORM-DEFORMATION-ATTRIBUTE" linkable="false"/>
+           <meta keyword="Point_2" displayName="Point_2" flags="15" type="FREE-FORM-DEFORMATION-ATTRIBUTE" linkable="false"/>
+           <meta keyword="Point_3" displayName="Point_3" flags="15" type="FREE-FORM-DEFORMATION-ATTRIBUTE" linkable="false"/>
+          </metas>
+          <attrs>
+           <deformationquality val="Very High"/>
+           <point>
+            <restingPosition>
+             <x val="0.14540473081444277" defaultValue="0"/>
+             <y val="0.50862102167397549" defaultValue="0"/>
+            </restingPosition>
+            <position>
+             <separate val="false"/>
+             <x val="0.14540473022460937" defaultValue="0"/>
+             <y val="0.50862104492187499" defaultValue="0"/>
+            </position>
+            <rotation val="0" defaultValue="0"/>
+            <scale val="1" defaultValue="1"/>
+            <weight val="1" defaultValue="1"/>
+           </point>
+           <point1>
+            <restingPosition>
+             <x val="0.10196046865085731" defaultValue="0"/>
+             <y val="0.41795473541953626" defaultValue="0"/>
+            </restingPosition>
+            <position>
+             <separate val="false"/>
+             <x val="0.10196046752929688" defaultValue="0"/>
+             <y val="0.41795473632812497" defaultValue="0"/>
+            </position>
+            <rotation val="0" defaultValue="0"/>
+            <scale val="1" defaultValue="1"/>
+            <weight val="1" defaultValue="1"/>
+           </point1>
+           <point2>
+            <restingPosition>
+             <x val="0.18601567153257698" defaultValue="0"/>
+             <y val="0.40788070361348749" defaultValue="0"/>
+            </restingPosition>
+            <position>
+             <separate val="false"/>
+             <x val="0.18601569213867189" defaultValue="0"/>
+             <y val="0.407880712890625" defaultValue="0"/>
+            </position>
+            <rotation val="0" defaultValue="0"/>
+            <scale val="1" defaultValue="1"/>
+            <weight val="1" defaultValue="1"/>
+           </point2>
+           <point3>
+            <restingPosition>
+             <x val="0.14918249274171108" defaultValue="0"/>
+             <y val="0.30336262362573113" defaultValue="0"/>
+            </restingPosition>
+            <position>
+             <separate val="false"/>
+             <x val="0.14918251647949218" defaultValue="0"/>
+             <y val="0.30336259765624995" defaultValue="0"/>
+            </position>
+            <rotation val="0" defaultValue="0"/>
+            <scale val="1" defaultValue="1"/>
+            <weight val="1" defaultValue="1"/>
+           </point3>
+          </attrs>
+         </module>
+        </nodeslist>
+        <linkedlist>
+         <link out="Multi-Port-In" in="Free-Form-Deformer"/>
+         <link out="Free-Form-Deformer" in="Multi-Port-Out"/>
+        </linkedlist>
+       </group>
       </nodeslist>
       <linkedlist>
        <link out="Multi-Port-In" in="1"/>
@@ -42348,6 +45873,7 @@
        <link out="Multi-Port-In" in="Transformation-Switch" inport="6"/>
        <link out="Multi-Port-In" in="Transformation-Switch" inport="7"/>
        <link out="Multi-Port-In" in="Transformation-Switch" inport="8"/>
+       <link out="Multi-Port-In" in="12"/>
        <link out="1" in="Transformation-Switch" inport="1"/>
        <link out="Transformation-Switch" in="Multi-Port-Out"/>
        <link out="2" in="Transformation-Switch" inport="2"/>
@@ -42356,6 +45882,7 @@
        <link out="9" in="Transformation-Switch" inport="9"/>
        <link out="10" in="Transformation-Switch" inport="10"/>
        <link out="11" in="Transformation-Switch" inport="11"/>
+       <link out="12" in="Transformation-Switch" inport="12"/>
       </linkedlist>
      </group>
      <group name="Deformation-Left_Eye_Highlight" pos="-1402,-276,32">
@@ -42509,7 +46036,7 @@
           </customName>
          </drawing>
          <transformationnames>
-          <size val="10"/>
+          <size val="11"/>
           <transformation1 val="1;11;2;" displayName="Transformation 1"/>
           <transformation2 val="3;" displayName="Transformation 2"/>
           <transformation3 val="4;" displayName="Transformation 3"/>
@@ -42520,6 +46047,7 @@
           <transformation8 val="9;" displayName="Transformation 8"/>
           <transformation9 val="10;" displayName="Transformation 9"/>
           <transformation10 val="12;" displayName="Transformation 10"/>
+          <transformation11 val="13;" displayName="Transformation 11"/>
          </transformationnames>
         </attrs>
         <inputPorts>
@@ -42534,6 +46062,7 @@
          <port idx="8"/>
          <port idx="9"/>
          <port idx="10"/>
+         <port idx="11"/>
         </inputPorts>
        </module>
        <group name="2" pos="-75,-600,0">
@@ -43071,6 +46600,109 @@
          <link out="Free-Form-Deformer" in="Multi-Port-Out"/>
         </linkedlist>
        </group>
+       <group name="11" pos="-150,-250,0">
+        <options>
+         <collapsed val="false"/>
+         <subnodeCollapsed val="true"/>
+         <showsPublished val="true"/>
+        </options>
+        <attrs/>
+        <nodeslist>
+         <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="0,0,0">
+          <options>
+           <collapsed val="false"/>
+           <version val="1"/>
+          </options>
+          <ports>
+           <port type="PEG" idx="0"/>
+          </ports>
+         </module>
+         <module type="MULTIPORT_IN" name="Multi-Port-In" pos="0,-650,0">
+          <options>
+           <collapsed val="false"/>
+           <version val="1"/>
+          </options>
+          <ports>
+           <port type="PEG" idx="0"/>
+          </ports>
+         </module>
+         <module type="FreeFormDeformation" name="Free-Form-Deformer" pos="0,-600,0" publishUnderTab="Free-Form-Deformer">
+          <options>
+           <collapsed val="false"/>
+           <version val="1"/>
+          </options>
+          <metas>
+           <meta keyword="Point" displayName="Point" flags="15" type="FREE-FORM-DEFORMATION-ATTRIBUTE" linkable="false"/>
+           <meta keyword="Point_1" displayName="Point_1" flags="15" type="FREE-FORM-DEFORMATION-ATTRIBUTE" linkable="false"/>
+           <meta keyword="Point_2" displayName="Point_2" flags="15" type="FREE-FORM-DEFORMATION-ATTRIBUTE" linkable="false"/>
+           <meta keyword="Point_3" displayName="Point_3" flags="15" type="FREE-FORM-DEFORMATION-ATTRIBUTE" linkable="false"/>
+          </metas>
+          <attrs>
+           <deformationquality val="Very High"/>
+           <point>
+            <restingPosition>
+             <x val="0.32979283035107237" defaultValue="0"/>
+             <y val="0.47773222049953967" defaultValue="0"/>
+            </restingPosition>
+            <position>
+             <separate val="false"/>
+             <x val="0.32979283447265628" defaultValue="0"/>
+             <y val="0.47773222656250003" defaultValue="0"/>
+            </position>
+            <rotation val="0" defaultValue="0"/>
+            <scale val="1" defaultValue="1"/>
+            <weight val="1" defaultValue="1"/>
+           </point>
+           <point1>
+            <restingPosition>
+             <x val="0.31940398505108447" defaultValue="0"/>
+             <y val="0.40847325183295424" defaultValue="0"/>
+            </restingPosition>
+            <position>
+             <separate val="false"/>
+             <x val="0.31940397949218746" defaultValue="0"/>
+             <y val="0.40847324218750003" defaultValue="0"/>
+            </position>
+            <rotation val="0" defaultValue="0"/>
+            <scale val="1" defaultValue="1"/>
+            <weight val="1" defaultValue="1"/>
+           </point1>
+           <point2>
+            <restingPosition>
+             <x val="0.35057052095104801" defaultValue="0"/>
+             <y val="0.41351026773597865" defaultValue="0"/>
+            </restingPosition>
+            <position>
+             <separate val="false"/>
+             <x val="0.35057050781249999" defaultValue="0"/>
+             <y val="0.41351025390625001" defaultValue="0"/>
+            </position>
+            <rotation val="0" defaultValue="0"/>
+            <scale val="1" defaultValue="1"/>
+            <weight val="1" defaultValue="1"/>
+           </point2>
+           <point3>
+            <restingPosition>
+             <x val="0.34112611613287724" defaultValue="0"/>
+             <y val="0.34425129906939306" defaultValue="0"/>
+            </restingPosition>
+            <position>
+             <separate val="false"/>
+             <x val="0.34112607421875002" defaultValue="0"/>
+             <y val="0.34425126953125001" defaultValue="0"/>
+            </position>
+            <rotation val="0" defaultValue="0"/>
+            <scale val="1" defaultValue="1"/>
+            <weight val="1" defaultValue="1"/>
+           </point3>
+          </attrs>
+         </module>
+        </nodeslist>
+        <linkedlist>
+         <link out="Multi-Port-In" in="Free-Form-Deformer"/>
+         <link out="Free-Form-Deformer" in="Multi-Port-Out"/>
+        </linkedlist>
+       </group>
       </nodeslist>
       <linkedlist>
        <link out="Multi-Port-In" in="1"/>
@@ -43084,6 +46716,7 @@
        <link out="Multi-Port-In" in="Transformation-Switch" inport="5"/>
        <link out="Multi-Port-In" in="Transformation-Switch" inport="6"/>
        <link out="Multi-Port-In" in="Transformation-Switch" inport="7"/>
+       <link out="Multi-Port-In" in="11"/>
        <link out="1" in="Transformation-Switch" inport="1"/>
        <link out="Transformation-Switch" in="Multi-Port-Out"/>
        <link out="2" in="Transformation-Switch" inport="2"/>
@@ -43091,6 +46724,7 @@
        <link out="9" in="Transformation-Switch" inport="9"/>
        <link out="10" in="Transformation-Switch" inport="10"/>
        <link out="8" in="Transformation-Switch" inport="8"/>
+       <link out="11" in="Transformation-Switch" inport="11"/>
       </linkedlist>
      </group>
      <module type="KinematicOutputModule" name="KinematicOutput_8" pos="277,-771,31" publishUnderTab="KinematicOutput_8">
