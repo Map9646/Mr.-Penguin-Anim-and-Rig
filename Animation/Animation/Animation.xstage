@@ -12441,7 +12441,7 @@
       <pt constSeg="false" x="160,290" yLocal="-10.199999999999999" y="-10.199999999999999"/>
       <pt constSeg="false" x="390" yLocal="-8.5999999999999996" y="-8.5999999999999996"/>
       <pt constSeg="false" x="40,79,120" yLocal="-7.2999999999999998" y="-7.2999999999999998"/>
-      <pt constSeg="false" x="1" yLocal="0" y="0"/>
+      <pt constSeg="false" x="1" yLocal="-1.8" y="-1.8"/>
      </points>
     </column>
     <column type="3" name="ATV-0AD6C31965D04840" displayOrder="0" width="100" anonymous="true">
