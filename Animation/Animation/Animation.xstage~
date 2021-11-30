@@ -282,7 +282,7 @@
  </options>
  <timelineMarkers/>
  <scenes>
-  <scene name="Top" id="0acf4ebbb5b0f103" nbframes="614" startFrame="370" stopFrame="530">
+  <scene name="Top" id="0acf4ebbb5b0f103" nbframes="614" startFrame="370" stopFrame="550">
    <columns>
     <column type="0" name="Body" displayOrder="0" width="100" anonymous="true" id="1">
      <elementSeq exposures="1,2,3-36,37-79,437-439,473-475" val="1" id="1"/>
@@ -12519,9 +12519,9 @@
      <step val="1" start="1" stop="1"/>
      <noFrames/>
      <points version="2">
-      <pt constSeg="false" x="319,368,390,430,451" yLocal="-0.10000000000000001" y="-0.10000000000000001"/>
+      <pt constSeg="false" x="319,368,390,430,451,520,540" yLocal="-0.10000000000000001" y="-0.10000000000000001"/>
       <pt constSeg="false" x="290" yLocal="-0.081874999999875547" y="-0.081874999999875547"/>
-      <pt constSeg="false" x="1,79,120" yLocal="0" y="0"/>
+      <pt constSeg="false" x="1,79,120,570" yLocal="0" y="0"/>
      </points>
     </column>
     <column type="3" name="ATV-0AD6C31965D0483E" displayOrder="0" width="100" anonymous="true">
@@ -12529,18 +12529,19 @@
      <noFrames/>
      <points version="2">
       <pt constSeg="false" x="1,79,120" yLocal="0" y="0"/>
+      <pt constSeg="false" x="570" yLocal="0.20000000000000001" y="0.20000000000000001"/>
       <pt constSeg="false" x="290" yLocal="0.24562499999962661" y="0.24562499999962661"/>
-      <pt constSeg="false" x="319,368,390,430,451" yLocal="0.29999999999999999" y="0.29999999999999999"/>
+      <pt constSeg="false" x="319,368,390,430,451,520,540" yLocal="0.29999999999999999" y="0.29999999999999999"/>
      </points>
     </column>
     <column type="3" name="ATV-0AD6C31965D0483F" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
      <noFrames/>
      <points version="2">
-      <pt constSeg="false" x="319,368,390" yLocal="-11.6" y="-11.6"/>
+      <pt constSeg="false" x="319,368,390,570" yLocal="-11.6" y="-11.6"/>
       <pt constSeg="false" x="160,290" yLocal="-10.199999999999999" y="-10.199999999999999"/>
       <pt constSeg="false" x="430" yLocal="-8.5999999999999996" y="-8.5999999999999996"/>
-      <pt constSeg="false" x="451" yLocal="-8.3000000000000007" y="-8.3000000000000007"/>
+      <pt constSeg="false" x="451,520,540" yLocal="-8.3000000000000007" y="-8.3000000000000007"/>
       <pt constSeg="false" x="40,79,120" yLocal="-7.2999999999999998" y="-7.2999999999999998"/>
       <pt constSeg="false" x="1" yLocal="-1.8" y="-1.8"/>
      </points>
@@ -12549,28 +12550,28 @@
      <step val="1" start="1" stop="1"/>
      <noFrames/>
      <points version="2">
-      <pt constSeg="false" x="1,79,120,290,319,368,390,430,451" yLocal="0" y="0"/>
+      <pt constSeg="false" x="1,79,120,290,319,368,390,430,451,520,540,570" yLocal="0" y="0"/>
      </points>
     </column>
     <column type="3" name="ATV-0AD6C31965D04841" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
      <noFrames/>
      <points version="2">
-      <pt constSeg="false" x="1,79,120,290,319,368,390,430,451" yLocal="1" y="1"/>
+      <pt constSeg="false" x="1,79,120,290,319,368,390,430,451,520,540,570" yLocal="1" y="1"/>
      </points>
     </column>
     <column type="3" name="ATV-0AD6C31965D04842" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
      <noFrames/>
      <points version="2">
-      <pt constSeg="false" x="1,79,120,290,319,368,390,430,451" yLocal="1" y="1"/>
+      <pt constSeg="false" x="1,79,120,290,319,368,390,430,451,520,540,570" yLocal="1" y="1"/>
      </points>
     </column>
     <column type="3" name="ATV-0AD6C31965D04843" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
      <noFrames/>
      <points version="2">
-      <pt constSeg="false" x="1,79,120,290,319,368,390,430,451" yLocal="0" y="0"/>
+      <pt constSeg="false" x="1,79,120,290,319,368,390,430,451,520,540,570" yLocal="0" y="0"/>
      </points>
     </column>
     <column type="3" name="ATV-0AD6C5B9ECC01FE9" displayOrder="0" width="100" anonymous="true">
@@ -30016,7 +30017,6 @@
      <module type="READ" name="Background_Design" pos="-288,117,143" publishUnderTab="Background_Design">
       <options>
        <disabled val="true"/>
-       <showTimelineThumb val="true"/>
        <collapsed val="true"/>
        <version val="1"/>
       </options>
@@ -57686,7 +57686,6 @@
      </module>
      <module type="READ" name="Background_Sun" pos="499,-44,106" publishUnderTab="Background_Sun">
       <options>
-       <showTimelineThumb val="true"/>
        <collapsed val="true"/>
        <version val="1"/>
       </options>
@@ -58501,7 +58500,7 @@
      </module>
      <module type="PEG" name="Peg_11" pos="742,-188,9" publishUnderTab="Peg_11">
       <options>
-       <collapsed val="true"/>
+       <collapsed val="false"/>
        <version val="1"/>
       </options>
       <attrs>
