@@ -18,4 +18,5 @@
  <element id="16" elementName="Background_No_Trees" elementFolder="Background_No_Trees" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="17" elementName="Background_Grass" elementFolder="Background_Grass" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="19" elementName="Background_Sun" elementFolder="Background_Sun" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="20" elementName="Staff_Magic_Animation" elementFolder="Staff_Magic_Animation" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
 </elements>
