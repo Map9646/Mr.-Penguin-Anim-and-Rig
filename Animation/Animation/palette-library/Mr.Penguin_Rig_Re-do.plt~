@@ -15,3 +15,4 @@ Solid    "Light Pink"               0x0ad1fcdc0cf50acc 255 147 189 255
 Solid    Green                      0x0ad6c0326fc02f2f   2 171  31 255
 Solid    "Darker Green"             0x0ad6c0326fc292d8  30 145  45 255
 Solid    "Sky Blue"                 0x0ad6c0326fc34042  56 199 255 255
+Solid    Brown                      0x0ad6c31965d2bdf9 114  73  28 255
