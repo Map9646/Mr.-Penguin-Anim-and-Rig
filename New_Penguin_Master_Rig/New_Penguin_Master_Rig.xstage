@@ -18,6 +18,11 @@
   <element id="3" elementName="Penguin_Body_Base" elementFolder="Penguin_Body_Base" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
     <dwg name="1"/>
+    <dwg name="2"/>
+    <dwg name="3"/>
+    <dwg name="4"/>
+    <dwg name="5"/>
+    <dwg name="6"/>
    </drawings>
   </element>
  </elements>
@@ -48,6 +53,11 @@
     </column>
     <column type="0" name="ATV-0B0ED0439742FC2B" displayOrder="0" width="100" anonymous="true" id="3">
      <elementSeq exposures="1" val="1" id="3"/>
+     <elementSeq exposures="2" val="2" id="3"/>
+     <elementSeq exposures="3" val="3" id="3"/>
+     <elementSeq exposures="4" val="4" id="3"/>
+     <elementSeq exposures="5" val="5" id="3"/>
+     <elementSeq exposures="6" val="6" id="3"/>
     </column>
    </columns>
    <options>
@@ -58,7 +68,7 @@
      <collapsed val="false"/>
     </options>
     <nodeslist>
-     <module type="COMPOSITE" name="Composite" pos="0,0,5" publishUnderTab="Composite">
+     <module type="COMPOSITE" name="Composite" pos="0,0,4" publishUnderTab="Composite">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -120,7 +130,7 @@
        <cleanUpPartitionFolders val="true"/>
       </attrs>
      </module>
-     <module type="COLOR_CARD" name="Colour-Card" pos="-4,-64,3" publishUnderTab="Colour-Card">
+     <module type="COLOR_CARD" name="Colour-Card" pos="161,-14,1" publishUnderTab="Colour-Card">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -137,7 +147,7 @@
        </color>
       </attrs>
      </module>
-     <module type="READ" name="Mr.PenguinDesign" pos="120,-37,1" publishUnderTab="Mr.PenguinDesign">
+     <module type="READ" name="Mr.PenguinDesign" pos="-15,-71,2" publishUnderTab="Mr.PenguinDesign">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -249,7 +259,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Penguin_Body_Base" pos="-208,-45,4" publishUnderTab="Penguin_Body_Base">
+     <module type="READ" name="Penguin_Body_Base" pos="-221,-57,5" publishUnderTab="Penguin_Body_Base">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -365,8 +375,8 @@
     <linkedlist>
      <link out="Composite" in="Display"/>
      <link out="Composite" in="Write"/>
-     <link out="Colour-Card" in="Composite" inport="1"/>
-     <link out="Mr.PenguinDesign" in="Composite" inport="0"/>
+     <link out="Colour-Card" in="Composite" inport="0"/>
+     <link out="Mr.PenguinDesign" in="Composite" inport="1"/>
      <link out="Penguin_Body_Base" in="Composite" inport="2"/>
     </linkedlist>
    </rootgroup>

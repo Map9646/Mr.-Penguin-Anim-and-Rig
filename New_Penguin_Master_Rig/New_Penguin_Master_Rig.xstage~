@@ -58,7 +58,7 @@
      <collapsed val="false"/>
     </options>
     <nodeslist>
-     <module type="COMPOSITE" name="Composite" pos="0,0,5" publishUnderTab="Composite">
+     <module type="COMPOSITE" name="Composite" pos="0,0,4" publishUnderTab="Composite">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -77,13 +77,13 @@
        <mergeVector val="false"/>
       </attrs>
      </module>
-     <module type="DISPLAY" name="Display" pos="50,50,6" publishUnderTab="Display">
+     <module type="DISPLAY" name="Display" pos="50,50,5" publishUnderTab="Display">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
      </module>
-     <module type="WRITE" name="Write" pos="-50,50,7" publishUnderTab="Write">
+     <module type="WRITE" name="Write" pos="-50,50,6" publishUnderTab="Write">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -120,7 +120,7 @@
        <cleanUpPartitionFolders val="true"/>
       </attrs>
      </module>
-     <module type="COLOR_CARD" name="Colour-Card" pos="-4,-64,3" publishUnderTab="Colour-Card">
+     <module type="COLOR_CARD" name="Colour-Card" pos="-4,-64,2" publishUnderTab="Colour-Card">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -249,7 +249,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Penguin_Body_Base" pos="-208,-45,4" publishUnderTab="Penguin_Body_Base">
+     <module type="READ" name="Penguin_Body_Base" pos="-208,-45,3" publishUnderTab="Penguin_Body_Base">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
