@@ -1,5 +1,5 @@
 <!DOCTYPE SceneVersion>
-<SceneVersion VersionName="New_Penguin_Master_Rig" Modified="2022-01-26 14:30:46" ID="1">
+<SceneVersion VersionName="New_Penguin_Master_Rig" Modified="2022-01-26 16:31:27" ID="1">
  <Element Name="Mr.PenguinDesign" ID="2" Folder="Mr.PenguinDesign">
   <Drawing Key="" Name="1" Version="1"/>
   <Drawing Key="" Name="2" Version="1"/>
@@ -14,5 +14,25 @@
  </Element>
  <Element Name="Penguin_Body_Base" ID="3" Folder="Penguin_Body_Base">
   <Drawing Key="" Name="1" Version="1"/>
+  <Drawing Key="" Name="2" Version="1"/>
+  <Drawing Key="" Name="3" Version="1"/>
+  <Drawing Key="" Name="4" Version="1"/>
+  <Drawing Key="" Name="5" Version="1"/>
+  <Drawing Key="" Name="6" Version="1"/>
+ </Element>
+ <Element Name="Right_Arm" ID="4" Folder="Right_Arm">
+  <Drawing Key="" Name="1" Version="1"/>
+  <Drawing Key="" Name="2" Version="1"/>
+  <Drawing Key="" Name="3" Version="1"/>
+  <Drawing Key="" Name="4" Version="1"/>
+  <Drawing Key="" Name="5" Version="1"/>
+  <Drawing Key="" Name="6" Version="1"/>
+ </Element>
+ <Element Name="Left_Arm" ID="5" Folder="Left_Arm">
+  <Drawing Key="" Name="1" Version="1"/>
+  <Drawing Key="" Name="2" Version="1"/>
+  <Drawing Key="" Name="3" Version="1"/>
+  <Drawing Key="" Name="4" Version="1"/>
+  <Drawing Key="" Name="5" Version="1"/>
  </Element>
 </SceneVersion>
