@@ -15,7 +15,11 @@
     <dwg name="10"/>
    </drawings>
   </element>
-  <element id="3" elementName="Penguin_Body_Base" elementFolder="Penguin_Body_Base" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+  <element id="3" elementName="Penguin_Body_Base" elementFolder="Penguin_Body_Base" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
+   <drawings>
+    <dwg name="1"/>
+   </drawings>
+  </element>
  </elements>
  <options>
   <metrics unitAspectRatioX="4" unitAspectRatioY="3" numberOfUnitsX="24" numberOfUnitsY="24" numberOfUnitsZ="12"/>
@@ -42,7 +46,9 @@
      <elementSeq exposures="5" val="3" id="2"/>
      <elementSeq exposures="6" val="5" id="2"/>
     </column>
-    <column type="0" name="ATV-0B0ED0439742FC2B" displayOrder="0" width="100" anonymous="true" id="3"/>
+    <column type="0" name="ATV-0B0ED0439742FC2B" displayOrder="0" width="100" anonymous="true" id="3">
+     <elementSeq exposures="1" val="1" id="3"/>
+    </column>
    </columns>
    <options>
     <defaultDisplay val="Display"/>
@@ -220,7 +226,7 @@
        <enableLineTexture val="true"/>
        <antialiasingQuality val="HIGH"/>
        <antialiasingExponent val="1" defaultValue="1"/>
-       <opacity val="100" defaultValue="100"/>
+       <opacity val="15" defaultValue="100"/>
        <textureFilter val="NEAREST_FILTERED"/>
        <adjustPencilThickness val="false"/>
        <normalLineArtThickness val="true"/>
