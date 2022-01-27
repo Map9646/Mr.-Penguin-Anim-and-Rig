@@ -178,7 +178,7 @@
        </color>
       </attrs>
      </module>
-     <module type="READ" name="Mr.PenguinDesign" pos="74,-84,4" publishUnderTab="Mr.PenguinDesign">
+     <module type="READ" name="Mr.PenguinDesign" pos="137,-72,2" publishUnderTab="Mr.PenguinDesign">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -290,7 +290,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Penguin_Body_Base" pos="-293,-44,6" publishUnderTab="Penguin_Body_Base">
+     <module type="READ" name="Penguin_Body_Base" pos="20,-125,1" publishUnderTab="Penguin_Body_Base">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -379,7 +379,7 @@
        <enableLineTexture val="true"/>
        <antialiasingQuality val="HIGH"/>
        <antialiasingExponent val="1" defaultValue="1"/>
-       <opacity val="61" defaultValue="100"/>
+       <opacity val="100" defaultValue="100"/>
        <textureFilter val="NEAREST_FILTERED"/>
        <adjustPencilThickness val="false"/>
        <normalLineArtThickness val="true"/>
@@ -402,7 +402,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Right_Arm" pos="-178,-129,2" publishUnderTab="Right_Arm">
+     <module type="READ" name="Right_Arm" pos="-265,-95,4" publishUnderTab="Right_Arm">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -514,7 +514,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Left_Arm" pos="-12,-142,1" publishUnderTab="Left_Arm">
+     <module type="READ" name="Left_Arm" pos="-151,-133,3" publishUnderTab="Left_Arm">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -632,9 +632,9 @@
      <link out="Composite" in="Write"/>
      <link out="Colour-Card" in="Composite" inport="0"/>
      <link out="Mr.PenguinDesign" in="Composite" inport="1"/>
-     <link out="Penguin_Body_Base" in="Composite" inport="4"/>
-     <link out="Right_Arm" in="Composite" inport="3"/>
-     <link out="Left_Arm" in="Composite" inport="2"/>
+     <link out="Penguin_Body_Base" in="Composite" inport="2"/>
+     <link out="Right_Arm" in="Composite" inport="4"/>
+     <link out="Left_Arm" in="Composite" inport="3"/>
     </linkedlist>
    </rootgroup>
    <unconnectedComposite>
