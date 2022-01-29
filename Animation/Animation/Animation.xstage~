@@ -596,7 +596,7 @@
      <elementSeq exposures="434-436,470-472,1065-1067" val="10" id="14"/>
     </column>
     <column type="0" name="ATV-0AD4C009E9401A6C" displayOrder="0" width="100" anonymous="true" id="15">
-     <elementSeq exposures="40-768,770-1100" val="2" id="15"/>
+     <elementSeq exposures="40-768,770-1110" val="2" id="15"/>
     </column>
     <column type="3" name="ATV-0AD4C009E9413515" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
