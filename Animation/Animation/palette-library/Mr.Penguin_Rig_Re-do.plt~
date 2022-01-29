@@ -16,3 +16,4 @@ Solid    Green                      0x0ad6c0326fc02f2f   2 171  31 255
 Solid    "Darker Green"             0x0ad6c0326fc292d8  30 145  45 255
 Solid    "Sky Blue"                 0x0ad6c0326fc34042  56 199 255 255
 Solid    Brown                      0x0ad6c31965d2bdf9 114  73  28 255
+Solid    Grey                       0x0ae1c365fc95a3c4  52  52  52 255
