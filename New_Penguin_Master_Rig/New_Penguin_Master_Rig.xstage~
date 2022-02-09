@@ -49,15 +49,58 @@
     <dwg name="1"/>
    </drawings>
   </element>
-  <element id="7" elementName="Right_Foot" elementFolder="Right_Foot" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
-  <element id="8" elementName="Left_Foot" elementFolder="Left_Foot" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+  <element id="7" elementName="Right_Foot" elementFolder="Right_Foot" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
+   <drawings>
+    <dwg name="1"/>
+    <dwg name="2"/>
+    <dwg name="3"/>
+    <dwg name="4"/>
+    <dwg name="5"/>
+   </drawings>
+  </element>
+  <element id="8" elementName="Left_Foot" elementFolder="Left_Foot" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
+   <drawings>
+    <dwg name="1"/>
+    <dwg name="2"/>
+    <dwg name="3"/>
+    <dwg name="4"/>
+    <dwg name="5"/>
+   </drawings>
+  </element>
   <element id="9" elementName="Hat" elementFolder="Hat" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
-  <element id="10" elementName="Left_Eye" elementFolder="Left_Eye" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
-  <element id="11" elementName="Right_Eye" elementFolder="Right_Eye" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
-  <element id="12" elementName="Nose" elementFolder="Nose" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
-  <element id="13" elementName="Right_Highlight" elementFolder="Right_Highlight" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
-  <element id="14" elementName="Left_Highlight" elementFolder="Left_Highlight" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
-  <element id="15" elementName="Head" elementFolder="Head" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+  <element id="10" elementName="Left_Eye" elementFolder="Left_Eye" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
+   <drawings>
+    <dwg name="1"/>
+    <dwg name="2"/>
+   </drawings>
+  </element>
+  <element id="11" elementName="Right_Eye" elementFolder="Right_Eye" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
+   <drawings>
+    <dwg name="1"/>
+    <dwg name="2"/>
+    <dwg name="3"/>
+   </drawings>
+  </element>
+  <element id="12" elementName="Nose" elementFolder="Nose" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
+   <drawings>
+    <dwg name="1"/>
+    <dwg name="2"/>
+    <dwg name="3"/>
+   </drawings>
+  </element>
+  <element id="13" elementName="Right_Highlight" elementFolder="Right_Highlight" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
+   <drawings>
+    <dwg name="1"/>
+    <dwg name="2"/>
+    <dwg name="3"/>
+   </drawings>
+  </element>
+  <element id="14" elementName="Left_Highlight" elementFolder="Left_Highlight" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
+   <drawings>
+    <dwg name="1"/>
+    <dwg name="2"/>
+   </drawings>
+  </element>
   <element id="16" elementName="Tail" elementFolder="Tail" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
     <dwg name="1"/>
@@ -90,12 +133,10 @@
      <elementSeq exposures="4" val="3" id="2"/>
      <elementSeq exposures="5" val="5" id="2"/>
     </column>
-    <column type="0" name="ATV-0B0ED0439742FC2B" display="false" displayOrder="0" width="100" anonymous="true" id="3">
-     <elementSeq exposures="1" val="1" id="3"/>
-     <elementSeq exposures="2" val="2" id="3"/>
-     <elementSeq exposures="3" val="3" id="3"/>
-     <elementSeq exposures="4" val="5" id="3"/>
-     <elementSeq exposures="5" val="6" id="3"/>
+    <column type="0" name="ATV-0B0ED0439742FC2B" displayOrder="0" width="100" anonymous="true" id="3">
+     <elementSeq exposures="1,2,3" val="2" id="3"/>
+     <elementSeq exposures="4" val="3" id="3"/>
+     <elementSeq exposures="5" val="1" id="3"/>
     </column>
     <column type="0" name="ATV-0B0ED56D4F55485D" displayOrder="0" width="100" anonymous="true" id="4">
      <elementSeq exposures="1" val="1" id="4"/>
@@ -104,7 +145,7 @@
      <elementSeq exposures="4" val="5" id="4"/>
      <elementSeq exposures="5" val="6" id="4"/>
     </column>
-    <column type="0" name="ATV-0B0EDC1349D40CED" displayOrder="0" width="100" anonymous="true" id="5">
+    <column type="0" name="ATV-0B0EDC1349D40CED" display="false" displayOrder="0" width="100" anonymous="true" id="5">
      <elementSeq exposures="1" val="1" id="5"/>
      <elementSeq exposures="2" val="2" id="5"/>
      <elementSeq exposures="3" val="3" id="5"/>
@@ -114,16 +155,45 @@
     <column type="0" name="ATV-0B0FC99B02B0200B" displayOrder="0" width="100" anonymous="true" id="6">
      <elementSeq exposures="1" val="1" id="6"/>
     </column>
-    <column type="0" name="ATV-0B0FC99B02B03E5A" displayOrder="0" width="100" anonymous="true" id="7"/>
-    <column type="0" name="ATV-0B0FC99B02B03F4D" displayOrder="0" width="100" anonymous="true" id="8"/>
+    <column type="0" name="ATV-0B0FC99B02B03E5A" display="false" displayOrder="0" width="100" anonymous="true" id="7">
+     <elementSeq exposures="1" val="1" id="7"/>
+     <elementSeq exposures="2" val="2" id="7"/>
+     <elementSeq exposures="3" val="3" id="7"/>
+     <elementSeq exposures="4" val="4" id="7"/>
+     <elementSeq exposures="5" val="5" id="7"/>
+    </column>
+    <column type="0" name="ATV-0B0FC99B02B03F4D" display="false" displayOrder="0" width="100" anonymous="true" id="8">
+     <elementSeq exposures="1" val="1" id="8"/>
+     <elementSeq exposures="2" val="2" id="8"/>
+     <elementSeq exposures="3" val="3" id="8"/>
+     <elementSeq exposures="4" val="4" id="8"/>
+     <elementSeq exposures="5" val="5" id="8"/>
+    </column>
     <column type="0" name="ATV-0B0FC99B02B04019" displayOrder="0" width="100" anonymous="true" id="9"/>
-    <column type="0" name="ATV-0B0FC99B02B040E5" displayOrder="0" width="100" anonymous="true" id="10"/>
-    <column type="0" name="ATV-0B0FC99B02B041B1" displayOrder="0" width="100" anonymous="true" id="11"/>
-    <column type="0" name="ATV-0B0FC99B02B0427D" displayOrder="0" width="100" anonymous="true" id="12"/>
-    <column type="0" name="ATV-0B0FC99B02B04632" displayOrder="0" width="100" anonymous="true" id="13"/>
-    <column type="0" name="ATV-0B0FC99B02B046FE" displayOrder="0" width="100" anonymous="true" id="14"/>
-    <column type="0" name="ATV-0B0FC99B02B04B5C" displayOrder="0" width="100" anonymous="true" id="15"/>
-    <column type="0" name="ATV-0B0FC99B02B1761B" displayOrder="0" width="100" anonymous="true" id="16">
+    <column type="0" name="ATV-0B0FC99B02B040E5" display="false" displayOrder="0" width="100" anonymous="true" id="10">
+     <elementSeq exposures="1" val="1" id="10"/>
+     <elementSeq exposures="2" val="2" id="10"/>
+    </column>
+    <column type="0" name="ATV-0B0FC99B02B041B1" display="false" displayOrder="0" width="100" anonymous="true" id="11">
+     <elementSeq exposures="1" val="1" id="11"/>
+     <elementSeq exposures="2" val="2" id="11"/>
+     <elementSeq exposures="3" val="3" id="11"/>
+    </column>
+    <column type="0" name="ATV-0B0FC99B02B0427D" display="false" displayOrder="0" width="100" anonymous="true" id="12">
+     <elementSeq exposures="1" val="1" id="12"/>
+     <elementSeq exposures="2" val="2" id="12"/>
+     <elementSeq exposures="3" val="3" id="12"/>
+    </column>
+    <column type="0" name="ATV-0B0FC99B02B04632" display="false" displayOrder="0" width="100" anonymous="true" id="13">
+     <elementSeq exposures="1" val="1" id="13"/>
+     <elementSeq exposures="2" val="2" id="13"/>
+     <elementSeq exposures="3" val="3" id="13"/>
+    </column>
+    <column type="0" name="ATV-0B0FC99B02B046FE" display="false" displayOrder="0" width="100" anonymous="true" id="14">
+     <elementSeq exposures="1" val="1" id="14"/>
+     <elementSeq exposures="2" val="2" id="14"/>
+    </column>
+    <column type="0" name="ATV-0B0FC99B02B1761B" display="false" displayOrder="0" width="100" anonymous="true" id="16">
      <elementSeq exposures="3" val="1" id="16"/>
      <elementSeq exposures="4" val="2" id="16"/>
      <elementSeq exposures="5" val="3" id="16"/>
@@ -137,7 +207,7 @@
      <collapsed val="false"/>
     </options>
     <nodeslist>
-     <module type="COMPOSITE" name="Composite" pos="-10,35,46" publishUnderTab="Composite">
+     <module type="COMPOSITE" name="Composite" pos="-7,960,44" publishUnderTab="Composite">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -156,13 +226,13 @@
        <mergeVector val="false"/>
       </attrs>
      </module>
-     <module type="DISPLAY" name="Display" pos="73,91,47" publishUnderTab="Display">
+     <module type="DISPLAY" name="Display" pos="76,1016,77" publishUnderTab="Display">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
      </module>
-     <module type="WRITE" name="Write" pos="-64,98,48" publishUnderTab="Write">
+     <module type="WRITE" name="Write" pos="-61,1023,78" publishUnderTab="Write">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -195,7 +265,7 @@
        <cleanUpPartitionFolders val="true"/>
       </attrs>
      </module>
-     <module type="COLOR_CARD" name="Colour-Card" pos="262,19,43" publishUnderTab="Colour-Card">
+     <module type="COLOR_CARD" name="Colour-Card" pos="265,944,75" publishUnderTab="Colour-Card">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -212,7 +282,7 @@
        </color>
       </attrs>
      </module>
-     <module type="READ" name="Mr.PenguinDesign" pos="119,-37,45" publishUnderTab="Mr.PenguinDesign">
+     <module type="READ" name="Mr.PenguinDesign" pos="122,888,76" publishUnderTab="Mr.PenguinDesign">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -324,9 +394,8 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Penguin_Body_Base" pos="-697,-275,2" publishUnderTab="Penguin_Body_Base">
+     <module type="READ" name="Penguin_Body_Base" pos="-1047,-245,4" publishUnderTab="Penguin_Body_Base">
       <options>
-       <disabled val="true"/>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
@@ -414,7 +483,7 @@
        <enableLineTexture val="true"/>
        <antialiasingQuality val="HIGH"/>
        <antialiasingExponent val="1" defaultValue="1"/>
-       <opacity val="72" defaultValue="100"/>
+       <opacity val="100" defaultValue="100"/>
        <textureFilter val="NEAREST_FILTERED"/>
        <adjustPencilThickness val="false"/>
        <normalLineArtThickness val="true"/>
@@ -437,7 +506,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Right_Arm" pos="-1158,-273,1" publishUnderTab="Right_Arm">
+     <module type="READ" name="Right_Arm" pos="-1964,117,3" publishUnderTab="Right_Arm">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -549,8 +618,9 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Left_Arm" pos="-1025,-273,15" publishUnderTab="Left_Arm">
+     <module type="READ" name="Left_Arm" pos="-1831,117,7" publishUnderTab="Left_Arm">
       <options>
+       <disabled val="true"/>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
@@ -661,7 +731,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="COMPOSITE" name="Mr.penguin_Master_Comp" pos="-93,-45,9" publishUnderTab="Composite_1">
+     <module type="COMPOSITE" name="Mr.penguin_Master_Comp" pos="-91,885,43" publishUnderTab="Composite_1">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -680,7 +750,7 @@
        <mergeVector val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Notes" pos="274,105,44" publishUnderTab="Notes">
+     <module type="READ" name="Notes" pos="277,1030,1" publishUnderTab="Notes">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -792,8 +862,9 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Right_Foot" pos="587,-271,41" publishUnderTab="Right_Foot">
+     <module type="READ" name="Right_Foot" pos="819,-259,63" publishUnderTab="Right_Foot">
       <options>
+       <disabled val="true"/>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
@@ -904,8 +975,9 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Left_Foot" pos="407,-271,42" publishUnderTab="Left_Foot">
+     <module type="READ" name="Left_Foot" pos="639,-259,64" publishUnderTab="Left_Foot">
       <options>
+       <disabled val="true"/>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
@@ -1016,7 +1088,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Hat" pos="1121,-263,39" publishUnderTab="Hat">
+     <module type="READ" name="Hat" pos="1860,149,33" publishUnderTab="Hat">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -1128,8 +1200,9 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Left_Eye" pos="-339,-270,35" publishUnderTab="Left_Eye">
+     <module type="READ" name="Left_Eye" pos="-361,-270,48" publishUnderTab="Left_Eye">
       <options>
+       <disabled val="true"/>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
@@ -1240,8 +1313,9 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Right_Eye" pos="-20,-270,37" publishUnderTab="Right_Eye">
+     <module type="READ" name="Right_Eye" pos="0,-270,45" publishUnderTab="Right_Eye">
       <options>
+       <disabled val="true"/>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
@@ -1352,8 +1426,9 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Nose" pos="865,-272,40" publishUnderTab="Nose">
+     <module type="READ" name="Nose" pos="1517,-146,62" publishUnderTab="Nose">
       <options>
+       <disabled val="true"/>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
@@ -1464,8 +1539,9 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Right_Highlight" pos="137,-271,34" publishUnderTab="Right_Highlight">
+     <module type="READ" name="Right_Highlight" pos="156,-270,47" publishUnderTab="Right_Highlight">
       <options>
+       <disabled val="true"/>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
@@ -1576,8 +1652,9 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Left_Highlight" pos="-188,-270,36" publishUnderTab="Left_Highlight">
+     <module type="READ" name="Left_Highlight" pos="-212,-270,46" publishUnderTab="Left_Highlight">
       <options>
+       <disabled val="true"/>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
@@ -1688,119 +1765,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Head" pos="-519,-275,10" publishUnderTab="Head">
-      <options>
-       <collapsed val="false"/>
-       <version val="1"/>
-      </options>
-      <attrs>
-       <enable3d val="false"/>
-       <faceCamera val="false"/>
-       <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
-       <offset>
-        <separate val="true"/>
-        <x val="0" defaultValue="0"/>
-        <y val="0" defaultValue="0"/>
-        <z val="0" defaultValue="0"/>
-       </offset>
-       <scale>
-        <separate val="true"/>
-        <inFields val="false"/>
-        <xy val="1" defaultValue="1"/>
-        <x val="1" defaultValue="1"/>
-        <y val="1" defaultValue="1"/>
-        <z val="1" defaultValue="1"/>
-       </scale>
-       <rotation>
-        <separate val="false"/>
-        <anglex val="0" defaultValue="0"/>
-        <angley val="0" defaultValue="0"/>
-        <anglez val="0" defaultValue="0"/>
-       </rotation>
-       <angle val="0" defaultValue="0"/>
-       <skew val="0" defaultValue="0"/>
-       <pivot>
-        <x val="0" defaultValue="0"/>
-        <y val="0" defaultValue="0"/>
-        <z val="0" defaultValue="0"/>
-       </pivot>
-       <splineOffset>
-        <x val="0" defaultValue="0"/>
-        <y val="0" defaultValue="0"/>
-        <z val="0" defaultValue="0"/>
-       </splineOffset>
-       <ignoreParentPegScaling val="false"/>
-       <disableFieldRendering val="false"/>
-       <depth val="0"/>
-       <enableMinMaxAngle val="false"/>
-       <minAngle val="-360" defaultValue="-360"/>
-       <maxAngle val="360" defaultValue="360"/>
-       <nailForChildren val="false"/>
-       <ikHoldOrientation val="false"/>
-       <ikHoldX val="false"/>
-       <ikHoldY val="false"/>
-       <ikExcluded val="false"/>
-       <ikCanRotate val="true"/>
-       <ikCanTranslateX val="false"/>
-       <ikCanTranslateY val="false"/>
-       <ikBoneX val="0.20000000000000001" defaultValue="0.20000000000000001"/>
-       <ikBoneY val="0" defaultValue="0"/>
-       <ikStiffness val="1" defaultValue="1"/>
-       <drawing>
-        <elementMode val="true"/>
-        <element col="ATV-0B0FC99B02B04B5C">
-         <layer/>
-        </element>
-        <customName>
-         <name/>
-         <extension val="tga"/>
-         <fieldChart val="12" defaultValue="12"/>
-        </customName>
-       </drawing>
-       <readOverlay val="true"/>
-       <readLineArt val="true"/>
-       <readColorArt val="true"/>
-       <readUnderlay val="true"/>
-       <overlayArtDrawingMode val="VectorDrawingMode"/>
-       <lineArtDrawingMode val="VectorDrawingMode"/>
-       <colorArtDrawingMode val="VectorDrawingMode"/>
-       <underlayArtDrawingMode val="VectorDrawingMode"/>
-       <pencilLineDeformationPreserveThickness val="false"/>
-       <pencilLineDeformationQuality val="Low"/>
-       <pencilLineDeformationSmooth val="1"/>
-       <pencilLineDeformationFitError val="3" defaultValue="3"/>
-       <readColor val="true"/>
-       <readTransparency val="true"/>
-       <colorTransformation val="Linear"/>
-       <colorSpace/>
-       <applyMatteToColor val="N"/>
-       <enableLineTexture val="true"/>
-       <antialiasingQuality val="HIGH"/>
-       <antialiasingExponent val="1" defaultValue="1"/>
-       <opacity val="100" defaultValue="100"/>
-       <textureFilter val="NEAREST_FILTERED"/>
-       <adjustPencilThickness val="false"/>
-       <normalLineArtThickness val="true"/>
-       <zoomIndependentLineArtThickness val="zoomIndependent"/>
-       <multLineArtThickness val="1" defaultValue="1"/>
-       <addLineArtThickness val="0" defaultValue="0"/>
-       <minLineArtThickness val="0" defaultValue="0"/>
-       <maxLineArtThickness val="0" defaultValue="0"/>
-       <useDrawingPivot val="APPLY_ON_READ_TRANSFORM"/>
-       <flipHor val="false"/>
-       <flipVert val="false"/>
-       <turnBeforeAlignment val="false"/>
-       <noClipping val="false"/>
-       <xClipFactor val="0"/>
-       <yClipFactor val="0"/>
-       <alignmentRule val="CENTER_FIRST_PAGE"/>
-       <morphingVelo val="0" defaultValue="0"/>
-       <canAnimate val="true"/>
-       <tileHorizontal val="false"/>
-       <tileVertical val="false"/>
-      </attrs>
-     </module>
-     <module type="COMPOSITE" name="Eyes_Master_Comp" pos="-91,-148,38" publishUnderTab="Composite_1">
+     <module type="COMPOSITE" name="Eyes_Master_Comp" pos="-89,352,49" publishUnderTab="Composite_1">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -1819,7 +1784,7 @@
        <mergeVector val="false"/>
       </attrs>
      </module>
-     <module type="COMPOSITE" name="Arms_Master_Comp" pos="-1104,-97,4" publishUnderTab="Composite_2">
+     <module type="COMPOSITE" name="Arms_Master_Comp" pos="-1916,383,59" publishUnderTab="Composite_2">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -1838,7 +1803,7 @@
        <mergeVector val="false"/>
       </attrs>
      </module>
-     <module type="COMPOSITE" name="Body_Head_Master_Comp" pos="-703,-132,13" publishUnderTab="Composite_3">
+     <module type="COMPOSITE" name="Body_Head_Master_Comp" pos="-1154,23,31" publishUnderTab="Composite_3">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -1857,7 +1822,7 @@
        <mergeVector val="false"/>
       </attrs>
      </module>
-     <module type="COMPOSITE" name="Feet_Master_Comp" pos="499,-148,5" publishUnderTab="Composite_4">
+     <module type="COMPOSITE" name="Feet_Master_Comp" pos="738,287,34" publishUnderTab="Composite_4">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -1876,7 +1841,7 @@
        <mergeVector val="false"/>
       </attrs>
      </module>
-     <module type="COMPOSITE" name="Nose_Master_Comp" pos="771,-96,6" publishUnderTab="Composite_5">
+     <module type="COMPOSITE" name="Nose_Master_Comp" pos="1495,206,14" publishUnderTab="Composite_5">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -1895,7 +1860,7 @@
        <mergeVector val="false"/>
       </attrs>
      </module>
-     <module type="COMPOSITE" name="Hat_Master_Comp" pos="1099,5,7" publishUnderTab="Composite_6">
+     <module type="COMPOSITE" name="Hat_Master_Comp" pos="1838,417,50" publishUnderTab="Composite_6">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -1914,7 +1879,7 @@
        <mergeVector val="false"/>
       </attrs>
      </module>
-     <module type="PEG" name="Right_Eye-P" pos="-5,-373,31" publishUnderTab="Right_Eye-P">
+     <module type="PEG" name="Right_Eye-P" pos="15,-347,16" publishUnderTab="Right_Eye-P">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -1976,7 +1941,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="PEG" name="Left_Eye-P" pos="-324,-373,33" publishUnderTab="Left_Eye-P">
+     <module type="PEG" name="Left_Eye-P" pos="-346,-347,18" publishUnderTab="Left_Eye-P">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -2038,7 +2003,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="PEG" name="Left_Highlight-P" pos="-172,-373,32" publishUnderTab="Left_Highlight-P">
+     <module type="PEG" name="Left_Highlight-P" pos="-196,-347,17" publishUnderTab="Left_Highlight-P">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -2100,7 +2065,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="PEG" name="Right_Highlight-P" pos="153,-370,30" publishUnderTab="Right_Highlight-P">
+     <module type="PEG" name="Right_Highlight-P" pos="172,-347,15" publishUnderTab="Right_Highlight-P">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -2162,7 +2127,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="PEG" name="Right_Arm-P" pos="-1142,-373,29" publishUnderTab="Right_Arm-P">
+     <module type="PEG" name="Right_Arm-P" pos="-1948,17,74" publishUnderTab="Right_Arm-P">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -2224,7 +2189,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="PEG" name="Left_Arm-P" pos="-1009,-373,28" publishUnderTab="Left_Arm-P">
+     <module type="PEG" name="Left_Arm-P" pos="-1815,17,73" publishUnderTab="Left_Arm-P">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -2286,7 +2251,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="PEG" name="Penguin_Body_Base-P" pos="-682,-375,27" publishUnderTab="Penguin_Body_Base-P">
+     <module type="PEG" name="Penguin_Body_Base-P" pos="-1032,-322,32" publishUnderTab="Penguin_Body_Base-P">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -2348,7 +2313,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="PEG" name="Head-P" pos="-505,-377,26" publishUnderTab="Head-P">
+     <module type="PEG" name="Left_Foot-P" pos="654,-358,71" publishUnderTab="Left_Foot-P">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -2410,7 +2375,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="PEG" name="Left_Foot-P" pos="422,-370,24" publishUnderTab="Left_Foot-P">
+     <module type="PEG" name="Right_Foot-P" pos="834,-360,72" publishUnderTab="Right_Foot-P">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -2472,7 +2437,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="PEG" name="Right_Foot-P" pos="602,-372,25" publishUnderTab="Right_Foot-P">
+     <module type="PEG" name="Nose-P" pos="1533,-246,70" publishUnderTab="Nose-P">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -2534,7 +2499,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="PEG" name="Nose-P" pos="881,-372,22" publishUnderTab="Nose-P">
+     <module type="PEG" name="Hat-P" pos="1875,47,52" publishUnderTab="Hat-P">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -2596,7 +2561,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="PEG" name="Hat-P" pos="1136,-365,20" publishUnderTab="Hat-P">
+     <module type="PEG" name="Left_Eye_Master_P" pos="-344,-478,67" publishUnderTab="Left_Eye-P-P">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -2658,7 +2623,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="PEG" name="Left_Eye_Master_P" pos="-344,-478,17" publishUnderTab="Left_Eye-P-P">
+     <module type="PEG" name="Right_Eye_Master_P" pos="-25,-483,68" publishUnderTab="Right_Eye-P-P">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -2720,7 +2685,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="PEG" name="Right_Eye_Master_P" pos="-25,-483,18" publishUnderTab="Right_Eye-P-P">
+     <module type="PEG" name="Arms_Master_P" pos="-1892,-78,66" publishUnderTab="Peg">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -2782,7 +2747,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="PEG" name="Arms_Master_P" pos="-1086,-468,8" publishUnderTab="Peg">
+     <module type="PEG" name="Penguin_Body_Base-P-P" pos="-1137,-450,29" publishUnderTab="Penguin_Body_Base-P-P">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -2844,7 +2809,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="PEG" name="Penguin_Body_Base-P-P" pos="-687,-475,14" publishUnderTab="Penguin_Body_Base-P-P">
+     <module type="PEG" name="Feet_Master_P" pos="738,-486,19" publishUnderTab="Peg">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -2906,7 +2871,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="PEG" name="Feet_Master_P" pos="493,-472,23" publishUnderTab="Peg">
+     <module type="PEG" name="Nose_Master_P" pos="1513,-346,69" publishUnderTab="Nose-P-P">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -2968,7 +2933,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="PEG" name="Nose_Master_P" pos="861,-472,21" publishUnderTab="Nose-P-P">
+     <module type="PEG" name="Hat_Master_P" pos="1855,-60,51" publishUnderTab="Hat-P-P">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -3030,7 +2995,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="PEG" name="Hat_Master_P" pos="1116,-472,19" publishUnderTab="Hat-P-P">
+     <module type="PEG" name="Eyes_Master_P" pos="-167,-661,65" publishUnderTab="Peg">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -3092,70 +3057,9 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="PEG" name="Eyes_Master_P" pos="-185,-588,16" publishUnderTab="Peg">
+     <module type="READ" name="Tail" pos="-1223,-245,8" publishUnderTab="Tail">
       <options>
-       <collapsed val="false"/>
-       <version val="1"/>
-      </options>
-      <attrs>
-       <enable3d val="false"/>
-       <faceCamera val="false"/>
-       <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
-       <position>
-        <separate val="false"/>
-        <x val="0" defaultValue="0"/>
-        <y val="0" defaultValue="0"/>
-        <z val="0" defaultValue="0"/>
-       </position>
-       <scale>
-        <separate val="true"/>
-        <inFields val="false"/>
-        <xy val="1" defaultValue="1"/>
-        <x val="1" defaultValue="1"/>
-        <y val="1" defaultValue="1"/>
-        <z val="1" defaultValue="1"/>
-       </scale>
-       <rotation>
-        <separate val="false"/>
-        <anglex val="0" defaultValue="0"/>
-        <angley val="0" defaultValue="0"/>
-        <anglez val="0" defaultValue="0"/>
-       </rotation>
-       <angle val="0" defaultValue="0"/>
-       <skew val="0" defaultValue="0"/>
-       <pivot>
-        <x val="0" defaultValue="0"/>
-        <y val="0" defaultValue="0"/>
-        <z val="0" defaultValue="0"/>
-       </pivot>
-       <splineOffset>
-        <x val="0" defaultValue="0"/>
-        <y val="0" defaultValue="0"/>
-        <z val="0" defaultValue="0"/>
-       </splineOffset>
-       <ignoreParentPegScaling val="false"/>
-       <disableFieldRendering val="false"/>
-       <depth val="0"/>
-       <enableMinMaxAngle val="false"/>
-       <minAngle val="-360" defaultValue="-360"/>
-       <maxAngle val="360" defaultValue="360"/>
-       <nailForChildren val="false"/>
-       <ikHoldOrientation val="false"/>
-       <ikHoldX val="false"/>
-       <ikHoldY val="false"/>
-       <ikExcluded val="false"/>
-       <ikCanRotate val="true"/>
-       <ikCanTranslateX val="false"/>
-       <ikCanTranslateY val="false"/>
-       <ikBoneX val="0.20000000000000001" defaultValue="0.20000000000000001"/>
-       <ikBoneY val="0" defaultValue="0"/>
-       <ikStiffness val="1" defaultValue="1"/>
-       <groupAtNetworkBuilding val="false"/>
-       <addCompositeToGroup val="true"/>
-      </attrs>
-     </module>
-     <module type="READ" name="Tail" pos="-795,-275,12" publishUnderTab="Tail">
-      <options>
+       <disabled val="true"/>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
@@ -3266,7 +3170,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="PEG" name="Tail-P" pos="-780,-375,11" publishUnderTab="Tail-P">
+     <module type="PEG" name="Tail-P" pos="-1208,-322,30" publishUnderTab="Tail-P">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -3328,26 +3232,378 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
+     <module type="LINE_ART" name="Line-Art" pos="-2199,203,61" publishUnderTab="Line-Art">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <flatten val="false"/>
+       <applyToMattePorts val="false"/>
+       <antialiasingQuality val="IGNORE"/>
+       <antialiasingExponent val="1" defaultValue="1"/>
+      </attrs>
+     </module>
+     <module type="COLOR_ART" name="Colour-Art" pos="-2103,204,60" publishUnderTab="Colour-Art">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <flatten val="false"/>
+       <applyToMattePorts val="false"/>
+       <antialiasingQuality val="IGNORE"/>
+       <antialiasingExponent val="1" defaultValue="1"/>
+      </attrs>
+     </module>
+     <module type="OVERLAY" name="Overlay-Layer" pos="-2326,204,58" publishUnderTab="Overlay-Layer">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <flatten val="false"/>
+       <applyToMattePorts val="false"/>
+       <antialiasingQuality val="IGNORE"/>
+       <antialiasingExponent val="1" defaultValue="1"/>
+      </attrs>
+     </module>
+     <module type="AutoPatchModule" name="Auto-Patch" pos="-1994,204,57" publishUnderTab="Auto-Patch">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+     </module>
+     <module type="OVERLAY" name="Overlay-Layer_1" pos="-1798,206,55" publishUnderTab="Overlay-Layer_1">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <flatten val="false"/>
+       <applyToMattePorts val="false"/>
+       <antialiasingQuality val="IGNORE"/>
+       <antialiasingExponent val="1" defaultValue="1"/>
+      </attrs>
+     </module>
+     <module type="LINE_ART" name="Line-Art_1" pos="-1661,208,54" publishUnderTab="Line-Art_1">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <flatten val="false"/>
+       <applyToMattePorts val="false"/>
+       <antialiasingQuality val="IGNORE"/>
+       <antialiasingExponent val="1" defaultValue="1"/>
+      </attrs>
+     </module>
+     <module type="COLOR_ART" name="Colour-Art_1" pos="-1555,208,53" publishUnderTab="Colour-Art_1">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <flatten val="false"/>
+       <applyToMattePorts val="false"/>
+       <antialiasingQuality val="IGNORE"/>
+       <antialiasingExponent val="1" defaultValue="1"/>
+      </attrs>
+     </module>
+     <module type="AutoPatchModule" name="Auto-Patch_1" pos="-1436,208,56" publishUnderTab="Auto-Patch_1">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+     </module>
+     <module type="OVERLAY" name="Overlay-Layer_2" pos="-1640,-108,9" publishUnderTab="Overlay-Layer_2">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <flatten val="false"/>
+       <applyToMattePorts val="false"/>
+       <antialiasingQuality val="IGNORE"/>
+       <antialiasingExponent val="1" defaultValue="1"/>
+      </attrs>
+     </module>
+     <module type="LINE_ART" name="Line-Art_2" pos="-1507,-108,10" publishUnderTab="Line-Art_2">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <flatten val="false"/>
+       <applyToMattePorts val="false"/>
+       <antialiasingQuality val="IGNORE"/>
+       <antialiasingExponent val="1" defaultValue="1"/>
+      </attrs>
+     </module>
+     <module type="COLOR_ART" name="Colour-Art_2" pos="-1401,-108,27" publishUnderTab="Colour-Art_2">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <flatten val="false"/>
+       <applyToMattePorts val="false"/>
+       <antialiasingQuality val="IGNORE"/>
+       <antialiasingExponent val="1" defaultValue="1"/>
+      </attrs>
+     </module>
+     <module type="AutoPatchModule" name="Auto-Patch_2" pos="-1284,-108,28" publishUnderTab="Auto-Patch_2">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+     </module>
+     <module type="OVERLAY" name="Overlay-Layer_3" pos="-939,-107,20" publishUnderTab="Overlay-Layer_3">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <flatten val="false"/>
+       <applyToMattePorts val="false"/>
+       <antialiasingQuality val="IGNORE"/>
+       <antialiasingExponent val="1" defaultValue="1"/>
+      </attrs>
+     </module>
+     <module type="LINE_ART" name="Line-Art_3" pos="-803,-107,13" publishUnderTab="Line-Art_3">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <flatten val="false"/>
+       <applyToMattePorts val="false"/>
+       <antialiasingQuality val="IGNORE"/>
+       <antialiasingExponent val="1" defaultValue="1"/>
+      </attrs>
+     </module>
+     <module type="COLOR_ART" name="Colour-Art_3" pos="-698,-107,12" publishUnderTab="Colour-Art_3">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <flatten val="false"/>
+       <applyToMattePorts val="false"/>
+       <antialiasingQuality val="IGNORE"/>
+       <antialiasingExponent val="1" defaultValue="1"/>
+      </attrs>
+     </module>
+     <module type="AutoPatchModule" name="Auto-Patch_3" pos="-579,-107,5" publishUnderTab="Auto-Patch_3">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+     </module>
+     <module type="LINE_ART" name="Line-Art_4" pos="-404,-174,26" publishUnderTab="Line-Art_4">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <flatten val="false"/>
+       <applyToMattePorts val="false"/>
+       <antialiasingQuality val="IGNORE"/>
+       <antialiasingExponent val="1" defaultValue="1"/>
+      </attrs>
+     </module>
+     <module type="COLOR_ART" name="Colour-Art_4" pos="-296,-174,25" publishUnderTab="Colour-Art_4">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <flatten val="false"/>
+       <applyToMattePorts val="false"/>
+       <antialiasingQuality val="IGNORE"/>
+       <antialiasingExponent val="1" defaultValue="1"/>
+      </attrs>
+     </module>
+     <module type="LINE_ART" name="Line-Art_5" pos="-33,-174,24" publishUnderTab="Line-Art_5">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <flatten val="false"/>
+       <applyToMattePorts val="false"/>
+       <antialiasingQuality val="IGNORE"/>
+       <antialiasingExponent val="1" defaultValue="1"/>
+      </attrs>
+     </module>
+     <module type="COLOR_ART" name="Colour-Art_5" pos="72,-174,23" publishUnderTab="Colour-Art_5">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <flatten val="false"/>
+       <applyToMattePorts val="false"/>
+       <antialiasingQuality val="IGNORE"/>
+       <antialiasingExponent val="1" defaultValue="1"/>
+      </attrs>
+     </module>
+     <module type="CUTTER" name="Cutter" pos="-180,-128,22" publishUnderTab="Cutter">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <inverted val="false"/>
+      </attrs>
+     </module>
+     <module type="CUTTER" name="Cutter_1" pos="185,-126,21" publishUnderTab="Cutter_1">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <inverted val="false"/>
+      </attrs>
+     </module>
+     <module type="OVERLAY" name="Overlay-Layer_4" pos="274,-27,42" publishUnderTab="Overlay-Layer_4">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <flatten val="false"/>
+       <applyToMattePorts val="false"/>
+       <antialiasingQuality val="IGNORE"/>
+       <antialiasingExponent val="1" defaultValue="1"/>
+      </attrs>
+     </module>
+     <module type="LINE_ART" name="Line-Art_6" pos="408,-27,41" publishUnderTab="Line-Art_6">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <flatten val="false"/>
+       <applyToMattePorts val="false"/>
+       <antialiasingQuality val="IGNORE"/>
+       <antialiasingExponent val="1" defaultValue="1"/>
+      </attrs>
+     </module>
+     <module type="COLOR_ART" name="Colour-Art_6" pos="515,-27,40" publishUnderTab="Colour-Art_6">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <flatten val="false"/>
+       <applyToMattePorts val="false"/>
+       <antialiasingQuality val="IGNORE"/>
+       <antialiasingExponent val="1" defaultValue="1"/>
+      </attrs>
+     </module>
+     <module type="AutoPatchModule" name="Auto-Patch_4" pos="630,-27,39" publishUnderTab="Auto-Patch_4">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+     </module>
+     <module type="OVERLAY" name="Overlay-Layer_5" pos="878,-27,37" publishUnderTab="Overlay-Layer_5">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <flatten val="false"/>
+       <applyToMattePorts val="false"/>
+       <antialiasingQuality val="IGNORE"/>
+       <antialiasingExponent val="1" defaultValue="1"/>
+      </attrs>
+     </module>
+     <module type="LINE_ART" name="Line-Art_7" pos="1014,-27,36" publishUnderTab="Line-Art_7">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <flatten val="false"/>
+       <applyToMattePorts val="false"/>
+       <antialiasingQuality val="IGNORE"/>
+       <antialiasingExponent val="1" defaultValue="1"/>
+      </attrs>
+     </module>
+     <module type="COLOR_ART" name="Colour-Art_7" pos="1119,-27,35" publishUnderTab="Colour-Art_7">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <flatten val="false"/>
+       <applyToMattePorts val="false"/>
+       <antialiasingQuality val="IGNORE"/>
+       <antialiasingExponent val="1" defaultValue="1"/>
+      </attrs>
+     </module>
+     <module type="AutoPatchModule" name="Auto-Patch_5" pos="1235,-27,38" publishUnderTab="Auto-Patch_5">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+     </module>
+     <module type="CUTTER" name="Cutter_2" pos="-1417,-4,11" publishUnderTab="Cutter_2">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <inverted val="false"/>
+      </attrs>
+     </module>
+     <module type="CUTTER" name="Cutter_3" pos="-2133,260,6" publishUnderTab="Cutter_3">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <inverted val="false"/>
+      </attrs>
+     </module>
     </nodeslist>
     <linkedlist>
      <link out="Composite" in="Display"/>
      <link out="Composite" in="Write"/>
      <link out="Colour-Card" in="Composite" inport="1"/>
      <link out="Mr.PenguinDesign" in="Composite" inport="2"/>
-     <link out="Penguin_Body_Base" in="Body_Head_Master_Comp" inport="1"/>
-     <link out="Right_Arm" in="Arms_Master_Comp" inport="1"/>
-     <link out="Left_Arm" in="Arms_Master_Comp" inport="0"/>
+     <link out="Penguin_Body_Base" in="Overlay-Layer_3"/>
+     <link out="Penguin_Body_Base" in="Line-Art_3"/>
+     <link out="Penguin_Body_Base" in="Colour-Art_3"/>
+     <link out="Penguin_Body_Base" in="Auto-Patch_3"/>
+     <link out="Right_Arm" in="Line-Art"/>
+     <link out="Right_Arm" in="Colour-Art"/>
+     <link out="Right_Arm" in="Overlay-Layer"/>
+     <link out="Right_Arm" in="Auto-Patch"/>
+     <link out="Left_Arm" in="Overlay-Layer_1"/>
+     <link out="Left_Arm" in="Line-Art_1"/>
+     <link out="Left_Arm" in="Colour-Art_1"/>
+     <link out="Left_Arm" in="Auto-Patch_1"/>
      <link out="Mr.penguin_Master_Comp" in="Composite" inport="3"/>
      <link out="Notes" in="Composite" inport="0"/>
-     <link out="Right_Foot" in="Feet_Master_Comp" inport="0"/>
-     <link out="Left_Foot" in="Feet_Master_Comp" inport="1"/>
+     <link out="Right_Foot" in="Overlay-Layer_5"/>
+     <link out="Right_Foot" in="Line-Art_7"/>
+     <link out="Right_Foot" in="Colour-Art_7"/>
+     <link out="Right_Foot" in="Auto-Patch_5"/>
+     <link out="Left_Foot" in="Overlay-Layer_4"/>
+     <link out="Left_Foot" in="Line-Art_6"/>
+     <link out="Left_Foot" in="Colour-Art_6"/>
+     <link out="Left_Foot" in="Auto-Patch_4"/>
      <link out="Hat" in="Hat_Master_Comp"/>
-     <link out="Left_Eye" in="Eyes_Master_Comp" inport="3"/>
-     <link out="Right_Eye" in="Eyes_Master_Comp" inport="1"/>
+     <link out="Left_Eye" in="Line-Art_4"/>
+     <link out="Left_Eye" in="Colour-Art_4"/>
+     <link out="Right_Eye" in="Line-Art_5"/>
+     <link out="Right_Eye" in="Colour-Art_5"/>
      <link out="Nose" in="Nose_Master_Comp"/>
-     <link out="Right_Highlight" in="Eyes_Master_Comp" inport="0"/>
-     <link out="Left_Highlight" in="Eyes_Master_Comp" inport="2"/>
-     <link out="Head" in="Body_Head_Master_Comp" inport="0"/>
+     <link out="Right_Highlight" in="Cutter_1" inport="0"/>
+     <link out="Left_Highlight" in="Cutter" inport="0"/>
      <link out="Eyes_Master_Comp" in="Mr.penguin_Master_Comp" inport="3"/>
      <link out="Arms_Master_Comp" in="Mr.penguin_Master_Comp" inport="5"/>
      <link out="Body_Head_Master_Comp" in="Mr.penguin_Master_Comp" inport="4"/>
@@ -3361,7 +3617,6 @@
      <link out="Right_Arm-P" in="Right_Arm" inport="0"/>
      <link out="Left_Arm-P" in="Left_Arm" inport="0"/>
      <link out="Penguin_Body_Base-P" in="Penguin_Body_Base" inport="0"/>
-     <link out="Head-P" in="Head" inport="0"/>
      <link out="Left_Foot-P" in="Left_Foot" inport="0"/>
      <link out="Right_Foot-P" in="Right_Foot" inport="0"/>
      <link out="Nose-P" in="Nose" inport="0"/>
@@ -3373,7 +3628,6 @@
      <link out="Arms_Master_P" in="Right_Arm-P"/>
      <link out="Arms_Master_P" in="Left_Arm-P"/>
      <link out="Penguin_Body_Base-P-P" in="Penguin_Body_Base-P"/>
-     <link out="Penguin_Body_Base-P-P" in="Head-P"/>
      <link out="Penguin_Body_Base-P-P" in="Tail-P"/>
      <link out="Feet_Master_P" in="Right_Foot-P"/>
      <link out="Feet_Master_P" in="Left_Foot-P"/>
@@ -3381,18 +3635,69 @@
      <link out="Hat_Master_P" in="Hat-P"/>
      <link out="Eyes_Master_P" in="Right_Eye_Master_P"/>
      <link out="Eyes_Master_P" in="Left_Eye_Master_P"/>
-     <link out="Tail" in="Body_Head_Master_Comp" inport="2"/>
+     <link out="Tail" in="Overlay-Layer_2"/>
+     <link out="Tail" in="Line-Art_2"/>
+     <link out="Tail" in="Colour-Art_2"/>
+     <link out="Tail" in="Auto-Patch_2"/>
      <link out="Tail-P" in="Tail" inport="0"/>
+     <link out="Line-Art" in="Cutter_3" inport="0"/>
+     <link out="Colour-Art" in="Arms_Master_Comp" inport="5"/>
+     <link out="Overlay-Layer" in="Arms_Master_Comp" inport="7"/>
+     <link out="Auto-Patch" in="Arms_Master_Comp" inport="4"/>
+     <link out="Overlay-Layer_1" in="Arms_Master_Comp" inport="3"/>
+     <link out="Line-Art_1" in="Arms_Master_Comp" inport="2"/>
+     <link out="Colour-Art_1" in="Arms_Master_Comp" inport="1"/>
+     <link out="Auto-Patch_1" in="Arms_Master_Comp" inport="0"/>
+     <link out="Overlay-Layer_2" in="Body_Head_Master_Comp" inport="7"/>
+     <link out="Line-Art_2" in="Cutter_2" inport="0"/>
+     <link out="Colour-Art_2" in="Body_Head_Master_Comp" inport="5"/>
+     <link out="Auto-Patch_2" in="Body_Head_Master_Comp" inport="4"/>
+     <link out="Overlay-Layer_3" in="Body_Head_Master_Comp" inport="3"/>
+     <link out="Line-Art_3" in="Body_Head_Master_Comp" inport="2"/>
+     <link out="Colour-Art_3" in="Body_Head_Master_Comp" inport="1"/>
+     <link out="Auto-Patch_3" in="Body_Head_Master_Comp" inport="0"/>
+     <link out="Auto-Patch_3" in="Cutter_2" inport="1"/>
+     <link out="Auto-Patch_3" in="Cutter_3" inport="1"/>
+     <link out="Line-Art_4" in="Eyes_Master_Comp" inport="5"/>
+     <link out="Colour-Art_4" in="Eyes_Master_Comp" inport="4"/>
+     <link out="Line-Art_5" in="Eyes_Master_Comp" inport="2"/>
+     <link out="Colour-Art_5" in="Eyes_Master_Comp" inport="1"/>
+     <link out="Cutter" in="Eyes_Master_Comp" inport="3"/>
+     <link out="Cutter_1" in="Eyes_Master_Comp" inport="0"/>
+     <link out="Overlay-Layer_4" in="Feet_Master_Comp" inport="6"/>
+     <link out="Line-Art_6" in="Feet_Master_Comp" inport="5"/>
+     <link out="Colour-Art_6" in="Feet_Master_Comp" inport="4"/>
+     <link out="Overlay-Layer_5" in="Feet_Master_Comp" inport="3"/>
+     <link out="Line-Art_7" in="Feet_Master_Comp" inport="2"/>
+     <link out="Colour-Art_7" in="Feet_Master_Comp" inport="1"/>
+     <link out="Auto-Patch_5" in="Feet_Master_Comp" inport="0"/>
+     <link out="Cutter_2" in="Body_Head_Master_Comp" inport="6"/>
+     <link out="Cutter_3" in="Arms_Master_Comp" inport="6"/>
     </linkedlist>
     <backdrops>
-     <backdrop topLeft="-1208,-348" bottomRight="-855,-223">
-      <background color="#6C0E9CFF"/>
-      <title text="Arms" color="#000000FF" size="12" font="Arial"/>
-      <description text="" color="#000000FF" size="12" font="Arial"/>
-     </backdrop>
-     <backdrop topLeft="-802,-350" bottomRight="-412,-225">
+     <backdrop topLeft="-1252,-325" bottomRight="-862,-200">
       <background color="#023CBEFF"/>
       <title text="Body/Head" color="#000000FF" size="12" font="Arial"/>
+      <description text="" color="#000000FF" size="12" font="Arial"/>
+     </backdrop>
+     <backdrop topLeft="589,-334" bottomRight="998,-209">
+      <background color="#E16B14FF"/>
+      <title text="Feet" color="#000000FF" size="12" font="Arial"/>
+      <description text="" color="#000000FF" size="12" font="Arial"/>
+     </backdrop>
+     <backdrop topLeft="1467,-221" bottomRight="1667,-96">
+      <background color="#DCAA32FF"/>
+      <title text="Nose" color="#000000FF" size="12" font="Arial"/>
+      <description text="" color="#000000FF" size="12" font="Arial"/>
+     </backdrop>
+     <backdrop topLeft="1810,74" bottomRight="2003,199">
+      <background color="#323232FF"/>
+      <title text="Hat" color="#000000FF" size="12" font="Arial"/>
+      <description text="" color="#000000FF" size="12" font="Arial"/>
+     </backdrop>
+     <backdrop topLeft="-2014,42" bottomRight="-1661,167">
+      <background color="#6C0E9CFF"/>
+      <title text="Arms" color="#000000FF" size="12" font="Arial"/>
       <description text="" color="#000000FF" size="12" font="Arial"/>
      </backdrop>
      <backdrop topLeft="-369,-345" bottomRight="310,-220">
@@ -3400,22 +3705,13 @@
       <title text="Eyes " color="#000000FF" size="12" font="Arial"/>
       <description text="" color="#000000FF" size="12" font="Arial"/>
      </backdrop>
-     <backdrop topLeft="1071,-338" bottomRight="1264,-213">
-      <background color="#323232FF"/>
-      <title text="Hat" color="#000000FF" size="12" font="Arial"/>
-      <description text="" color="#000000FF" size="12" font="Arial"/>
-     </backdrop>
-     <backdrop topLeft="357,-346" bottomRight="766,-221">
-      <background color="#E16B14FF"/>
-      <title text="Feet" color="#000000FF" size="12" font="Arial"/>
-      <description text="" color="#000000FF" size="12" font="Arial"/>
-     </backdrop>
-     <backdrop topLeft="815,-347" bottomRight="1015,-222">
-      <background color="#DCAA32FF"/>
-      <title text="Nose" color="#000000FF" size="12" font="Arial"/>
-      <description text="" color="#000000FF" size="12" font="Arial"/>
-     </backdrop>
     </backdrops>
+    <waypoints>
+     <waypoint nameId="waypoint" location="-2013,284"/>
+    </waypoints>
+    <waypointLinks>
+     <waypointLink nameId="waypoint" out="Cutter_3" outport="0" in="Arms_Master_Comp" inport="6"/>
+    </waypointLinks>
    </rootgroup>
    <unconnectedComposite>
     <module type="COMPOSITE" name="Unconnected_Composite" pos="0,0,0" publishUnderTab="Unconnected_Composite">
