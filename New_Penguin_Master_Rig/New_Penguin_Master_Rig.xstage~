@@ -1314,7 +1314,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Right_Eye" pos="135,-268,1" publishUnderTab="Right_Eye">
+     <module type="READ" name="Right_Eye" pos="135,-268,3" publishUnderTab="Right_Eye">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -1539,7 +1539,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Right_Highlight" pos="-32,-268,2" publishUnderTab="Right_Highlight">
+     <module type="READ" name="Right_Highlight" pos="-32,-268,1" publishUnderTab="Right_Highlight">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
