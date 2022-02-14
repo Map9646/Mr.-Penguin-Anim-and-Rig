@@ -8,3 +8,7 @@ Solid    Nose                       0x0b0ed0439743a4e0 255 169   0 255
 Solid    White                      0x0b0ed0439743a53b 255 255 255 255
 Solid    "light Gray"               0x0b1248963213bb55 197 197 197 255
 Solid    Yellow-Orange              0x0b124896321403bc 189 131   4 255
+Solid    "Dark Red"                 0x0b13c757b9a1d5eb 137   0   0 255
+Solid    Red                        0x0b13c757b9a28c0e 255   0   0 255
+Solid    "Hat Base Color"           0x0b13c757b9a2e2c4   0   0  44 255
+Solid    "Hat Top Color"            0x0b13c757b9a36408   0   0  63 255
