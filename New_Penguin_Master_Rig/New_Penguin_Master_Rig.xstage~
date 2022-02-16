@@ -1155,7 +1155,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Hat" pos="-3586,403,3" publishUnderTab="Hat">
+     <module type="READ" name="Hat" pos="-3586,403,1" publishUnderTab="Hat">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -2561,7 +2561,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="PEG" name="Hat-P" pos="-3571,301,1" publishUnderTab="Hat-P">
+     <module type="PEG" name="Hat-P" pos="-3571,301,3" publishUnderTab="Hat-P">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
