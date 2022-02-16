@@ -47,6 +47,7 @@
   <element id="6" elementName="Notes" elementFolder="Notes" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
     <dwg name="1"/>
+    <dwg name="2"/>
    </drawings>
   </element>
   <element id="7" elementName="Right_Foot" elementFolder="Right_Foot" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -161,6 +162,7 @@
     </column>
     <column type="0" name="ATV-0B0FC99B02B0200B" displayOrder="0" width="100" anonymous="true" id="6">
      <elementSeq exposures="1" val="1" id="6"/>
+     <elementSeq exposures="2" val="2" id="6"/>
     </column>
     <column type="0" name="ATV-0B0FC99B02B03E5A" displayOrder="0" width="100" anonymous="true" id="7">
      <elementSeq exposures="1" val="1" id="7"/>
@@ -331,7 +333,7 @@
        <cleanUpPartitionFolders val="true"/>
       </attrs>
      </module>
-     <module type="COLOR_CARD" name="Colour-Card" pos="265,944,12" publishUnderTab="Colour-Card">
+     <module type="COLOR_CARD" name="Colour-Card" pos="265,944,3" publishUnderTab="Colour-Card">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -348,7 +350,7 @@
        </color>
       </attrs>
      </module>
-     <module type="READ" name="Mr.PenguinDesign" pos="122,888,9" publishUnderTab="Mr.PenguinDesign">
+     <module type="READ" name="Mr.PenguinDesign" pos="122,888,11" publishUnderTab="Mr.PenguinDesign">
       <options>
        <disabled val="true"/>
        <collapsed val="false"/>
@@ -573,7 +575,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Right_Arm" pos="-1118,71,3" publishUnderTab="Right_Arm">
+     <module type="READ" name="Right_Arm" pos="-1118,71,5" publishUnderTab="Right_Arm">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -605,8 +607,8 @@
        <angle val="0" defaultValue="0"/>
        <skew val="0" defaultValue="0"/>
        <pivot>
-        <x val="-3.2291588666892483" defaultValue="0"/>
-        <y val="2.9444373322069728" defaultValue="0"/>
+        <x val="-3.2291588666892479" defaultValue="0"/>
+        <y val="2.9166596215257785" defaultValue="0"/>
         <z val="0" defaultValue="0"/>
        </pivot>
        <splineOffset>
@@ -797,7 +799,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="COMPOSITE" name="Mr.penguin_Master_Comp" pos="-91,885,7" publishUnderTab="Composite_1">
+     <module type="COMPOSITE" name="Mr.penguin_Master_Comp" pos="-91,885,9" publishUnderTab="Composite_1">
       <options>
        <collapsed val="false"/>
        <nodeShowThumbnail val="true"/>
@@ -817,7 +819,7 @@
        <mergeVector val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Notes" pos="277,1030,10" publishUnderTab="Notes">
+     <module type="READ" name="Notes" pos="277,1030,4" publishUnderTab="Notes">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -1153,7 +1155,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Hat" pos="-3586,403,6" publishUnderTab="Hat">
+     <module type="READ" name="Hat" pos="-3586,403,8" publishUnderTab="Hat">
       <options>
        <disabled val="true"/>
        <collapsed val="false"/>
@@ -1714,7 +1716,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="Left_Highlight" pos="-3157,208,11" publishUnderTab="Left_Highlight">
+     <module type="READ" name="Left_Highlight" pos="-3157,208,12" publishUnderTab="Left_Highlight">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -2220,8 +2222,8 @@
        <angle val="0" defaultValue="0"/>
        <skew val="0" defaultValue="0"/>
        <pivot>
-        <x val="-3.9577377741578594" defaultValue="0"/>
-        <y val="3.1119794785758597" defaultValue="0"/>
+        <x val="-3.8119047930815739" defaultValue="0"/>
+        <y val="3.3342011640254414" defaultValue="0"/>
         <z val="0" defaultValue="0"/>
        </pivot>
        <splineOffset>
@@ -2250,7 +2252,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="PEG" name="Left_Arm-P" pos="-969,-29,5" publishUnderTab="Left_Arm-P">
+     <module type="PEG" name="Left_Arm-P" pos="-969,-29,7" publishUnderTab="Left_Arm-P">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -2746,7 +2748,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="PEG" name="Arms_Master_P" pos="-1046,-124,4" publishUnderTab="Peg">
+     <module type="PEG" name="Arms_Master_P" pos="-1046,-124,6" publishUnderTab="Peg">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -3690,7 +3692,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="PEG" name="Mr.Penguin_P" pos="-1102,-1125,8" publishUnderTab="Penguin_Body_Base_Master-P-P">
+     <module type="PEG" name="Mr.Penguin_P" pos="-1102,-1125,10" publishUnderTab="Penguin_Body_Base_Master-P-P">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
