@@ -1,5 +1,5 @@
 <!DOCTYPE SceneVersion>
-<SceneVersion VersionName="New_Penguin_Master_Rig" Modified="2022-02-18 22:20:43" ID="1">
+<SceneVersion VersionName="New_Penguin_Master_Rig" Modified="2022-02-23 21:25:11" ID="1">
  <Element Name="Mr.PenguinDesign" ID="2" Folder="Mr.PenguinDesign">
   <Drawing Key="" Name="1" Version="1"/>
   <Drawing Key="" Name="2" Version="1"/>
@@ -19,6 +19,7 @@
   <Drawing Key="" Name="4" Version="1"/>
   <Drawing Key="" Name="5" Version="1"/>
   <Drawing Key="" Name="6" Version="1"/>
+  <Drawing Key="" Name="7" Version="1"/>
  </Element>
  <Element Name="Right_Arm" ID="4" Folder="Right_Arm">
   <Drawing Key="" Name="1" Version="1"/>
@@ -73,6 +74,10 @@
   <Drawing Key="" Name="1" Version="1"/>
   <Drawing Key="" Name="2" Version="1"/>
   <Drawing Key="" Name="3" Version="1"/>
+  <Drawing Key="" Name="4" Version="1"/>
+  <Drawing Key="" Name="5" Version="1"/>
+  <Drawing Key="" Name="6" Version="1"/>
+  <Drawing Key="" Name="7" Version="1"/>
  </Element>
  <Element Name="Right_Highlight" ID="13" Folder="Right_Highlight">
   <Drawing Key="" Name="1" Version="1"/>
@@ -87,5 +92,8 @@
   <Drawing Key="" Name="1" Version="1"/>
   <Drawing Key="" Name="2" Version="1"/>
   <Drawing Key="" Name="3" Version="1"/>
+ </Element>
+ <Element Name="Ice_Background" ID="21" Folder="Ice_Background">
+  <Drawing Key="" Name="1" Version="1"/>
  </Element>
 </SceneVersion>

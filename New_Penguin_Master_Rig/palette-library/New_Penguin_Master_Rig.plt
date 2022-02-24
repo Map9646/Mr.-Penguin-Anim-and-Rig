@@ -12,3 +12,9 @@ Solid    "Dark Red"                 0x0b13c757b9a1d5eb 137   0   0 255
 Solid    Red                        0x0b13c757b9a28c0e 255   0   0 255
 Solid    "Hat Base Color"           0x0b13c757b9a2e2c4   0   0  44 255
 Solid    "Hat Top Color"            0x0b13c757b9a36408   0   0  63 255
+Solid    "New 0"                    0x0b15c815916830a2 153  25  91 255
+Solid    "New 1"                    0x0b15c8159168881c 203  59 134 255
+Solid    "New 2"                    0x0b15c815916bfa99 189 255 244 255
+Solid    "New 3"                    0x0b15c815916c1850  30 201 231 255
+Solid    "New 4"                    0x0b15c815916d60d4  30 167 195 255
+Solid    "New 5"                    0x0b15c815916d98f6  30 173 211 255
