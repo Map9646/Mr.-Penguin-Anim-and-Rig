@@ -143,7 +143,7 @@
  </options>
  <timelineMarkers/>
  <scenes>
-  <scene name="Top" id="0b0ace3d5b600e55" nbframes="61" startFrame="20" stopFrame="54">
+  <scene name="Top" id="0b0ace3d5b600e55" nbframes="61" startFrame="20" stopFrame="56">
    <columns>
     <column type="0" name="ATV-0B0E4387C94017ED" displayOrder="0" width="100" anonymous="true" id="2">
      <elementSeq exposures="1" val="1" id="2"/>
